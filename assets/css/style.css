@@ -8073,10 +8073,11 @@ body.template-color-1 {
       height: 70px;
       padding: 0; } }
   .sticky .header-wrapper .logo img {
-    max-width: calc(100% - 10%); }
+    max-width: calc(100% - 20%); }
 
 .logo a {
-  display: inline-block; }
+  display: inline-block;
+  transition: all ease-in-out 0.3s; }
   .logo a img {
     transition: 0.3s; }
     @media only screen and (max-width: 767px) {
@@ -10791,7 +10792,8 @@ div#featured-project-carousel {
     border-radius: 10px;
     padding: 3px;
     background: #212428;
-    box-shadow: inset 8px 8px 16px #00000075,  inset -8px -8px 16px #383e4575; }
+    box-shadow: inset 8px 8px 16px #00000075, 
+ inset -8px -8px 16px #383e4575; }
     .progress-charts .progress .progress-bar {
       overflow: visible;
       position: relative;
