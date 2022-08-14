@@ -8309,7 +8309,8 @@ body.template-color-1 {
         line-height: 32px;
         margin-top: 20px;
         color: var(--color-lighten);
-        padding-right: 7%; }
+        padding-right: 7%;
+        text-align: left;  }
   .popup-mobile-menu.menu-open {
     visibility: visible;
     opacity: 1; }
@@ -9494,9 +9495,10 @@ figcaption {
             .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .title span {
               color: var(--color-primary); }
           .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header p.disc {
-            font-size: 16px;
+            font-size: 14px;
             color: var(--color-lightn);
-            line-height: 24px; }
+            line-height: 24px;
+            text-align: justify; }
         .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-footer .info {
           display: flex;
           margin-bottom: 13px; }
@@ -9987,7 +9989,8 @@ figcaption {
 
 .fashion-designer-inner.model p.disc {
   margin-top: 0 !important;
-  color: var(--color-white) !important; }
+  color: var(--color-white) !important;
+        text-align: justify; }
   @media only screen and (max-width: 767px) {
     .fashion-designer-inner.model p.disc {
       letter-spacing: 2px !important; } }
@@ -10974,7 +10977,7 @@ div#featured-project-carousel {
       .testimonial .inner .card-description .discription {
         margin-top: 45px;
         font-size: 18px;
-        line-height: 30px; }
+        line-height: 30px;}
       .testimonial .inner .card-description::before {
         content: '';
         position: absolute;
@@ -14596,3 +14599,9 @@ body.white-version {
   color: var(--color-white) !important; }
 
 /*# sourceMappingURL=../maps/style.css.map */
+.link-primary{
+  transition: all ease-in-out 0.3s;
+}
+.link-primary:hover{
+  color: var(--color-primary)!important
+}
