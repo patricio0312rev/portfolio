@@ -10627,7 +10627,8 @@ div#featured-project-carousel {
       font-size: 18px;
       line-height: 28px;
       color: var(--color-body);
-      transition: var(--transition); }
+      transition: var(--transition); 
+      text-align: justify;}
     .personal-experience-inner .experience-list .resume-single-list .inner.psudo-after-none::after {
       display: none; }
     .personal-experience-inner .experience-list .resume-single-list .inner.psudo-after-none::before {
