@@ -406,3 +406,195 @@
 
 
 })(jQuery, window)
+
+// =============================================================================
+// LightGallery
+// =============================================================================
+// -----------------------------------------------------------------------------
+// 01 - Turn Technologies
+// -----------------------------------------------------------------------------
+
+document.getElementById('lightgallery1').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('lightgallery1'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/portfolio/project_01/02.png',
+            'thumb': 'assets/images/portfolio/project_01/02.png',
+            'subHtml': '<h4>Turn Technologies</h4><p>Here I have used technologies such as: React, NextJS, Redux, GraphQL, Apollo, TailwindCSS, ESLint, Prettify, AWS, Python, among others.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_01/03.png',
+            'thumb': 'assets/images/portfolio/project_01/03.png',
+            'subHtml': '<h4>Turn Technologies</h4><p>Here I have used technologies such as: React, NextJS, Redux, GraphQL, Apollo, TailwindCSS, ESLint, Prettify, AWS, Python, among others.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_01/04.png',
+            'thumb': 'assets/images/portfolio/project_01/04.png',
+            'subHtml': '<h4>Turn Technologies</h4><p>Here I have used technologies such as: React, NextJS, Redux, GraphQL, Apollo, TailwindCSS, ESLint, Prettify, AWS, Python, among others.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_01/05.png',
+            'thumb': 'assets/images/portfolio/project_01/05.png',
+            'subHtml': '<h4>Turn Technologies</h4><p>Here I have used technologies such as: React, NextJS, Redux, GraphQL, Apollo, TailwindCSS, ESLint, Prettify, AWS, Python, among others.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_01/06.png',
+            'thumb': 'assets/images/portfolio/project_01/06.png',
+            'subHtml': '<h4>Turn Technologies</h4><p>Here I have used technologies such as: React, NextJS, Redux, GraphQL, Apollo, TailwindCSS, ESLint, Prettify, AWS, Python, among others.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_01/07.png',
+            'thumb': 'assets/images/portfolio/project_01/07.png',
+            'subHtml': '<h4>Turn Technologies</h4><p>Here I have used technologies such as: React, NextJS, Redux, GraphQL, Apollo, TailwindCSS, ESLint, Prettify, AWS, Python, among others.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_01/08.png',
+            'thumb': 'assets/images/portfolio/project_01/08.png',
+            'subHtml': '<h4>Turn Technologies</h4><p>Here I have used technologies such as: React, NextJS, Redux, GraphQL, Apollo, TailwindCSS, ESLint, Prettify, AWS, Python, among others.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_01/09.png',
+            'thumb': 'assets/images/portfolio/project_01/09.png',
+            'subHtml': '<h4>Turn Technologies</h4><p>Here I have used technologies such as: React, NextJS, Redux, GraphQL, Apollo, TailwindCSS, ESLint, Prettify, AWS, Python, among others.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_01/10.png',
+            'thumb': 'assets/images/portfolio/project_01/10.png',
+            'subHtml': '<h4>Turn Technologies</h4><p>Here I have used technologies such as: React, NextJS, Redux, GraphQL, Apollo, TailwindCSS, ESLint, Prettify, AWS, Python, among others.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_01/11.png',
+            'thumb': 'assets/images/portfolio/project_01/11.png',
+            'subHtml': '<h4>Turn Technologies</h4><p>Here I have used technologies such as: React, NextJS, Redux, GraphQL, Apollo, TailwindCSS, ESLint, Prettify, AWS, Python, among others.</p>'
+        }]
+    })
+ 
+});
+
+// -----------------------------------------------------------------------------
+// 02 - MyEvent
+// -----------------------------------------------------------------------------
+
+document.getElementById('lightgallery2').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('lightgallery2'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/portfolio/project_02/02.png',
+            'thumb': 'assets/images/portfolio/project_02/02.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_02/03.png',
+            'thumb': 'assets/images/portfolio/project_02/03.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_02/04.png',
+            'thumb': 'assets/images/portfolio/project_02/04.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_02/05.png',
+            'thumb': 'assets/images/portfolio/project_02/05.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_02/06.png',
+            'thumb': 'assets/images/portfolio/project_02/06.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_02/07.png',
+            'thumb': 'assets/images/portfolio/project_02/07.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_02/08.png',
+            'thumb': 'assets/images/portfolio/project_02/08.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_02/09.png',
+            'thumb': 'assets/images/portfolio/project_02/09.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_02/10.png',
+            'thumb': 'assets/images/portfolio/project_02/10.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_02/11.png',
+            'thumb': 'assets/images/portfolio/project_02/11.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_02/12.png',
+            'thumb': 'assets/images/portfolio/project_02/12.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }]
+    })
+ 
+});
+
+
+// -----------------------------------------------------------------------------
+// 03 - Anqarapp
+// -----------------------------------------------------------------------------
+
+document.getElementById('lightgallery3').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('lightgallery3'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/portfolio/project_03/02.png',
+            'thumb': 'assets/images/portfolio/project_03/02.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_03/03.png',
+            'thumb': 'assets/images/portfolio/project_03/03.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_03/04.png',
+            'thumb': 'assets/images/portfolio/project_03/04.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_03/05.png',
+            'thumb': 'assets/images/portfolio/project_03/05.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_03/06.png',
+            'thumb': 'assets/images/portfolio/project_03/06.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_03/07.png',
+            'thumb': 'assets/images/portfolio/project_03/07.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_03/08.png',
+            'thumb': 'assets/images/portfolio/project_03/08.png',
+            'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }]
+    })
+ 
+});
+
+// -----------------------------------------------------------------------------
+// 05 - Cepeban
+// -----------------------------------------------------------------------------
+document.getElementById('lightgallery5').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('lightgallery5'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/portfolio/project_05/02.png',
+            'thumb': 'assets/images/portfolio/project_05/02.png',
+            'subHtml': '<h4>Cepeban School Website</h4><p>I designed, coded and deployed this website using HTML, CSS and Vanilla JS</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_05/03.png',
+            'thumb': 'assets/images/portfolio/project_05/03.png',
+            'subHtml': '<h4>Cepeban School Website</h4><p>I designed, coded and deployed this website using HTML, CSS and Vanilla JS</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_05/04.png',
+            'thumb': 'assets/images/portfolio/project_05/04.png',
+            'subHtml': '<h4>Cepeban School Website</h4><p>I designed, coded and deployed this website using HTML, CSS and Vanilla JS</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_05/05.png',
+            'thumb': 'assets/images/portfolio/project_05/05.png',
+            'subHtml': '<h4>Cepeban School Website</h4><p>I designed, coded and deployed this website using HTML, CSS and Vanilla JS</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_05/06.png',
+            'thumb': 'assets/images/portfolio/project_05/06.png',
+            'subHtml': '<h4>Cepeban School Website</h4><p>I designed, coded and deployed this website using HTML, CSS and Vanilla JS</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_05/07.png',
+            'thumb': 'assets/images/portfolio/project_05/07.png',
+            'subHtml': '<h4>Cepeban School Website</h4><p>I designed, coded and deployed this website using HTML, CSS and Vanilla JS</p>'
+        }]
+    })
+ 
+});
+

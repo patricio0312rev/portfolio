@@ -14606,3 +14606,6 @@ body.white-version {
 .link-primary:hover{
   color: var(--color-primary)!important
 }
+.cursor--pointer {
+  cursor: pointer
+}
