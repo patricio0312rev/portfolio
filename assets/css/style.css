@@ -39,11 +39,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --color-primary: #ff014f;
+  --color-primary: #00b0ff;
   --color-secondary: #f4f5f6;
   --color-tertiary: #0d1013;
   --color-gray: #f6f6f6;
-  --color-subtitle: #f9004d;
+  --color-subtitle: #00b0ff;
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
   --background-color-2: #212428;
   --shadow-1: 10px 10px 19px #1c1e22,
@@ -52,7 +52,7 @@
   --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
-  --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
+  --gradient-red-hover: linear-gradient(145deg, #00b0ff, #7289da);
   --color-heading: #ffffff;
   --color-heading-wv: #1e2125;
   --color-body: #878e99;
@@ -10474,7 +10474,7 @@ div#featured-project-carousel {
         .rn-nav-list .nav-item .nav-link {
           font-size: 18px; } }
       .rn-nav-list .nav-item .nav-link:hover, .rn-nav-list .nav-item .nav-link.active {
-        color: #ff014f;
+        color: #00b0ff;
         background-color: transparent;
         border-color: transparent;
         border: 0 none;
@@ -10798,8 +10798,8 @@ div#featured-project-carousel {
       overflow: visible;
       position: relative;
       border-radius: 14px;
-      background: #f02981;
-      background: linear-gradient(145deg, #f02981 0%, #c81901 100%); }
+      background: #7289da;
+      background: linear-gradient(145deg, #00b0ff 0%, #7289da 100%); }
       .progress-charts .progress .progress-bar span.percent-label {
         position: absolute;
         right: -7px;
@@ -12633,12 +12633,14 @@ div#featured-project-carousel {
         height: 12px; }
 
 .footer-style-2 .logo-thumbnail {
-  margin-bottom: 35px; }
+  margin-bottom: 35px;  }
   @media only screen and (max-width: 575px) {
     .footer-style-2 .logo-thumbnail {
       text-align: left; } }
   .footer-style-2 .logo-thumbnail img {
     max-width: 100%; }
+    .footer-style-2 .logo-thumbnail a {
+      transition: all ease-in-out 0.3s; }
 
 @media only screen and (max-width: 575px) {
   .footer-style-2 .social-icone-wrapper .social-share {
@@ -12731,6 +12733,7 @@ div#featured-project-carousel {
           left: 0;
           top: 13px;
           transition: var(--transition);
+          border-radius: 3px;
           z-index: -1; }
         .footer-style-2 .menu-wrapper .menu-footer li a:hover {
           color: var(--color-light); }
