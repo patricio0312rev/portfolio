@@ -410,10 +410,10 @@
 // =============================================================================
 // LightGallery
 // =============================================================================
+
 // -----------------------------------------------------------------------------
 // 01 - Turn Technologies
 // -----------------------------------------------------------------------------
-
 document.getElementById('lightgallery1').addEventListener('click', function() {
     console.log('gallery')
     lightGallery(document.getElementById('lightgallery1'), {
@@ -466,7 +466,6 @@ document.getElementById('lightgallery1').addEventListener('click', function() {
 // -----------------------------------------------------------------------------
 // 02 - MyEvent
 // -----------------------------------------------------------------------------
-
 document.getElementById('lightgallery2').addEventListener('click', function() {
     console.log('gallery')
     lightGallery(document.getElementById('lightgallery2'), {
@@ -517,14 +516,12 @@ document.getElementById('lightgallery2').addEventListener('click', function() {
             'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
         }]
     })
- 
 });
 
 
 // -----------------------------------------------------------------------------
 // 03 - Anqarapp
 // -----------------------------------------------------------------------------
-
 document.getElementById('lightgallery3').addEventListener('click', function() {
     console.log('gallery')
     lightGallery(document.getElementById('lightgallery3'), {
@@ -557,6 +554,43 @@ document.getElementById('lightgallery3').addEventListener('click', function() {
             'src': 'assets/images/portfolio/project_03/08.png',
             'thumb': 'assets/images/portfolio/project_03/08.png',
             'subHtml': '<h4>MyEvent</h4><p>I used PHP and Laravel 7 on the backend, implementing a RESTful API. On the frontend I used HTML, CSS with SASS as a precompiled, and vanilla Javascript. I implemented libraries like DomPDF and QR generator. NodeJS and npm were used to install some modules, too. Started working on the implementation of a QR code validation app using React Native.</p>'
+        }]
+    })
+ 
+});
+
+
+// -----------------------------------------------------------------------------
+// 04 - Masa
+// -----------------------------------------------------------------------------
+document.getElementById('lightgallery4').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('lightgallery4'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/portfolio/project_04/02.png',
+            'thumb': 'assets/images/portfolio/project_04/02.png',
+            'subHtml': '<h4>Masa</h4><p>Masa is the first media center in Peru. I was in charge of designing, developing and deploying their website. Also, implement a cloud architecture that allowed the company to work remotely.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_04/03.png',
+            'thumb': 'assets/images/portfolio/project_04/03.png',
+            'subHtml': '<h4>Masa</h4><p>Masa is the first media center in Peru. I was in charge of designing, developing and deploying their website. Also, implement a cloud architecture that allowed the company to work remotely.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_04/04.png',
+            'thumb': 'assets/images/portfolio/project_04/04.png',
+            'subHtml': '<h4>Masa</h4><p>Masa is the first media center in Peru. I was in charge of designing, developing and deploying their website. Also, implement a cloud architecture that allowed the company to work remotely.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_04/05.png',
+            'thumb': 'assets/images/portfolio/project_04/05.png',
+            'subHtml': '<h4>Masa</h4><p>Masa is the first media center in Peru. I was in charge of designing, developing and deploying their website. Also, implement a cloud architecture that allowed the company to work remotely.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_04/06.png',
+            'thumb': 'assets/images/portfolio/project_04/06.png',
+            'subHtml': '<h4>Masa</h4><p>Masa is the first media center in Peru. I was in charge of designing, developing and deploying their website. Also, implement a cloud architecture that allowed the company to work remotely.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_04/07.png',
+            'thumb': 'assets/images/portfolio/project_04/07.png',
+            'subHtml': '<h4>Masa</h4><p>Masa is the first media center in Peru. I was in charge of designing, developing and deploying their website. Also, implement a cloud architecture that allowed the company to work remotely.</p>'
         }]
     })
  
@@ -595,6 +629,229 @@ document.getElementById('lightgallery5').addEventListener('click', function() {
             'subHtml': '<h4>Cepeban School Website</h4><p>I designed, coded and deployed this website using HTML, CSS and Vanilla JS</p>'
         }]
     })
- 
 });
 
+
+
+// -----------------------------------------------------------------------------
+// 06 - AmbarTravel
+// -----------------------------------------------------------------------------
+document.getElementById('lightgallery6').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('lightgallery6'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/portfolio/project_06/02.png',
+            'thumb': 'assets/images/portfolio/project_06/02.png',
+            'subHtml': '<h4>AmbarTravel</h4><p>Development of a multiplatform system in the cloud using AWS services (S3, RDS & EC2). The software implemented Laravel 8, PHP, JavaScript, CSS, HTML, Livewire, TailwindCSS, SASS, AlpineJS, MySQL, and libraries like Voyager, Debugbar, etc. Implementation of the NodeJS and Costamar API to quote packages in real-time.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_06/03.png',
+            'thumb': 'assets/images/portfolio/project_06/03.png',
+            'subHtml': '<h4>AmbarTravel</h4><p>Development of a multiplatform system in the cloud using AWS services (S3, RDS & EC2). The software implemented Laravel 8, PHP, JavaScript, CSS, HTML, Livewire, TailwindCSS, SASS, AlpineJS, MySQL, and libraries like Voyager, Debugbar, etc. Implementation of the NodeJS and Costamar API to quote packages in real-time.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_06/04.png',
+            'thumb': 'assets/images/portfolio/project_06/04.png',
+            'subHtml': '<h4>AmbarTravel</h4><p>Development of a multiplatform system in the cloud using AWS services (S3, RDS & EC2). The software implemented Laravel 8, PHP, JavaScript, CSS, HTML, Livewire, TailwindCSS, SASS, AlpineJS, MySQL, and libraries like Voyager, Debugbar, etc. Implementation of the NodeJS and Costamar API to quote packages in real-time.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_06/05.png',
+            'thumb': 'assets/images/portfolio/project_06/05.png',
+            'subHtml': '<h4>AmbarTravel</h4><p>Development of a multiplatform system in the cloud using AWS services (S3, RDS & EC2). The software implemented Laravel 8, PHP, JavaScript, CSS, HTML, Livewire, TailwindCSS, SASS, AlpineJS, MySQL, and libraries like Voyager, Debugbar, etc. Implementation of the NodeJS and Costamar API to quote packages in real-time.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_06/06.png',
+            'thumb': 'assets/images/portfolio/project_06/06.png',
+            'subHtml': '<h4>AmbarTravel</h4><p>Development of a multiplatform system in the cloud using AWS services (S3, RDS & EC2). The software implemented Laravel 8, PHP, JavaScript, CSS, HTML, Livewire, TailwindCSS, SASS, AlpineJS, MySQL, and libraries like Voyager, Debugbar, etc. Implementation of the NodeJS and Costamar API to quote packages in real-time.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_06/07.png',
+            'thumb': 'assets/images/portfolio/project_06/07.png',
+            'subHtml': '<h4>AmbarTravel</h4><p>Development of a multiplatform system in the cloud using AWS services (S3, RDS & EC2). The software implemented Laravel 8, PHP, JavaScript, CSS, HTML, Livewire, TailwindCSS, SASS, AlpineJS, MySQL, and libraries like Voyager, Debugbar, etc. Implementation of the NodeJS and Costamar API to quote packages in real-time.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_06/08.png',
+            'thumb': 'assets/images/portfolio/project_06/08.png',
+            'subHtml': '<h4>AmbarTravel</h4><p>Development of a multiplatform system in the cloud using AWS services (S3, RDS & EC2). The software implemented Laravel 8, PHP, JavaScript, CSS, HTML, Livewire, TailwindCSS, SASS, AlpineJS, MySQL, and libraries like Voyager, Debugbar, etc. Implementation of the NodeJS and Costamar API to quote packages in real-time.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_06/09.png',
+            'thumb': 'assets/images/portfolio/project_06/09.png',
+            'subHtml': '<h4>AmbarTravel</h4><p>Development of a multiplatform system in the cloud using AWS services (S3, RDS & EC2). The software implemented Laravel 8, PHP, JavaScript, CSS, HTML, Livewire, TailwindCSS, SASS, AlpineJS, MySQL, and libraries like Voyager, Debugbar, etc. Implementation of the NodeJS and Costamar API to quote packages in real-time.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_06/10.png',
+            'thumb': 'assets/images/portfolio/project_06/10.png',
+            'subHtml': '<h4>AmbarTravel</h4><p>Development of a multiplatform system in the cloud using AWS services (S3, RDS & EC2). The software implemented Laravel 8, PHP, JavaScript, CSS, HTML, Livewire, TailwindCSS, SASS, AlpineJS, MySQL, and libraries like Voyager, Debugbar, etc. Implementation of the NodeJS and Costamar API to quote packages in real-time.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_06/11.png',
+            'thumb': 'assets/images/portfolio/project_06/11.png',
+            'subHtml': '<h4>AmbarTravel</h4><p>Development of a multiplatform system in the cloud using AWS services (S3, RDS & EC2). The software implemented Laravel 8, PHP, JavaScript, CSS, HTML, Livewire, TailwindCSS, SASS, AlpineJS, MySQL, and libraries like Voyager, Debugbar, etc. Implementation of the NodeJS and Costamar API to quote packages in real-time.</p>'
+        }]
+    })
+});
+
+
+// -----------------------------------------------------------------------------
+// 07 - VacunaTravel
+// -----------------------------------------------------------------------------
+document.getElementById('lightgallery7').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('lightgallery7'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/portfolio/project_07/02.png',
+            'thumb': 'assets/images/portfolio/project_07/02.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_07/03.png',
+            'thumb': 'assets/images/portfolio/project_07/03.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_07/04.png',
+            'thumb': 'assets/images/portfolio/project_07/04.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_07/05.png',
+            'thumb': 'assets/images/portfolio/project_07/05.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_07/06.png',
+            'thumb': 'assets/images/portfolio/project_07/06.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_07/07.png',
+            'thumb': 'assets/images/portfolio/project_07/07.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_07/08.png',
+            'thumb': 'assets/images/portfolio/project_07/08.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_07/09.png',
+            'thumb': 'assets/images/portfolio/project_07/09.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_07/10.png',
+            'thumb': 'assets/images/portfolio/project_07/10.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_07/11.png',
+            'thumb': 'assets/images/portfolio/project_07/11.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_07/12.png',
+            'thumb': 'assets/images/portfolio/project_07/12.png',
+            'subHtml': '<h4>VacunaTravel</h4><p>VacunaTravel was my second start-up focused on helping families from all over Latin America get vaccinated in the US during the pandemic.</p>'
+        }]
+    })
+});
+
+
+// -----------------------------------------------------------------------------
+// 08 - Mentores
+// -----------------------------------------------------------------------------
+document.getElementById('lightgallery8').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('lightgallery8'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/portfolio/project_08/02.png',
+            'thumb': 'assets/images/portfolio/project_08/02.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/03.png',
+            'thumb': 'assets/images/portfolio/project_08/03.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/04.png',
+            'thumb': 'assets/images/portfolio/project_08/04.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/05.png',
+            'thumb': 'assets/images/portfolio/project_08/05.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/06.png',
+            'thumb': 'assets/images/portfolio/project_08/06.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/07.png',
+            'thumb': 'assets/images/portfolio/project_08/07.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/08.png',
+            'thumb': 'assets/images/portfolio/project_08/08.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/09.png',
+            'thumb': 'assets/images/portfolio/project_08/09.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/10.png',
+            'thumb': 'assets/images/portfolio/project_08/10.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/11.png',
+            'thumb': 'assets/images/portfolio/project_08/11.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/12.png',
+            'thumb': 'assets/images/portfolio/project_08/12.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_08/13.png',
+            'thumb': 'assets/images/portfolio/project_08/13.png',
+            'subHtml': '<h4>Mentores</h4><p>Software development of a multiplatform web system using PHP, Laravel 8, AlpineJS, TailwindCSS, SASS, JavaScript, HTML, CSS, Composer, Voyager, MySQL, and DomPDF. QR code validation. Use of APIs from Facebook, Google, LinkedIn, Vimeo, Paypal, and MercadoPago. Development of a 5-tier architecture using Route53, RDS, EC2 with Ubuntu, S3 with IAM credentials & security policies and external services. Development of algorithms for uploading heavy files by chunks to avoid overloading servers.</p>'
+        }]
+    })
+});
+
+
+// -----------------------------------------------------------------------------
+// 09 - Eventify
+// -----------------------------------------------------------------------------
+document.getElementById('lightgallery9').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('lightgallery9'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/portfolio/project_09/02.png',
+            'thumb': 'assets/images/portfolio/project_09/02.png',
+            'subHtml': '<h4>Eventify</h4><p>3-tier architecture development using AWS (EC2, RDS, S3). Software development under the Deming cycle methodology and the SCRUM agile methodology. Graphic line design and brand identity. Development of a multiplatform web system using Laravel 6, using Composer and NodeJS. Interface design using Adobe XD and sketches in HTML, CSS, and JavaScript. Use of VueJS for the frontend and PHP for the backend using the Laravel framework and queries via RESTful API. Implementation of a WordPress blog within the website for SEM. Implementation of SEO positioning.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_09/03.png',
+            'thumb': 'assets/images/portfolio/project_09/03.png',
+            'subHtml': '<h4>Eventify</h4><p>3-tier architecture development using AWS (EC2, RDS, S3). Software development under the Deming cycle methodology and the SCRUM agile methodology. Graphic line design and brand identity. Development of a multiplatform web system using Laravel 6, using Composer and NodeJS. Interface design using Adobe XD and sketches in HTML, CSS, and JavaScript. Use of VueJS for the frontend and PHP for the backend using the Laravel framework and queries via RESTful API. Implementation of a WordPress blog within the website for SEM. Implementation of SEO positioning.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_09/04.png',
+            'thumb': 'assets/images/portfolio/project_09/04.png',
+            'subHtml': '<h4>Eventify</h4><p>3-tier architecture development using AWS (EC2, RDS, S3). Software development under the Deming cycle methodology and the SCRUM agile methodology. Graphic line design and brand identity. Development of a multiplatform web system using Laravel 6, using Composer and NodeJS. Interface design using Adobe XD and sketches in HTML, CSS, and JavaScript. Use of VueJS for the frontend and PHP for the backend using the Laravel framework and queries via RESTful API. Implementation of a WordPress blog within the website for SEM. Implementation of SEO positioning.</p>'
+        }]
+    })
+});
+
+
+// -----------------------------------------------------------------------------
+// 10 - Eventify
+// -----------------------------------------------------------------------------
+document.getElementById('lightgallery10').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('lightgallery10'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/portfolio/project_10/02.png',
+            'thumb': 'assets/images/portfolio/project_10/02.png',
+            'subHtml': '<h4>AccesoDirecto</h4><p>Design of a multiplatform web system in the cloud using a two-tier architecture and Azure services. I used PHP and Laravel 6 on the backend and on the frontend, I used VueJS, HTML, CSS with SASS as precompiled, and vanilla Javascript.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_10/03.png',
+            'thumb': 'assets/images/portfolio/project_10/03.png',
+            'subHtml': '<h4>AccesoDirecto</h4><p>Design of a multiplatform web system in the cloud using a two-tier architecture and Azure services. I used PHP and Laravel 6 on the backend and on the frontend, I used VueJS, HTML, CSS with SASS as precompiled, and vanilla Javascript.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_10/04.png',
+            'thumb': 'assets/images/portfolio/project_10/04.png',
+            'subHtml': '<h4>AccesoDirecto</h4><p>Design of a multiplatform web system in the cloud using a two-tier architecture and Azure services. I used PHP and Laravel 6 on the backend and on the frontend, I used VueJS, HTML, CSS with SASS as precompiled, and vanilla Javascript.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_10/04.png',
+            'thumb': 'assets/images/portfolio/project_10/04.png',
+            'subHtml': '<h4>AccesoDirecto</h4><p>Design of a multiplatform web system in the cloud using a two-tier architecture and Azure services. I used PHP and Laravel 6 on the backend and on the frontend, I used VueJS, HTML, CSS with SASS as precompiled, and vanilla Javascript.</p>'
+        }, {
+            'src': 'assets/images/portfolio/project_10/04.png',
+            'thumb': 'assets/images/portfolio/project_10/04.png',
+            'subHtml': '<h4>AccesoDirecto</h4><p>Design of a multiplatform web system in the cloud using a two-tier architecture and Azure services. I used PHP and Laravel 6 on the backend and on the frontend, I used VueJS, HTML, CSS with SASS as precompiled, and vanilla Javascript.</p>'
+        }]
+    })
+});
