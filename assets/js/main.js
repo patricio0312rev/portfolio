@@ -845,13 +845,98 @@ document.getElementById('lightgallery10').addEventListener('click', function() {
             'thumb': 'assets/images/portfolio/project_10/04.png',
             'subHtml': '<h4>AccesoDirecto</h4><p>Design of a multiplatform web system in the cloud using a two-tier architecture and Azure services. I used PHP and Laravel 6 on the backend and on the frontend, I used VueJS, HTML, CSS with SASS as precompiled, and vanilla Javascript.</p>'
         }, {
-            'src': 'assets/images/portfolio/project_10/04.png',
-            'thumb': 'assets/images/portfolio/project_10/04.png',
+            'src': 'assets/images/portfolio/project_10/05.png',
+            'thumb': 'assets/images/portfolio/project_10/05.png',
             'subHtml': '<h4>AccesoDirecto</h4><p>Design of a multiplatform web system in the cloud using a two-tier architecture and Azure services. I used PHP and Laravel 6 on the backend and on the frontend, I used VueJS, HTML, CSS with SASS as precompiled, and vanilla Javascript.</p>'
         }, {
-            'src': 'assets/images/portfolio/project_10/04.png',
-            'thumb': 'assets/images/portfolio/project_10/04.png',
+            'src': 'assets/images/portfolio/project_10/06.png',
+            'thumb': 'assets/images/portfolio/project_10/06.png',
             'subHtml': '<h4>AccesoDirecto</h4><p>Design of a multiplatform web system in the cloud using a two-tier architecture and Azure services. I used PHP and Laravel 6 on the backend and on the frontend, I used VueJS, HTML, CSS with SASS as precompiled, and vanilla Javascript.</p>'
+        }]
+    })
+});
+
+// =============================================================================
+// AWARDS
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// 01 - President & Congress
+// -----------------------------------------------------------------------------
+document.getElementById('awardGallery1').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('awardGallery1'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/awards/01/01.jpg',
+            'thumb': 'assets/images/awards/01/01.jpg',
+            'subHtml': '<h4>Academic Excellence Award by the Peruvian President and Congress</h4><p>After returning from China and before leaving for Harvard, the Government of Peru awarded me both on behalf of the President of the Republic and on behalf of the Congress of the Republic.</p>'
+        }, {
+            'src': 'assets/images/awards/01/02.jpg',
+            'thumb': 'assets/images/awards/01/02.jpg',
+            'subHtml': '<h4>Academic Excellence Award by the Peruvian President and Congress</h4><p>After returning from China and before leaving for Harvard, the Government of Peru awarded me both on behalf of the President of the Republic and on behalf of the Congress of the Republic.</p>'
+        }, {
+            'src': 'assets/images/awards/01/03.jpg',
+            'thumb': 'assets/images/awards/01/03.jpg',
+            'subHtml': '<h4>Academic Excellence Award by the Peruvian President and Congress</h4><p>After returning from China and before leaving for Harvard, the Government of Peru awarded me both on behalf of the President of the Republic and on behalf of the Congress of the Republic.</p>'
+        }, {
+            'src': 'assets/images/awards/01/04.jpg',
+            'thumb': 'assets/images/awards/01/04.jpg',
+            'subHtml': '<h4>Academic Excellence Award by the Peruvian President and Congress</h4><p>After returning from China and before leaving for Harvard, the Government of Peru awarded me both on behalf of the President of the Republic and on behalf of the Congress of the Republic.</p>'
+        }]
+    })
+});
+
+// -----------------------------------------------------------------------------
+// 02 - Harvard
+// -----------------------------------------------------------------------------
+document.getElementById('awardGallery1').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('awardGallery1'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/awards/02/01.jpg',
+            'thumb': 'assets/images/awards/02/01.jpg',
+            'subHtml': '<h4>Harvard Student Leader for the 21st Century</h4><p>Being part of the student program and being recognized as a Student Leader for the 21st Century by Laspau, an organization affiliated with Harvard University, was not only an honor and a privilege, but also a sign of continuing to work for the good of my country.</p>'
+        }, {
+            'src': 'assets/images/awards/02/02.jpg',
+            'thumb': 'assets/images/awards/02/02.jpg',
+            'subHtml': '<h4>Harvard Student Leader for the 21st Century</h4><p>Being part of the student program and being recognized as a Student Leader for the 21st Century by Laspau, an organization affiliated with Harvard University, was not only an honor and a privilege, but also a sign of continuing to work for the good of my country.</p>'
+        }, {
+            'src': 'assets/images/awards/02/03.jpg',
+            'thumb': 'assets/images/awards/02/03.jpg',
+            'subHtml': '<h4>Harvard Student Leader for the 21st Century</h4><p>Being part of the student program and being recognized as a Student Leader for the 21st Century by Laspau, an organization affiliated with Harvard University, was not only an honor and a privilege, but also a sign of continuing to work for the good of my country.</p>'
+        }]
+    })
+});
+
+// -----------------------------------------------------------------------------
+// 03 - Huawei
+// -----------------------------------------------------------------------------
+document.getElementById('awardGallery3').addEventListener('click', function() {
+    console.log('gallery')
+    lightGallery(document.getElementById('awardGallery3'), {
+        dynamic: true,
+        dynamicEl: [{
+            "src": 'assets/images/awards/03/01.jpg',
+            'thumb': 'assets/images/awards/03/01.jpg',
+            'subHtml': "<h4>Huawei's Seeds for the Future 2019 Winner</h4><p>Being chosen as part of the winners of the 'Huawei's Seeds for the Future' program not only represented that my entire path as a young engineer was brilliant, but also allowed me to learn much more about cutting-edge technologies that are used today in our world.</p>"
+        }, {
+            'src': 'assets/images/awards/03/02.jpg',
+            'thumb': 'assets/images/awards/03/02.jpg',
+            'subHtml': "<h4>Huawei's Seeds for the Future 2019 Winner</h4><p>Being chosen as part of the winners of the 'Huawei's Seeds for the Future' program not only represented that my entire path as a young engineer was brilliant, but also allowed me to learn much more about cutting-edge technologies that are used today in our world.</p>"
+        }, {
+            'src': 'assets/images/awards/03/03.jpg',
+            'thumb': 'assets/images/awards/03/03.jpg',
+            'subHtml': "<h4>Huawei's Seeds for the Future 2019 Winner</h4><p>Being chosen as part of the winners of the 'Huawei's Seeds for the Future' program not only represented that my entire path as a young engineer was brilliant, but also allowed me to learn much more about cutting-edge technologies that are used today in our world.</p>"
+        }, {
+            'src': 'assets/images/awards/03/04.jpg',
+            'thumb': 'assets/images/awards/03/04.jpg',
+            'subHtml': "<h4>Huawei's Seeds for the Future 2019 Winner</h4><p>Being chosen as part of the winners of the 'Huawei's Seeds for the Future' program not only represented that my entire path as a young engineer was brilliant, but also allowed me to learn much more about cutting-edge technologies that are used today in our world.</p>"
+        }, {
+            'src': 'assets/images/awards/03/05.jpg',
+            'thumb': 'assets/images/awards/03/05.jpg',
+            'subHtml': "<h4>Huawei's Seeds for the Future 2019 Winner</h4><p>Being chosen as part of the winners of the 'Huawei's Seeds for the Future' program not only represented that my entire path as a young engineer was brilliant, but also allowed me to learn much more about cutting-edge technologies that are used today in our world.</p>"
         }]
     })
 });
