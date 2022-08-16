@@ -926,8 +926,8 @@ document.getElementById('awardGallery3').addEventListener('click', function() {
             'thumb': 'assets/images/awards/03/02.jpg',
             'subHtml': "<h4>Huawei's Seeds for the Future 2019 Winner</h4><p>Being chosen as part of the winners of the 'Huawei's Seeds for the Future' program not only represented that my entire path as a young engineer was brilliant, but also allowed me to learn much more about cutting-edge technologies that are used today in our world.</p>"
         }, {
-            'src': 'assets/images/awards/03/03.jpg',
-            'thumb': 'assets/images/awards/03/03.jpg',
+            'src': 'assets/images/awards/03/03.JPG',
+            'thumb': 'assets/images/awards/03/03.JPG',
             'subHtml': "<h4>Huawei's Seeds for the Future 2019 Winner</h4><p>Being chosen as part of the winners of the 'Huawei's Seeds for the Future' program not only represented that my entire path as a young engineer was brilliant, but also allowed me to learn much more about cutting-edge technologies that are used today in our world.</p>"
         }, {
             'src': 'assets/images/awards/03/04.jpg',
