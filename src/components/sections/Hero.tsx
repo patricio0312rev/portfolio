@@ -5,7 +5,7 @@ import { SITE_CONFIG, SOCIAL_LINKS } from '@/constants';
 
 export function Hero() {
   const [displayedText, setDisplayedText] = useState('');
-  const roles = ['Software Developer', 'Data Scientist', 'Tech Leader', 'Problem Solver'];
+  const roles = ['AI Engineer', 'Data Scientist', 'Tech Leader', 'Problem Solver', 'Full-stack Developer'];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
 
