@@ -123,11 +123,11 @@ export function Awards({ awards }: AwardsProps) {
                 {/* Images */}
                 {selectedAward.images.length > 0 && (
                   <div className="mb-6">
-                    <div className="relative aspect-video rounded-xl overflow-hidden bg-zinc-100 dark:bg-zinc-800 mb-4">
+                    <div className="relative rounded-xl overflow-hidden bg-zinc-100 dark:bg-zinc-800 mb-4">
                       <img
                         src={selectedAward.images[currentImageIndex]}
                         alt={`${selectedAward.title} ${currentImageIndex + 1}`}
-                        className="h-full w-full object-cover"
+                        className="w-full h-auto object-contain max-h-[500px]"
                       />
                     </div>
 
