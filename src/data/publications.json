@@ -1,0 +1,24 @@
+[
+  {
+    "id": "publication-1",
+    "title": "Machine Learning Approaches for Predictive Analytics in Education",
+    "authors": ["Juan Patricio Marroquin", "Maria Garcia", "Carlos Rodriguez"],
+    "journal": "International Journal of Educational Technology",
+    "date": "2023-06",
+    "abstract": "This paper explores the application of machine learning algorithms in predicting student performance and engagement in online learning environments. We analyze multiple models and present a comparative study of their effectiveness.",
+    "keywords": ["Machine Learning", "Education", "Predictive Analytics", "AI"],
+    "link": "https://example.com/publication-1",
+    "image": "/assets/images/publications/paper_01.jpg"
+  },
+  {
+    "id": "publication-2",
+    "title": "Scalable Cloud Architecture for EdTech Platforms",
+    "authors": ["Juan Patricio Marroquin", "Roberto Silva"],
+    "journal": "Cloud Computing Conference 2022",
+    "date": "2022-11",
+    "abstract": "We present a scalable cloud architecture design for educational technology platforms that can handle millions of concurrent users while maintaining high performance and reliability.",
+    "keywords": ["Cloud Computing", "AWS", "Scalability", "EdTech"],
+    "link": "https://example.com/publication-2",
+    "image": "/assets/images/publications/paper_02.jpg"
+  }
+]

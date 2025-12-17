@@ -1,0 +1,36 @@
+[
+  {
+    "id": "unmsm-bachelor",
+    "degree": "Bachelor in Software Engineering",
+    "institution": "San Marcos Major National University",
+    "institutionLogo": "/assets/images/education/unmsm.png",
+    "location": "Lima",
+    "country": "Peru",
+    "countryFlag": "🇵🇪",
+    "startDate": "2017-03",
+    "endDate": "2022-12",
+    "description": "Top #3 student in class. Oldest university in America.",
+    "achievements": [
+      "Top 3 student in class",
+      "Full scholarship for postgraduate studies"
+    ],
+    "type": "bachelor"
+  },
+  {
+    "id": "harvard-leadership",
+    "degree": "Specialization in Leadership and Soft Skills",
+    "institution": "Harvard University",
+    "institutionLogo": "/assets/images/education/harvard.png",
+    "location": "Boston, MA",
+    "country": "USA",
+    "countryFlag": "🇺🇸",
+    "startDate": "2019-07",
+    "endDate": "2019-08",
+    "description": "Student Leader for 21st Century program.",
+    "achievements": [
+      "Recognized as Student Leader for 21st Century",
+      "Awarded by Peruvian Government"
+    ],
+    "type": "specialization"
+  }
+]
