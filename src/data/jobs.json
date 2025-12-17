@@ -1,0 +1,115 @@
+[
+  {
+    "id": "turn-technologies",
+    "title": "Senior Software Developer",
+    "company": "Turn Technologies",
+    "companyLogo": "/assets/images/companies/turn.png",
+    "location": "Chicago, IL",
+    "type": "full-time",
+    "startDate": "2022-01",
+    "endDate": "2023-12",
+    "description": "Turn is among the top 100 start-ups of 2022 in the US. Developed web applications, UI & APIs for recruitment, screening and onboarding processes.",
+    "responsibilities": [
+      "Development of web applications, UI & APIs to carry out the recruitment, screening and onboarding process of millions of companies such as Amazon, Wag, among others",
+      "Created reusable component libraries and shared configuration libraries",
+      "Developed standards for proper maintenance of company repositories applying SOLID principles",
+      "Implemented GraphQL APIs for efficient data fetching",
+      "Led code reviews and mentored junior developers"
+    ],
+    "achievements": [
+      "Reduced onboarding time by 40% through optimized workflows",
+      "Implemented component library used across 5+ internal projects",
+      "Improved API response times by 60% through caching strategies"
+    ],
+    "technologies": ["react", "nextjs", "typescript", "tailwindcss", "aws", "python", "graphql"],
+    "images": [
+      "/assets/images/portfolio/project_01/02.png",
+      "/assets/images/portfolio/project_01/03.png",
+      "/assets/images/portfolio/project_01/04.png",
+      "/assets/images/portfolio/project_01/05.png"
+    ],
+    "website": "https://turn.ai",
+    "featured": true
+  },
+  {
+    "id": "anqarapp",
+    "title": "Founder & CEO",
+    "company": "Anqarapp",
+    "companyLogo": "/assets/images/companies/anqarapp.png",
+    "location": "Lima, Peru",
+    "type": "founder",
+    "startDate": "2020-03",
+    "endDate": "2021-12",
+    "description": "Founded and led edtech startup that trained thousands of teachers across 6 Latin American countries during the pandemic.",
+    "responsibilities": [
+      "Designed, developed and deployed complete web application",
+      "Implemented AI for adaptive education model and automated teacher support",
+      "Built 5-layer cloud architecture using AWS services",
+      "Led team of 5 developers and designers",
+      "Managed partnerships with educational institutions"
+    ],
+    "achievements": [
+      "Reached 6 countries: Peru, Chile, Ecuador, Mexico, Colombia, Argentina",
+      "Trained 10,000+ teachers in remote teaching tools",
+      "Awarded by UNMSM for contribution during crisis",
+      "Achieved 95% user satisfaction rating"
+    ],
+    "technologies": ["laravel", "react", "tailwindcss", "aws", "mysql", "python"],
+    "images": [
+      "/assets/images/portfolio/project_03/02.png",
+      "/assets/images/portfolio/project_03/03.png",
+      "/assets/images/portfolio/project_03/04.png"
+    ],
+    "website": "https://web.archive.org/web/20211204020641/https://anqarapp.com/",
+    "featured": true
+  },
+  {
+    "id": "vacunatravel",
+    "title": "Full Stack Developer",
+    "company": "Vacunatravel",
+    "companyLogo": "/assets/images/companies/vacunatravel.png",
+    "location": "Lima, Peru",
+    "type": "freelance",
+    "startDate": "2021-06",
+    "endDate": "2021-12",
+    "description": "Developed vaccination management platform for international travelers during COVID-19 pandemic.",
+    "responsibilities": [
+      "Built full-stack web application for vaccination record management",
+      "Integrated with government health APIs for verification",
+      "Implemented secure document storage and verification system",
+      "Created admin dashboard for healthcare providers"
+    ],
+    "achievements": [
+      "Processed 5,000+ vaccination records",
+      "Achieved 99.9% uptime during peak usage"
+    ],
+    "technologies": ["php", "laravel", "vue", "mysql", "aws"],
+    "images": [
+      "/assets/images/portfolio/project_02/02.png",
+      "/assets/images/portfolio/project_02/03.png"
+    ],
+    "featured": false
+  },
+  {
+    "id": "aaldebaran",
+    "title": "Software Developer",
+    "company": "A. Aldebaran",
+    "companyLogo": "/assets/images/companies/aaldebaran.png",
+    "location": "Lima, Peru",
+    "type": "part-time",
+    "startDate": "2019-06",
+    "endDate": "2020-03",
+    "description": "Developed web applications and mobile apps for various clients in retail and service industries.",
+    "responsibilities": [
+      "Developed responsive web applications using React and Laravel",
+      "Built mobile applications with React Native",
+      "Implemented RESTful APIs and database designs",
+      "Collaborated with design team on UI/UX improvements"
+    ],
+    "technologies": ["react", "reactnative", "laravel", "mysql", "bootstrap"],
+    "images": [
+      "/assets/images/portfolio/project_04/02.png"
+    ],
+    "featured": false
+  }
+]

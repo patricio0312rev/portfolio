@@ -1,0 +1,15 @@
+[
+  {
+    "id": "president-award",
+    "title": "Academic Excellence Award",
+    "organization": "Peruvian President and Congress",
+    "date": "2019-07",
+    "description": "Awarded by the President of Peru and Congress for academic excellence.",
+    "images": [
+      "/assets/images/awards/01/01.jpg",
+      "/assets/images/awards/01/02.jpg"
+    ],
+    "link": "https://elpopular.pe/actualidad-y-policiales/239226-estudiante-san-marcos-sera-condecorado-manana-presidente-republica",
+    "category": "academic"
+  }
+]

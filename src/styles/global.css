@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent;
+  }
+
+  .gradient-animated {
+    background: linear-gradient(
+      -45deg,
+      rgb(14 165 233 / 0.1),
+      rgb(168 85 247 / 0.1),
+      rgb(14 165 233 / 0.1),
+      rgb(168 85 247 / 0.1)
+    );
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+  }
+}
+
+@layer base {
+  ::selection {
+    @apply bg-sky-500/30;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-sky-500 outline-offset-2 rounded;
+  }
+
+  /* Scrollbar Styles */
+  ::-webkit-scrollbar {
+    @apply w-2.5 h-2.5;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-zinc-100 dark:bg-zinc-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-zinc-400 dark:bg-zinc-600 rounded-md;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-zinc-500 dark:bg-zinc-500;
+  }
+
+  img {
+    @apply max-w-full h-auto;
+  }
+}
