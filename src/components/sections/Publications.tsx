@@ -65,10 +65,11 @@ export function Publications({ publications }: PublicationsProps) {
                   if (el) itemRefs.current.set(pub.id, el);
                 }}
                 data-id={pub.id}
-                className={`group rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 overflow-hidden transition-all duration-700 hover:shadow-xl hover:shadow-green-500/10 hover:border-green-500/50 ${
+                className={`group rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 overflow-hidden transition-all duration-700 hover:shadow-xl hover:shadow-green-500/10 hover:border-green-500/50 cursor-pointer ${
                   isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                 }`}
                 style={{ transitionDelay: `${index * 0.1}s` }}
+                onClick={() => window.open(pub.link, '_blank')}
               >
                 {/* Image */}
                 {pub.image && (
@@ -125,7 +126,6 @@ export function Publications({ publications }: PublicationsProps) {
                   <Button
                     variant="ghost"
                     size="sm"
-                    href={pub.link}
                     onClick={(e: React.MouseEvent) => {
                       e.stopPropagation();
                       window.open(pub.link, '_blank');
@@ -142,4 +142,4 @@ export function Publications({ publications }: PublicationsProps) {
       </div>
     </section>
   );
-};
+}
