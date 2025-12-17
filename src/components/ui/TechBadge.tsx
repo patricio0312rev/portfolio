@@ -1,4 +1,3 @@
-import React from 'react';
 import * as SimpleIcons from 'simple-icons';
 import { SKILLS } from '@/constants';
 import { Badge } from './Badge';

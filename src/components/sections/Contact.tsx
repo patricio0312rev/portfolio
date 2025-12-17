@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, Calendar, Download, MapPin, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { SITE_CONFIG, SOCIAL_LINKS } from '@/constants';

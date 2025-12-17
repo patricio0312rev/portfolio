@@ -1,4 +1,3 @@
-import React from 'react';
 import { Github, Linkedin, Twitter, Instagram, Mail, Calendar } from 'lucide-react';
 import { SITE_CONFIG, SOCIAL_LINKS } from '@/constants';
 

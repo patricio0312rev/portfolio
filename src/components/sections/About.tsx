@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code, Rocket, Users, Award } from 'lucide-react';
 import { CountUp } from '@/components/ui/CountUp';
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X, Download, Calendar, Github, Linkedin, Twitter, Instagram } from 'lucide-react';
 import * as SimpleIcons from 'simple-icons';
 import { NAV_LINKS, SITE_CONFIG, SOCIAL_LINKS } from '@/constants';

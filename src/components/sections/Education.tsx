@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { GraduationCap } from 'lucide-react';
 import type { Education } from '@/types';
 import { getDateRange } from '@/utils/date';

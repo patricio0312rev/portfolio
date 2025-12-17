@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ArrowRight, Mail, Calendar, Download, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { SITE_CONFIG, SOCIAL_LINKS } from '@/constants';

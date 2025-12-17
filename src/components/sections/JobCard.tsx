@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Calendar, ExternalLink } from 'lucide-react';
 import type { Job } from '@/types';
 import { TechBadge } from '@/components/ui/TechBadge';

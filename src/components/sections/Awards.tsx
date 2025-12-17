@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Trophy, ExternalLink, X } from 'lucide-react';
 import type { Award } from '@/types';
 import { Badge } from '@/components/ui/Badge';
