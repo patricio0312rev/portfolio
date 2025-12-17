@@ -74,24 +74,17 @@ export function Education({ education }: EducationProps) {
                   }`}
                 >
                   {/* Desktop Layout */}
-                  <div className="hidden md:grid md:grid-cols-2 md:gap-8">
-                    {/* Left Side */}
-                    <div className={`${isLeft ? 'text-right pr-8' : 'order-2 pl-8'}`}>
-                      {isLeft && (
-                        <EducationCard edu={edu} align="right" />
-                      )}
-                    </div>
+                  <div className="hidden md:block">
+                    <div className="relative">
+                      {/* Timeline Dot */}
+                      <div className="absolute left-1/2 top-8 -translate-x-1/2 z-10">
+                        <div className="h-6 w-6 rounded-full bg-gradient-to-r from-sky-500 to-purple-500 ring-4 ring-white dark:ring-zinc-900 shadow-lg" />
+                      </div>
 
-                    {/* Timeline Dot */}
-                    <div className="absolute left-1/2 top-8 -translate-x-1/2 z-10">
-                      <div className="h-6 w-6 rounded-full bg-gradient-to-r from-sky-500 to-purple-500 ring-4 ring-white dark:ring-zinc-900 shadow-lg" />
-                    </div>
-
-                    {/* Right Side */}
-                    <div className={`${!isLeft ? 'text-left pl-8' : 'order-1 pr-8'}`}>
-                      {!isLeft && (
-                        <EducationCard edu={edu} align="left" />
-                      )}
+                      {/* Card positioned left or right */}
+                      <div className={`w-[calc(50%-2rem)] ${isLeft ? 'ml-0 pr-8' : 'ml-auto pl-8'}`}>
+                        <EducationCard edu={edu} align={isLeft ? 'right' : 'left'} />
+                      </div>
                     </div>
                   </div>
 
@@ -119,9 +112,7 @@ interface EducationCardProps {
 function EducationCard({ edu, align }: EducationCardProps) {
   return (
     <div
-      className={`rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 shadow-lg hover:shadow-xl transition-shadow ${
-        align === 'right' ? 'ml-auto' : 'mr-auto'
-      }`}
+      className={`rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 shadow-lg hover:shadow-xl transition-shadow`}
     >
       {/* Header with Logo and Flag */}
       <div className={`flex items-start gap-4 mb-4 ${align === 'right' ? 'flex-row-reverse' : ''}`}>
