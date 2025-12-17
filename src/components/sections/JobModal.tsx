@@ -99,11 +99,11 @@ export function JobModal({ job, onClose }: JobModalProps) {
           {/* Image Gallery */}
           {job.images.length > 0 && (
             <div className="mb-6">
-              <div className="relative aspect-video rounded-xl overflow-hidden bg-zinc-100 dark:bg-zinc-800">
+              <div className="relative rounded-xl overflow-hidden bg-zinc-100 dark:bg-zinc-800">
                 <img
                   src={job.images[currentImageIndex]}
                   alt={`${job.company} screenshot ${currentImageIndex + 1}`}
-                  className="h-full w-full object-cover"
+                  className="w-full h-auto object-contain max-h-[500px]"
                 />
                 
                 {/* Navigation Arrows */}

@@ -16,7 +16,10 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
   const remainingCount = job.technologies.length - MAX_VISIBLE_TECH;
 
   return (
-    <article className="group relative rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 transition-all duration-300 hover:shadow-xl hover:shadow-sky-500/10 hover:border-sky-500/50">
+    <article 
+      className="group relative rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 transition-all duration-300 hover:shadow-xl hover:shadow-sky-500/10 hover:border-sky-500/50 cursor-pointer"
+      onClick={() => onViewDetails(job)}
+    >
       {/* Featured Badge */}
       {job.featured && (
         <div className="absolute -top-3 right-6">
@@ -123,7 +126,10 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
             <Button
               variant="primary"
               size="sm"
-              onClick={() => onViewDetails(job)}
+              onClick={(e) => {
+                e.stopPropagation();
+                onViewDetails(job);
+              }}
             >
               View Details
             </Button>
@@ -132,7 +138,10 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
                 variant="ghost"
                 size="sm"
                 href={job.website}
-                onClick={(e: React.MouseEvent) => e.stopPropagation()}
+                onClick={(e: React.MouseEvent) => {
+                  e.stopPropagation();
+                  window.open(job.website, '_blank');
+                }}
               >
                 <ExternalLink className="h-4 w-4" />
                 Visit Website
