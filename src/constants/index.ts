@@ -1,7 +1,7 @@
 // Site configuration
 export const SITE_CONFIG = {
   name: 'Juan Patricio Marroquin',
-  shortName: 'Patricio',
+  shortName: 'Patricio Marroquin',
   title: 'Patricio Marroquin | Senior Software Developer & Data Scientist',
   description:
     '22 years old. Bachelor in Software Engineering with over 7 years of experience. Based in Lima, Peru 🇵🇪. Senior Software Developer at Turn Technologies.',
@@ -22,7 +22,7 @@ export const SOCIAL_LINKS = {
   twitter: 'https://twitter.com/patricio0312rev',
   instagram: 'https://www.instagram.com/patricio0312rev/',
   facebook: 'https://www.facebook.com/JuanPatricio0312/',
-  devto: 'https://dev.to/patricio0312rev', // Add your dev.to profile
+  devto: 'https://blog.patriciomarroquin.dev',
   email: `mailto:${SITE_CONFIG.email}`,
   calendly: 'https://calendly.com/patricio-marroquin03/30min',
   resume: '/assets/pdf/cv.pdf',
@@ -52,7 +52,7 @@ export const SKILLS = {
   tailwindcss: { name: 'Tailwind CSS', category: 'Frontend', icon: 'tailwindcss' },
   bootstrap: { name: 'Bootstrap', category: 'Frontend', icon: 'bootstrap' },
   sass: { name: 'Sass', category: 'Frontend', icon: 'sass' },
-  
+
   // Backend
   nodejs: { name: 'Node.js', category: 'Backend', icon: 'nodedotjs' },
   php: { name: 'PHP', category: 'Backend', icon: 'php' },
@@ -61,27 +61,27 @@ export const SKILLS = {
   java: { name: 'Java', category: 'Backend', icon: 'openjdk' },
   cpp: { name: 'C++', category: 'Backend', icon: 'cplusplus' },
   graphql: { name: 'GraphQL', category: 'Backend', icon: 'graphql' },
-  
+
   // Database
   mysql: { name: 'MySQL', category: 'Database', icon: 'mysql' },
   postgresql: { name: 'PostgreSQL', category: 'Database', icon: 'postgresql' },
   mongodb: { name: 'MongoDB', category: 'Database', icon: 'mongodb' },
   redis: { name: 'Redis', category: 'Database', icon: 'redis' },
-  
+
   // Cloud & DevOps
   aws: { name: 'AWS', category: 'Cloud', icon: 'amazonaws' },
   gcp: { name: 'Google Cloud', category: 'Cloud', icon: 'googlecloud' },
   azure: { name: 'Azure', category: 'Cloud', icon: 'microsoftazure' },
   docker: { name: 'Docker', category: 'Cloud', icon: 'docker' },
   vercel: { name: 'Vercel', category: 'Cloud', icon: 'vercel' },
-  
+
   // Mobile
   reactnative: { name: 'React Native', category: 'Mobile', icon: 'react' },
-  
+
   // Data Science
   tensorflow: { name: 'TensorFlow', category: 'Data Science', icon: 'tensorflow' },
   pandas: { name: 'Pandas', category: 'Data Science', icon: 'pandas' },
-  
+
   // Tools
   git: { name: 'Git', category: 'Tools', icon: 'git' },
   github: { name: 'GitHub', category: 'Tools', icon: 'github' },
