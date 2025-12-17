@@ -6,6 +6,8 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
   asChild?: boolean;
   href?: string;
+  target?: string;
+  rel?: string;
 }
 
 export function Button({
@@ -14,6 +16,8 @@ export function Button({
   className,
   children,
   href,
+  target,
+  rel,
   ...props
 }: ButtonProps) {
   const baseStyles = cn(
@@ -38,7 +42,12 @@ export function Button({
 
   if (href) {
     return (
-      <a href={href} className={classes}>
+      <a 
+        href={href} 
+        className={classes}
+        target={target}
+        rel={rel || (target === '_blank' ? 'noopener noreferrer' : undefined)}
+      >
         {children}
       </a>
     );
