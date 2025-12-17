@@ -11,5 +11,31 @@
     ],
     "link": "https://elpopular.pe/actualidad-y-policiales/239226-estudiante-san-marcos-sera-condecorado-manana-presidente-republica",
     "category": "academic"
+  },
+  {
+    "id": "harvard-student-leader-21st-century",
+    "title": "Student Leader for the 21st Century",
+    "organization": "Harvard University / LASPAU",
+    "date": "2019-08",
+    "description": "Recognized as Student Leader for the 21st Century program.",
+    "images": [
+      "/assets/images/awards/02/01.jpg",
+      "/assets/images/awards/02/02.jpg"
+    ],
+    "link": "https://colab.laspau.org/project/juan-patricio-marroquin-gavelan/",
+    "category": "academic"
+  },
+  {
+    "id": "huawei-seeds-for-the-future",
+    "title": "Winner — Huawei’s Seeds for the Future 2019",
+    "organization": "Huawei",
+    "date": "2019-10",
+    "description": "Selected as a winner for Huawei’s Seeds for the Future 2019 program.",
+    "images": [
+      "/assets/images/awards/03/01.jpg",
+      "/assets/images/awards/03/02.jpg"
+    ],
+    "link": "https://viceacademico.unmsm.edu.pe/experiencias/huawei-seeds-for-the-future-2019/",
+    "category": "academic"
   }
 ]

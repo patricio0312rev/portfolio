@@ -9,16 +9,13 @@
     "countryFlag": "🇵🇪",
     "startDate": "2017-03",
     "endDate": "2022-12",
-    "description": "Top #3 student in class. Oldest university in America.",
-    "achievements": [
-      "Top 3 student in class",
-      "Full scholarship for postgraduate studies"
-    ],
+    "description": "Top student performance during undergraduate studies.",
+    "achievements": ["Top student performance"],
     "type": "bachelor"
   },
   {
     "id": "harvard-leadership",
-    "degree": "Specialization in Leadership and Soft Skills",
+    "degree": "Leadership & Soft Skills Program",
     "institution": "Harvard University",
     "institutionLogo": "/assets/images/education/harvard.png",
     "location": "Boston, MA",
@@ -26,11 +23,64 @@
     "countryFlag": "🇺🇸",
     "startDate": "2019-07",
     "endDate": "2019-08",
-    "description": "Student Leader for 21st Century program.",
-    "achievements": [
-      "Recognized as Student Leader for 21st Century",
-      "Awarded by Peruvian Government"
-    ],
+    "description": "Student Leader for the 21st Century program (LASPAU collaboration).",
+    "achievements": ["Recognized as Student Leader for the 21st Century"],
     "type": "specialization"
+  },
+  {
+    "id": "autonomous-university-of-mexico",
+    "degree": "Academic Program",
+    "institution": "Autonomous University of Mexico",
+    "institutionLogo": "/assets/images/education/unam.png",
+    "location": "Mexico City",
+    "country": "Mexico",
+    "countryFlag": "🇲🇽",
+    "startDate": "2019-01",
+    "endDate": "2019-12",
+    "description": "Program listed in previous portfolio design.",
+    "achievements": [],
+    "type": "exchange"
+  },
+  {
+    "id": "san-ignacio-de-loyola",
+    "degree": "Academic Program",
+    "institution": "San Ignacio de Loyola University",
+    "institutionLogo": "/assets/images/education/usil.png",
+    "location": "Lima",
+    "country": "Peru",
+    "countryFlag": "🇵🇪",
+    "startDate": "2018-01",
+    "endDate": "2018-12",
+    "description": "Program listed in previous portfolio design.",
+    "achievements": [],
+    "type": "specialization"
+  },
+  {
+    "id": "university-of-rosario",
+    "degree": "Academic Program",
+    "institution": "University of Rosario",
+    "institutionLogo": "/assets/images/education/rosario.png",
+    "location": "Bogotá",
+    "country": "Colombia",
+    "countryFlag": "🇨🇴",
+    "startDate": "2020-01",
+    "endDate": "2020-12",
+    "description": "Program listed in previous portfolio design.",
+    "achievements": [],
+    "type": "exchange"
+  },
+  {
+    "id": "university-of-deusto",
+    "degree": "Academic Program",
+    "institution": "University of Deusto",
+    "institutionLogo": "/assets/images/education/deusto.png",
+    "location": "Bilbao",
+    "country": "Spain",
+    "countryFlag": "🇪🇸",
+    "startDate": "2020-01",
+    "endDate": "2020-12",
+    "description": "Program listed in previous portfolio design.",
+    "achievements": [],
+    "type": "exchange"
   }
 ]

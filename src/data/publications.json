@@ -1,24 +1,35 @@
 [
   {
-    "id": "publication-1",
-    "title": "Machine Learning Approaches for Predictive Analytics in Education",
-    "authors": ["Juan Patricio Marroquin", "Maria Garcia", "Carlos Rodriguez"],
-    "journal": "International Journal of Educational Technology",
-    "date": "2023-06",
-    "abstract": "This paper explores the application of machine learning algorithms in predicting student performance and engagement in online learning environments. We analyze multiple models and present a comparative study of their effectiveness.",
-    "keywords": ["Machine Learning", "Education", "Predictive Analytics", "AI"],
-    "link": "https://example.com/publication-1",
-    "image": "/assets/images/publications/paper_01.jpg"
+    "id": "neko",
+    "title": "NEKO: A Proposal for Monitoring and Tracking Academic and Psychological Performance for Students and Identifying Dropout Risks",
+    "authors": ["Juan Patricio Marroquin"],
+    "journal": "IEEE (IEEExplore)",
+    "date": "2021-01",
+    "abstract": "Proposal focused on monitoring academic and psychological performance to identify dropout risks.",
+    "keywords": ["Education", "Monitoring", "Dropout Risk", "Analytics"],
+    "link": "https://ieeexplore.ieee.org/",
+    "image": "/assets/images/publications/neko.jpg"
   },
   {
-    "id": "publication-2",
-    "title": "Scalable Cloud Architecture for EdTech Platforms",
-    "authors": ["Juan Patricio Marroquin", "Roberto Silva"],
-    "journal": "Cloud Computing Conference 2022",
-    "date": "2022-11",
-    "abstract": "We present a scalable cloud architecture design for educational technology platforms that can handle millions of concurrent users while maintaining high performance and reliability.",
-    "keywords": ["Cloud Computing", "AWS", "Scalability", "EdTech"],
-    "link": "https://example.com/publication-2",
-    "image": "/assets/images/publications/paper_02.jpg"
+    "id": "five-layer-aws-elearning",
+    "title": "Five-Layer Architecture Proposal using AWS Services and Applied for Cloud E-learning Platforms based on Laravel",
+    "authors": ["Juan Patricio Marroquin"],
+    "journal": "UNMSM (Document Link)",
+    "date": "2021-01",
+    "abstract": "Architecture proposal for cloud e-learning platforms using AWS services and Laravel.",
+    "keywords": ["AWS", "Cloud Architecture", "E-learning", "Laravel"],
+    "link": "https://unmsm0.sharepoint.com/",
+    "image": "/assets/images/publications/five-layer-aws.jpg"
+  },
+  {
+    "id": "iso-iec-25010-quality-model",
+    "title": "Quality Evaluation Model of the ISO/IEC 25010 Standard in Web Applications based on Laravel to Optimize the Performance of an E-learning Platform",
+    "authors": ["Juan Patricio Marroquin"],
+    "journal": "UNMSM (Document Link)",
+    "date": "2021-01",
+    "abstract": "Quality evaluation model based on ISO/IEC 25010 for Laravel web apps to improve e-learning platform performance.",
+    "keywords": ["ISO/IEC 25010", "Quality Model", "Laravel", "Performance"],
+    "link": "https://unmsm0.sharepoint.com/",
+    "image": "/assets/images/publications/iso25010.jpg"
   }
 ]

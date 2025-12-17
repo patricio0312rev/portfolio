@@ -8,20 +8,16 @@
     "type": "full-time",
     "startDate": "2022-01",
     "endDate": "2023-12",
-    "description": "Turn is among the top 100 start-ups of 2022 in the US. Developed web applications, UI & APIs for recruitment, screening and onboarding processes.",
+    "description": "Built features for recruitment, screening, and onboarding workflows at scale.",
     "responsibilities": [
-      "Development of web applications, UI & APIs to carry out the recruitment, screening and onboarding process of millions of companies such as Amazon, Wag, among others",
-      "Created reusable component libraries and shared configuration libraries",
-      "Developed standards for proper maintenance of company repositories applying SOLID principles",
-      "Implemented GraphQL APIs for efficient data fetching",
-      "Led code reviews and mentored junior developers"
+      "Developed web applications and UI features for high-volume hiring workflows",
+      "Built and maintained reusable UI/component libraries to share across projects",
+      "Applied SOLID principles and helped define maintainability standards",
+      "Implemented data fetching using GraphQL (Apollo) where applicable",
+      "Worked with AWS services in product infrastructure"
     ],
-    "achievements": [
-      "Reduced onboarding time by 40% through optimized workflows",
-      "Implemented component library used across 5+ internal projects",
-      "Improved API response times by 60% through caching strategies"
-    ],
-    "technologies": ["react", "nextjs", "typescript", "tailwindcss", "aws", "python", "graphql"],
+    "achievements": [],
+    "technologies": ["react", "nextjs", "typescript", "redux", "graphql", "apollo", "tailwindcss", "aws"],
     "images": [
       "/assets/images/portfolio/project_01/02.png",
       "/assets/images/portfolio/project_01/03.png",
@@ -32,6 +28,27 @@
     "featured": true
   },
   {
+    "id": "myevent",
+    "title": "Software Developer",
+    "company": "MyEvent",
+    "companyLogo": "/assets/images/companies/myevent.png",
+    "location": "Remote",
+    "type": "contract",
+    "startDate": "2021-01",
+    "endDate": "2021-12",
+    "description": "Worked on an event platform to create events and enable ticket purchasing and validation.",
+    "responsibilities": [
+      "Built user flows for event creation and ticket purchasing",
+      "Implemented ticket verification flows for event staff",
+      "Integrated payment providers used in the platform"
+    ],
+    "achievements": [],
+    "technologies": ["react", "nextjs", "nodejs", "tailwindcss"],
+    "images": ["/assets/images/portfolio/project_myevent/01.png"],
+    "website": "",
+    "featured": false
+  },
+  {
     "id": "anqarapp",
     "title": "Founder & CEO",
     "company": "Anqarapp",
@@ -40,21 +57,18 @@
     "type": "founder",
     "startDate": "2020-03",
     "endDate": "2021-12",
-    "description": "Founded and led edtech startup that trained thousands of teachers across 6 Latin American countries during the pandemic.",
+    "description": "Built an e-learning platform during the pandemic to train teachers across multiple countries in Latin America.",
     "responsibilities": [
-      "Designed, developed and deployed complete web application",
-      "Implemented AI for adaptive education model and automated teacher support",
-      "Built 5-layer cloud architecture using AWS services",
-      "Led team of 5 developers and designers",
-      "Managed partnerships with educational institutions"
+      "Designed, developed, and deployed the platform end-to-end",
+      "Built the learning experience and content delivery features",
+      "Implemented a cloud architecture with AWS services",
+      "Led product execution and iteration during high demand"
     ],
     "achievements": [
-      "Reached 6 countries: Peru, Chile, Ecuador, Mexico, Colombia, Argentina",
-      "Trained 10,000+ teachers in remote teaching tools",
-      "Awarded by UNMSM for contribution during crisis",
-      "Achieved 95% user satisfaction rating"
+      "Expanded to 6 countries in Latin America",
+      "Trained thousands of teachers during the pandemic"
     ],
-    "technologies": ["laravel", "react", "tailwindcss", "aws", "mysql", "python"],
+    "technologies": ["react", "nextjs", "laravel", "php", "mysql", "aws", "python", "tailwindcss"],
     "images": [
       "/assets/images/portfolio/project_03/02.png",
       "/assets/images/portfolio/project_03/03.png",
@@ -64,52 +78,138 @@
     "featured": true
   },
   {
+    "id": "masa",
+    "title": "Software Engineer",
+    "company": "Masa",
+    "companyLogo": "/assets/images/companies/masa.png",
+    "location": "Remote",
+    "type": "contract",
+    "startDate": "2020-01",
+    "endDate": "2020-12",
+    "description": "Worked on websites and improvements focused on performance and SEO.",
+    "responsibilities": [
+      "Developed and improved web pages and user experiences",
+      "Implemented performance and SEO improvements"
+    ],
+    "achievements": [],
+    "technologies": ["javascript", "typescript", "react", "nextjs", "seo"],
+    "images": ["/assets/images/portfolio/project_masa/01.png"],
+    "website": "",
+    "featured": false
+  },
+  {
+    "id": "cepeban",
+    "title": "Web Development",
+    "company": "Cepeban School Website",
+    "companyLogo": "/assets/images/companies/cepeban.png",
+    "location": "Peru",
+    "type": "freelance",
+    "startDate": "2020-01",
+    "endDate": "2020-06",
+    "description": "Delivered a website for a school, focusing on clear information structure and usability.",
+    "responsibilities": ["Designed and built the website and landing pages"],
+    "achievements": [],
+    "technologies": ["react", "nextjs", "tailwindcss"],
+    "images": ["/assets/images/portfolio/project_cepeban/01.png"],
+    "website": "",
+    "featured": false
+  },
+  {
+    "id": "ambartravel",
+    "title": "CTO",
+    "company": "AmbarTravel",
+    "companyLogo": "/assets/images/companies/ambartravel.png",
+    "location": "Peru",
+    "type": "founder",
+    "startDate": "2021-01",
+    "endDate": "2021-12",
+    "description": "Built travel-related systems during tourism reactivation; integrated external travel APIs.",
+    "responsibilities": [
+      "Built core platform features for travel operations",
+      "Integrated with travel APIs used by the business"
+    ],
+    "achievements": [],
+    "technologies": ["laravel", "php", "mysql", "aws", "react"],
+    "images": ["/assets/images/portfolio/project_ambartravel/01.png"],
+    "website": "",
+    "featured": false
+  },
+  {
     "id": "vacunatravel",
-    "title": "Full Stack Developer",
-    "company": "Vacunatravel",
+    "title": "Founder & CTO",
+    "company": "VacunaTravel",
     "companyLogo": "/assets/images/companies/vacunatravel.png",
     "location": "Lima, Peru",
-    "type": "freelance",
+    "type": "founder",
     "startDate": "2021-06",
     "endDate": "2021-12",
-    "description": "Developed vaccination management platform for international travelers during COVID-19 pandemic.",
+    "description": "Developed a platform for international travelers during COVID-era requirements.",
     "responsibilities": [
-      "Built full-stack web application for vaccination record management",
-      "Integrated with government health APIs for verification",
-      "Implemented secure document storage and verification system",
-      "Created admin dashboard for healthcare providers"
+      "Built full-stack features for traveler workflows and verification",
+      "Implemented secure storage and document handling"
     ],
-    "achievements": [
-      "Processed 5,000+ vaccination records",
-      "Achieved 99.9% uptime during peak usage"
-    ],
+    "achievements": [],
     "technologies": ["php", "laravel", "vue", "mysql", "aws"],
     "images": [
       "/assets/images/portfolio/project_02/02.png",
       "/assets/images/portfolio/project_02/03.png"
     ],
+    "website": "",
     "featured": false
   },
   {
-    "id": "aaldebaran",
-    "title": "Software Developer",
-    "company": "A. Aldebaran",
-    "companyLogo": "/assets/images/companies/aaldebaran.png",
-    "location": "Lima, Peru",
-    "type": "part-time",
-    "startDate": "2019-06",
-    "endDate": "2020-03",
-    "description": "Developed web applications and mobile apps for various clients in retail and service industries.",
+    "id": "mentores",
+    "title": "Founder & CTO",
+    "company": "Mentores",
+    "companyLogo": "/assets/images/companies/mentores.png",
+    "location": "Peru",
+    "type": "founder",
+    "startDate": "2021-01",
+    "endDate": "2021-12",
+    "description": "Built a call-center system plus chatbot flows and document ingestion features.",
     "responsibilities": [
-      "Developed responsive web applications using React and Laravel",
-      "Built mobile applications with React Native",
-      "Implemented RESTful APIs and database designs",
-      "Collaborated with design team on UI/UX improvements"
+      "Developed a call-center system for customer assistance",
+      "Built chatbot support flows to answer common questions",
+      "Implemented file upload + chunking flow for documents"
     ],
-    "technologies": ["react", "reactnative", "laravel", "mysql", "bootstrap"],
-    "images": [
-      "/assets/images/portfolio/project_04/02.png"
-    ],
+    "achievements": [],
+    "technologies": ["react", "nextjs", "nodejs", "tailwindcss", "python"],
+    "images": ["/assets/images/portfolio/project_mentores/01.png"],
+    "website": "",
+    "featured": false
+  },
+  {
+    "id": "eventify",
+    "title": "Software Developer",
+    "company": "Eventify",
+    "companyLogo": "/assets/images/companies/eventify.png",
+    "location": "Peru",
+    "type": "freelance",
+    "startDate": "2019-01",
+    "endDate": "2019-12",
+    "description": "Ticketing/event flows including QR validation and event management features.",
+    "responsibilities": ["Built event management and validation features"],
+    "achievements": [],
+    "technologies": ["laravel", "php", "mysql", "react"],
+    "images": ["/assets/images/portfolio/project_eventify/01.png"],
+    "website": "",
+    "featured": false
+  },
+  {
+    "id": "accesodirecto",
+    "title": "Software Developer",
+    "company": "AccesoDirecto",
+    "companyLogo": "/assets/images/companies/accesodirecto.png",
+    "location": "Peru",
+    "type": "part-time",
+    "startDate": "2019-01",
+    "endDate": "2019-06",
+    "description": "Role listed in previous portfolio design.",
+    "responsibilities": [],
+    "achievements": [],
+    "technologies": ["php", "laravel", "mysql"],
+    "images": ["/assets/images/portfolio/project_accesodirecto/01.png"],
+    "website": "",
     "featured": false
   }
 ]
