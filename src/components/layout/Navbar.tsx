@@ -51,8 +51,8 @@ export function Navbar() {
     <header
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        isScrolled
-          ? 'bg-white/80 dark:bg-zinc-900/80 backdrop-blur-lg shadow-sm'
+        isScrolled || isOpen
+          ? 'bg-white/95 dark:bg-zinc-900/95 backdrop-blur-lg shadow-sm'
           : 'bg-transparent'
       )}
     >
@@ -64,16 +64,21 @@ export function Navbar() {
             className="flex items-center gap-3 group"
             onClick={() => handleClick('#home')}
           >
-            <div className="h-10 w-10 rounded-full overflow-hidden ring-2 ring-sky-500/20 group-hover:ring-sky-500 transition-all">
+            <div className="relative h-10 w-10 rounded-full overflow-hidden ring-2 ring-sky-500/20 group-hover:ring-sky-500/50 transition-all">
               <img
                 src={SITE_CONFIG.profileImage}
                 alt={SITE_CONFIG.shortName}
                 className="h-full w-full object-cover"
               />
             </div>
-            <span className="text-xl font-bold gradient-text hidden sm:inline">
-              {SITE_CONFIG.shortName}
-            </span>
+            <div className="hidden sm:flex flex-col">
+              <span className="text-base font-bold bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent leading-tight">
+                Patricio
+              </span>
+              <span className="text-base font-bold bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent leading-tight">
+                Marroquin
+              </span>
+            </div>
           </a>
 
           {/* Desktop Navigation */}
@@ -144,7 +149,7 @@ export function Navbar() {
             <ThemeToggle />
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="rounded-lg p-2 hover:bg-zinc-100 dark:hover:bg-zinc-800"
+              className="rounded-lg p-2 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
               aria-label="Toggle menu"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -153,8 +158,13 @@ export function Navbar() {
         </div>
 
         {/* Mobile Navigation */}
-        {isOpen && (
-          <div className="border-t border-zinc-200 dark:border-zinc-800 py-4 xl:hidden">
+        <div
+          className={cn(
+            'xl:hidden overflow-hidden transition-all duration-300 ease-in-out',
+            isOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
+          )}
+        >
+          <div className="border-t border-zinc-200 dark:border-zinc-800 py-4">
             <div className="flex flex-col gap-4">
               {NAV_LINKS.map((link) => (
                 <a
@@ -215,7 +225,7 @@ export function Navbar() {
               </div>
             </div>
           </div>
-        )}
+        </div>
       </nav>
     </header>
   );
