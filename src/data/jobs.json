@@ -31,7 +31,7 @@
     "id": "myevent",
     "title": "Software Developer",
     "company": "MyEvent",
-    "companyLogo": "/assets/images/companies/myevent.png",
+    "companyLogo": "/assets/images/slider/message.jpg",
     "location": "Remote",
     "type": "contract",
     "startDate": "2021-01",
@@ -44,7 +44,10 @@
     ],
     "achievements": [],
     "technologies": ["react", "nextjs", "nodejs", "tailwindcss"],
-    "images": ["/assets/images/portfolio/project_myevent/01.png"],
+    "images": [
+      "/assets/images/portfolio/project_05/02.png",
+      "/assets/images/portfolio/project_05/03.png"
+    ],
     "website": "",
     "featured": false
   },
@@ -81,7 +84,7 @@
     "id": "masa",
     "title": "Software Engineer",
     "company": "Masa",
-    "companyLogo": "/assets/images/companies/masa.png",
+    "companyLogo": "/assets/images/slider/message.jpg",
     "location": "Remote",
     "type": "contract",
     "startDate": "2020-01",
@@ -93,7 +96,10 @@
     ],
     "achievements": [],
     "technologies": ["javascript", "typescript", "react", "nextjs", "seo"],
-    "images": ["/assets/images/portfolio/project_masa/01.png"],
+    "images": [
+      "/assets/images/portfolio/project_06/02.png",
+      "/assets/images/portfolio/project_06/03.png"
+    ],
     "website": "",
     "featured": false
   },
@@ -101,7 +107,7 @@
     "id": "cepeban",
     "title": "Web Development",
     "company": "Cepeban School Website",
-    "companyLogo": "/assets/images/companies/cepeban.png",
+    "companyLogo": "/assets/images/slider/message.jpg",
     "location": "Peru",
     "type": "freelance",
     "startDate": "2020-01",
@@ -110,7 +116,10 @@
     "responsibilities": ["Designed and built the website and landing pages"],
     "achievements": [],
     "technologies": ["react", "nextjs", "tailwindcss"],
-    "images": ["/assets/images/portfolio/project_cepeban/01.png"],
+    "images": [
+      "/assets/images/portfolio/project_07/02.png",
+      "/assets/images/portfolio/project_07/03.png"
+    ],
     "website": "",
     "featured": false
   },
@@ -118,7 +127,7 @@
     "id": "ambartravel",
     "title": "CTO",
     "company": "AmbarTravel",
-    "companyLogo": "/assets/images/companies/ambartravel.png",
+    "companyLogo": "/assets/images/slider/message.jpg",
     "location": "Peru",
     "type": "founder",
     "startDate": "2021-01",
@@ -130,7 +139,10 @@
     ],
     "achievements": [],
     "technologies": ["laravel", "php", "mysql", "aws", "react"],
-    "images": ["/assets/images/portfolio/project_ambartravel/01.png"],
+    "images": [
+      "/assets/images/portfolio/project_08/02.png",
+      "/assets/images/portfolio/project_08/03.png"
+    ],
     "website": "",
     "featured": false
   },
@@ -161,7 +173,7 @@
     "id": "mentores",
     "title": "Founder & CTO",
     "company": "Mentores",
-    "companyLogo": "/assets/images/companies/mentores.png",
+    "companyLogo": "/assets/images/slider/message.jpg",
     "location": "Peru",
     "type": "founder",
     "startDate": "2021-01",
@@ -174,7 +186,11 @@
     ],
     "achievements": [],
     "technologies": ["react", "nextjs", "nodejs", "tailwindcss", "python"],
-    "images": ["/assets/images/portfolio/project_mentores/01.png"],
+    "images": [
+      "/assets/images/portfolio/project_09/02.png",
+      "/assets/images/portfolio/project_09/03.png",
+      "/assets/images/portfolio/project_09/04.png"
+    ],
     "website": "",
     "featured": false
   },
@@ -182,7 +198,7 @@
     "id": "eventify",
     "title": "Software Developer",
     "company": "Eventify",
-    "companyLogo": "/assets/images/companies/eventify.png",
+    "companyLogo": "/assets/images/slider/message.jpg",
     "location": "Peru",
     "type": "freelance",
     "startDate": "2019-01",
@@ -191,7 +207,10 @@
     "responsibilities": ["Built event management and validation features"],
     "achievements": [],
     "technologies": ["laravel", "php", "mysql", "react"],
-    "images": ["/assets/images/portfolio/project_eventify/01.png"],
+    "images": [
+      "/assets/images/portfolio/project_10/02.png",
+      "/assets/images/portfolio/project_10/03.png"
+    ],
     "website": "",
     "featured": false
   },
@@ -199,7 +218,7 @@
     "id": "accesodirecto",
     "title": "Software Developer",
     "company": "AccesoDirecto",
-    "companyLogo": "/assets/images/companies/accesodirecto.png",
+    "companyLogo": "/assets/images/slider/message.jpg",
     "location": "Peru",
     "type": "part-time",
     "startDate": "2019-01",
@@ -208,7 +227,10 @@
     "responsibilities": [],
     "achievements": [],
     "technologies": ["php", "laravel", "mysql"],
-    "images": ["/assets/images/portfolio/project_accesodirecto/01.png"],
+    "images": [
+      "/assets/images/portfolio/portfolio-14.jpg",
+      "/assets/images/portfolio/portfolio-15.jpg"
+    ],
     "website": "",
     "featured": false
   }

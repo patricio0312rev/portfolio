@@ -28,11 +28,11 @@
     "type": "specialization"
   },
   {
-    "id": "autonomous-university-of-mexico",
+    "id": "uaemex-program",
     "degree": "Academic Program",
-    "institution": "Autonomous University of Mexico",
-    "institutionLogo": "/assets/images/education/unam.png",
-    "location": "Mexico City",
+    "institution": "Universidad Autónoma del Estado de México (UAEMex)",
+    "institutionLogo": "/assets/images/education/uaemex.png",
+    "location": "Toluca",
     "country": "Mexico",
     "countryFlag": "🇲🇽",
     "startDate": "2019-01",
@@ -44,8 +44,8 @@
   {
     "id": "san-ignacio-de-loyola",
     "degree": "Academic Program",
-    "institution": "San Ignacio de Loyola University",
-    "institutionLogo": "/assets/images/education/usil.png",
+    "institution": "Universidad San Ignacio de Loyola (USIL)",
+    "institutionLogo": "/assets/images/slider/message.jpg",
     "location": "Lima",
     "country": "Peru",
     "countryFlag": "🇵🇪",
@@ -58,8 +58,8 @@
   {
     "id": "university-of-rosario",
     "degree": "Academic Program",
-    "institution": "University of Rosario",
-    "institutionLogo": "/assets/images/education/rosario.png",
+    "institution": "Universidad del Rosario",
+    "institutionLogo": "/assets/images/education/urosario.png",
     "location": "Bogotá",
     "country": "Colombia",
     "countryFlag": "🇨🇴",
@@ -72,8 +72,8 @@
   {
     "id": "university-of-deusto",
     "degree": "Academic Program",
-    "institution": "University of Deusto",
-    "institutionLogo": "/assets/images/education/deusto.png",
+    "institution": "Universidad de Deusto",
+    "institutionLogo": "/assets/images/education/udeusto.png",
     "location": "Bilbao",
     "country": "Spain",
     "countryFlag": "🇪🇸",
@@ -82,5 +82,19 @@
     "description": "Program listed in previous portfolio design.",
     "achievements": [],
     "type": "exchange"
+  },
+  {
+    "id": "huawei-university",
+    "degree": "Huawei University Program",
+    "institution": "Huawei University",
+    "institutionLogo": "/assets/images/education/huaweiuniversity.png",
+    "location": "Online",
+    "country": "Global",
+    "countryFlag": "🌍",
+    "startDate": "2019-01",
+    "endDate": "2019-12",
+    "description": "Program listed in previous portfolio design.",
+    "achievements": [],
+    "type": "specialization"
   }
 ]
