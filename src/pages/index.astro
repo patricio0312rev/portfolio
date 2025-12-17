@@ -1,45 +1,56 @@
 ---
-import BaseLayout from '@/layouts/BaseLayout.astro';
-import { Navbar } from '@/components/layout/Navbar';
-import { Footer } from '@/components/layout/Footer';
-import { Hero } from '@/components/sections/Hero';
-import { About } from '@/components/sections/About';
-import { Experience } from '@/components/sections/Experience';
-import { Education } from '@/components/sections/Education';
-import { Awards } from '@/components/sections/Awards';
-import { Publications } from '@/components/sections/Publications';
-import { Contact } from '@/components/sections/Contact';
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
+import { Hero } from "@/components/sections/Hero";
+import { About } from "@/components/sections/About";
+import { Experience } from "@/components/sections/Experience";
+import { Education } from "@/components/sections/Education";
+import { Awards } from "@/components/sections/Awards";
+import { Publications } from "@/components/sections/Publications";
+import { Contact } from "@/components/sections/Contact";
 
-// Import data
-import jobsData from '@/data/jobs.json';
-import educationData from '@/data/education.json';
-import awardsData from '@/data/awards.json';
-import publicationsData from '@/data/publications.json';
+import type {
+  Job,
+  Education as EducationType,
+  Award,
+  Publication,
+} from "@/types";
 
-// Sort jobs by start date (most recent first)
-const jobs = jobsData.sort((a, b) => {
-  return new Date(b.startDate).getTime() - new Date(a.startDate).getTime();
-});
+import jobsDataRaw from "@/data/jobs.json";
+import educationDataRaw from "@/data/education.json";
+import awardsDataRaw from "@/data/awards.json";
+import publicationsDataRaw from "@/data/publications.json";
 
-// Sort education by start date (most recent first)
-const education = educationData.sort((a, b) => {
-  return new Date(b.startDate).getTime() - new Date(a.startDate).getTime();
-});
+const jobsData = jobsDataRaw as unknown as Job[];
+const educationData = educationDataRaw as unknown as EducationType[];
+const awardsData = awardsDataRaw as unknown as Award[];
+const publicationsData = publicationsDataRaw as unknown as Publication[];
 
-// Sort awards by date (most recent first)
-const awards = awardsData.sort((a, b) => {
-  return new Date(b.date).getTime() - new Date(a.date).getTime();
-});
+const jobs: Job[] = jobsData
+  .slice()
+  .sort(
+    (a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime(),
+  );
 
-// Sort publications by date (most recent first)
-const publications = publicationsData.sort((a, b) => {
-  return new Date(b.date).getTime() - new Date(a.date).getTime();
-});
+const education: EducationType[] = educationData
+  .slice()
+  .sort(
+    (a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime(),
+  );
+
+const awards: Award[] = awardsData
+  .slice()
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const publications: Publication[] = publicationsData
+  .slice()
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 ---
 
 <BaseLayout>
   <Navbar client:load />
-  
+
   <main>
     <Hero client:load />
     <About client:visible />
@@ -49,6 +60,6 @@ const publications = publicationsData.sort((a, b) => {
     <Publications publications={publications} client:visible />
     <Contact client:visible />
   </main>
-  
+
   <Footer />
 </BaseLayout>
