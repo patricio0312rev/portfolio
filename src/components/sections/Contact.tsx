@@ -1,4 +1,4 @@
-import { Mail, Calendar, Download, MapPin, Phone } from 'lucide-react';
+import { Mail, Calendar, Download, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { SITE_CONFIG, SOCIAL_LINKS } from '@/constants';
 
@@ -43,7 +43,7 @@ export function Contact() {
               <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
                 Book a 30-minute call to discuss your project or opportunity.
               </p>
-              <Button variant="secondary" size="sm" href={SOCIAL_LINKS.calendly} className="w-full">
+              <Button variant="secondary" size="sm" href={SOCIAL_LINKS.calendly} target="_blank" className="w-full">
                 <Calendar className="h-4 w-4" />
                 Book a Meeting
               </Button>
@@ -79,7 +79,7 @@ export function Contact() {
 
             {/* Download CV */}
             <div className="flex justify-center">
-              <Button variant="primary" size="lg" href={SOCIAL_LINKS.resume}>
+              <Button variant="primary" size="lg" href={SOCIAL_LINKS.resume} target="_blank">
                 <Download className="h-5 w-5" />
                 Download Resume
               </Button>

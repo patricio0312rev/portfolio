@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu, X, Download, Calendar, Github, Linkedin, Twitter, Instagram } from 'lucide-react';
 import * as SimpleIcons from 'simple-icons';
 import { NAV_LINKS, SITE_CONFIG, SOCIAL_LINKS } from '@/constants';
@@ -132,11 +132,11 @@ export function Navbar() {
 
             {/* Action Buttons */}
             <div className="flex items-center gap-2">
-              <Button variant="ghost" size="sm" href={SOCIAL_LINKS.resume}>
+              <Button variant="ghost" size="sm" href={SOCIAL_LINKS.resume} target="_blank">
                 <Download className="h-4 w-4" />
                 CV
               </Button>
-              <Button variant="primary" size="sm" href={SOCIAL_LINKS.calendly}>
+              <Button variant="primary" size="sm" href={SOCIAL_LINKS.calendly} target="_blank">
                 <Calendar className="h-4 w-4" />
                 Schedule
               </Button>
@@ -214,11 +214,11 @@ export function Navbar() {
 
               {/* Mobile Action Buttons */}
               <div className="flex flex-col gap-2 pt-2">
-                <Button variant="ghost" size="md" href={SOCIAL_LINKS.resume} className="w-full">
+                <Button variant="ghost" size="md" href={SOCIAL_LINKS.resume} target="_blank" className="w-full">
                   <Download className="h-4 w-4" />
                   Download CV
                 </Button>
-                <Button variant="primary" size="md" href={SOCIAL_LINKS.calendly} className="w-full">
+                <Button variant="primary" size="md" href={SOCIAL_LINKS.calendly} target="_blank" className="w-full">
                   <Calendar className="h-4 w-4" />
                   Schedule a Call
                 </Button>
