@@ -1,9 +1,9 @@
-import { MapPin, Calendar, ExternalLink } from 'lucide-react';
-import type { Job } from '@/types';
-import { TechBadge } from '@/components/ui/TechBadge';
-import { Button } from '@/components/ui/Button';
-import { getDateRange, calculateDuration } from '@/utils/date';
-import { MAX_VISIBLE_TECH } from '@/constants';
+import { MapPin, Calendar, ExternalLink } from "lucide-react";
+import type { Job } from "@/types";
+import { TechBadge } from "@/components/ui/TechBadge";
+import { Button } from "@/components/ui/Button";
+import { getDateRange, calculateDuration } from "@/utils/date";
+import { MAX_VISIBLE_TECH } from "@/constants";
 
 interface JobCardProps {
   job: Job;
@@ -13,9 +13,17 @@ interface JobCardProps {
 export function JobCard({ job, onViewDetails }: JobCardProps) {
   const visibleTechs = job.technologies.slice(0, MAX_VISIBLE_TECH);
   const remainingCount = job.technologies.length - MAX_VISIBLE_TECH;
+  const projectPreviews = job.projects.slice(0, 2);
+  const remainingProjects = job.projects.length - projectPreviews.length;
+
+  const previewImages = (() => {
+    if (job.images?.length) return job.images;
+    const projectImages = job.projects.flatMap((p) => p.images ?? []);
+    return projectImages;
+  })();
 
   return (
-    <article 
+    <article
       className="group relative rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 transition-all duration-300 hover:shadow-xl hover:shadow-sky-500/10 hover:border-sky-500/50 cursor-pointer"
       onClick={() => onViewDetails(job)}
     >
@@ -69,20 +77,58 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
             {job.description}
           </p>
 
-          {/* Responsibilities */}
-          <ul className="space-y-1 mb-4">
-            {job.responsibilities.slice(0, 2).map((resp, idx) => (
-              <li key={idx} className="text-sm text-zinc-600 dark:text-zinc-400 flex items-start gap-2">
-                <span className="text-sky-500 mt-1">•</span>
-                <span className="line-clamp-1">{resp}</span>
-              </li>
-            ))}
-            {job.responsibilities.length > 2 && (
-              <li className="text-sm text-zinc-500 dark:text-zinc-500 italic">
-                +{job.responsibilities.length - 2} more responsibilities...
-              </li>
-            )}
-          </ul>
+          {/* Projects Overview */}
+          {job.projects.length > 0 && (
+            <div className="space-y-3 mb-4">
+              {projectPreviews.map((project) => (
+                <div
+                  key={project.id}
+                  className="rounded-xl border border-zinc-100 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900/40 p-3"
+                >
+                  <div className="flex items-start justify-between gap-2">
+                    <div>
+                      <p className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                        {project.name}
+                      </p>
+                      {project.summary && (
+                        <p className="text-xs text-zinc-500 dark:text-zinc-400 line-clamp-2">
+                          {project.summary}
+                        </p>
+                      )}
+                    </div>
+                    <span className="text-[11px] font-medium text-zinc-500 dark:text-zinc-400">
+                      {project.bullets.length} bullet
+                      {project.bullets.length === 1 ? "" : "s"}
+                    </span>
+                  </div>
+
+                  <ul className="mt-2 space-y-1">
+                    {project.bullets.slice(0, 2).map((bullet, idx) => (
+                      <li
+                        key={idx}
+                        className="text-sm text-zinc-600 dark:text-zinc-400 flex items-start gap-2"
+                      >
+                        <span className="text-sky-500 mt-1">•</span>
+                        <span className="line-clamp-1">{bullet}</span>
+                      </li>
+                    ))}
+                    {project.bullets.length > 2 && (
+                      <li className="text-xs text-zinc-500 dark:text-zinc-500 italic">
+                        +{project.bullets.length - 2} more
+                      </li>
+                    )}
+                  </ul>
+                </div>
+              ))}
+
+              {remainingProjects > 0 && (
+                <p className="text-xs text-zinc-500 dark:text-zinc-500">
+                  +{remainingProjects} more project
+                  {remainingProjects === 1 ? "" : "s"} in details
+                </p>
+              )}
+            </div>
+          )}
 
           {/* Technologies */}
           <div className="flex flex-wrap gap-2 mb-4">
@@ -96,10 +142,10 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
             )}
           </div>
 
-          {/* Image Previews */}
-          {job.images.length > 0 && (
+          {/* Image Previews (job images OR project images) */}
+          {previewImages.length > 0 && (
             <div className="flex gap-2 mb-4 overflow-hidden">
-              {job.images.slice(0, 3).map((image, idx) => (
+              {previewImages.slice(0, 3).map((image, idx) => (
                 <div
                   key={idx}
                   className="h-20 w-20 flex-shrink-0 rounded-lg overflow-hidden bg-zinc-100 dark:bg-zinc-800"
@@ -112,9 +158,9 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
                   />
                 </div>
               ))}
-              {job.images.length > 3 && (
+              {previewImages.length > 3 && (
                 <div className="h-20 w-20 flex-shrink-0 rounded-lg bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center text-sm font-medium text-zinc-600 dark:text-zinc-400">
-                  +{job.images.length - 3}
+                  +{previewImages.length - 3}
                 </div>
               )}
             </div>
@@ -132,6 +178,7 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
             >
               View Details
             </Button>
+
             {job.website && (
               <Button
                 variant="ghost"
@@ -139,7 +186,7 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
                 href={job.website}
                 onClick={(e: React.MouseEvent) => {
                   e.stopPropagation();
-                  window.open(job.website, '_blank');
+                  window.open(job.website!, "_blank", "noopener,noreferrer");
                 }}
               >
                 <ExternalLink className="h-4 w-4" />

@@ -9,15 +9,57 @@
     "startDate": "2022-01",
     "endDate": "2023-12",
     "description": "Built features for recruitment, screening, and onboarding workflows at scale.",
-    "responsibilities": [
-      "Developed web applications and UI features for high-volume hiring workflows",
-      "Built and maintained reusable UI/component libraries to share across projects",
-      "Applied SOLID principles and helped define maintainability standards",
-      "Implemented data fetching using GraphQL (Apollo) where applicable",
-      "Worked with AWS services in product infrastructure"
+    "projects": [
+      {
+        "id": "turn-hiring-platform",
+        "name": "Hiring & onboarding platform",
+        "summary": "End-to-end flows for candidate recruitment, screening, and onboarding.",
+        "bullets": [
+          "Developed web applications and UI features for high-volume hiring workflows",
+          "Implemented data fetching using GraphQL (Apollo) to simplify API integrations",
+          "Worked with AWS services in the product infrastructure to keep features reliable"
+        ],
+        "technologies": [
+          "react",
+          "nextjs",
+          "typescript",
+          "redux",
+          "graphql",
+          "apollo",
+          "aws",
+          "tailwindcss"
+        ],
+        "images": [
+          "/assets/images/portfolio/project_01/02.png",
+          "/assets/images/portfolio/project_01/03.png"
+        ]
+      },
+      {
+        "id": "turn-design-system",
+        "name": "Design system & shared UI",
+        "summary": "Reusable UI libraries shared across multiple products.",
+        "bullets": [
+          "Built and maintained reusable UI/component libraries to share across projects",
+          "Applied SOLID principles and helped define maintainability standards"
+        ],
+        "technologies": ["react", "typescript", "tailwindcss"],
+        "images": [
+          "/assets/images/portfolio/project_01/04.png",
+          "/assets/images/portfolio/project_01/05.png"
+        ]
+      }
     ],
     "achievements": [],
-    "technologies": ["react", "nextjs", "typescript", "redux", "graphql", "apollo", "tailwindcss", "aws"],
+    "technologies": [
+      "react",
+      "nextjs",
+      "typescript",
+      "redux",
+      "graphql",
+      "apollo",
+      "tailwindcss",
+      "aws"
+    ],
     "images": [
       "/assets/images/portfolio/project_01/02.png",
       "/assets/images/portfolio/project_01/03.png",
@@ -37,10 +79,26 @@
     "startDate": "2021-01",
     "endDate": "2021-12",
     "description": "Worked on an event platform to create events and enable ticket purchasing and validation.",
-    "responsibilities": [
-      "Built user flows for event creation and ticket purchasing",
-      "Implemented ticket verification flows for event staff",
-      "Integrated payment providers used in the platform"
+    "projects": [
+      {
+        "id": "myevent-ticketing",
+        "name": "Event creation & ticketing",
+        "summary": "Experience for creating events, configuring inventory, and selling tickets.",
+        "bullets": [
+          "Built user flows for event creation and ticket purchasing",
+          "Integrated payment providers used in the platform"
+        ],
+        "technologies": ["react", "nextjs", "nodejs", "tailwindcss"],
+        "images": ["/assets/images/portfolio/project_05/02.png"]
+      },
+      {
+        "id": "myevent-validation",
+        "name": "Ticket validation tools",
+        "summary": "Operational tools for event staff to verify attendees.",
+        "bullets": ["Implemented ticket verification flows for event staff"],
+        "technologies": ["react", "nodejs", "tailwindcss"],
+        "images": ["/assets/images/portfolio/project_05/03.png"]
+      }
     ],
     "achievements": [],
     "technologies": ["react", "nextjs", "nodejs", "tailwindcss"],
@@ -61,17 +119,48 @@
     "startDate": "2020-03",
     "endDate": "2021-12",
     "description": "Built an e-learning platform during the pandemic to train teachers across multiple countries in Latin America.",
-    "responsibilities": [
-      "Designed, developed, and deployed the platform end-to-end",
-      "Built the learning experience and content delivery features",
-      "Implemented a cloud architecture with AWS services",
-      "Led product execution and iteration during high demand"
+    "projects": [
+      {
+        "id": "anqarapp-learning-platform",
+        "name": "E-learning platform",
+        "summary": "Learning experience and content delivery used across multiple countries.",
+        "bullets": [
+          "Designed, developed, and deployed the platform end-to-end",
+          "Built the learning experience and content delivery features",
+          "Led product execution and iteration during high demand"
+        ],
+        "technologies": ["react", "nextjs", "tailwindcss"],
+        "images": [
+          "/assets/images/portfolio/project_03/02.png",
+          "/assets/images/portfolio/project_03/03.png"
+        ]
+      },
+      {
+        "id": "anqarapp-cloud-architecture",
+        "name": "Cloud architecture",
+        "summary": "Scalable foundation for content delivery during regional peaks.",
+        "bullets": [
+          "Implemented a cloud architecture with AWS services",
+          "Scaled delivery to support teachers across 6 countries"
+        ],
+        "technologies": ["aws", "php", "laravel", "mysql", "python"],
+        "images": ["/assets/images/portfolio/project_03/04.png"]
+      }
     ],
     "achievements": [
       "Expanded to 6 countries in Latin America",
       "Trained thousands of teachers during the pandemic"
     ],
-    "technologies": ["react", "nextjs", "laravel", "php", "mysql", "aws", "python", "tailwindcss"],
+    "technologies": [
+      "react",
+      "nextjs",
+      "laravel",
+      "php",
+      "mysql",
+      "aws",
+      "python",
+      "tailwindcss"
+    ],
     "images": [
       "/assets/images/portfolio/project_03/02.png",
       "/assets/images/portfolio/project_03/03.png",
@@ -90,9 +179,23 @@
     "startDate": "2020-01",
     "endDate": "2020-12",
     "description": "Worked on websites and improvements focused on performance and SEO.",
-    "responsibilities": [
-      "Developed and improved web pages and user experiences",
-      "Implemented performance and SEO improvements"
+    "projects": [
+      {
+        "id": "masa-web-experience",
+        "name": "Web experience revamp",
+        "summary": "New and improved pages with better UX for marketing campaigns.",
+        "bullets": ["Developed and improved web pages and user experiences"],
+        "technologies": ["javascript", "typescript", "react", "nextjs"],
+        "images": ["/assets/images/portfolio/project_06/02.png"]
+      },
+      {
+        "id": "masa-performance",
+        "name": "Performance & SEO",
+        "summary": "Site performance and search visibility improvements.",
+        "bullets": ["Implemented performance and SEO improvements"],
+        "technologies": ["nextjs", "seo"],
+        "images": ["/assets/images/portfolio/project_06/03.png"]
+      }
     ],
     "achievements": [],
     "technologies": ["javascript", "typescript", "react", "nextjs", "seo"],
@@ -113,7 +216,19 @@
     "startDate": "2020-01",
     "endDate": "2020-06",
     "description": "Delivered a website for a school, focusing on clear information structure and usability.",
-    "responsibilities": ["Designed and built the website and landing pages"],
+    "projects": [
+      {
+        "id": "cepeban-website",
+        "name": "School website",
+        "summary": "Marketing site highlighting programs and admissions.",
+        "bullets": ["Designed and built the website and landing pages"],
+        "technologies": ["react", "nextjs", "tailwindcss"],
+        "images": [
+          "/assets/images/portfolio/project_07/02.png",
+          "/assets/images/portfolio/project_07/03.png"
+        ]
+      }
+    ],
     "achievements": [],
     "technologies": ["react", "nextjs", "tailwindcss"],
     "images": [
@@ -133,9 +248,23 @@
     "startDate": "2021-01",
     "endDate": "2021-12",
     "description": "Built travel-related systems during tourism reactivation; integrated external travel APIs.",
-    "responsibilities": [
-      "Built core platform features for travel operations",
-      "Integrated with travel APIs used by the business"
+    "projects": [
+      {
+        "id": "ambartravel-operations",
+        "name": "Travel operations platform",
+        "summary": "Platform features for booking, inventory, and customer workflows.",
+        "bullets": ["Built core platform features for travel operations"],
+        "technologies": ["laravel", "php", "mysql", "aws", "react"],
+        "images": ["/assets/images/portfolio/project_08/02.png"]
+      },
+      {
+        "id": "ambartravel-integrations",
+        "name": "Travel API integrations",
+        "summary": "Connectivity with third-party travel providers.",
+        "bullets": ["Integrated with travel APIs used by the business"],
+        "technologies": ["laravel", "php", "mysql", "aws"],
+        "images": ["/assets/images/portfolio/project_08/03.png"]
+      }
     ],
     "achievements": [],
     "technologies": ["laravel", "php", "mysql", "aws", "react"],
@@ -156,9 +285,21 @@
     "startDate": "2021-06",
     "endDate": "2021-12",
     "description": "Developed a platform for international travelers during COVID-era requirements.",
-    "responsibilities": [
-      "Built full-stack features for traveler workflows and verification",
-      "Implemented secure storage and document handling"
+    "projects": [
+      {
+        "id": "vacunatravel-platform",
+        "name": "Travel compliance portal",
+        "summary": "Travel workflows for vaccination and document verification.",
+        "bullets": [
+          "Built full-stack features for traveler workflows and verification",
+          "Implemented secure storage and document handling"
+        ],
+        "technologies": ["php", "laravel", "vue", "mysql", "aws"],
+        "images": [
+          "/assets/images/portfolio/project_02/02.png",
+          "/assets/images/portfolio/project_02/03.png"
+        ]
+      }
     ],
     "achievements": [],
     "technologies": ["php", "laravel", "vue", "mysql", "aws"],
@@ -179,10 +320,29 @@
     "startDate": "2021-01",
     "endDate": "2021-12",
     "description": "Built a call-center system plus chatbot flows and document ingestion features.",
-    "responsibilities": [
-      "Developed a call-center system for customer assistance",
-      "Built chatbot support flows to answer common questions",
-      "Implemented file upload + chunking flow for documents"
+    "projects": [
+      {
+        "id": "mentores-call-center",
+        "name": "Call-center system",
+        "summary": "Voice and agent workflows to support customers.",
+        "bullets": ["Developed a call-center system for customer assistance"],
+        "technologies": ["react", "nextjs", "nodejs", "tailwindcss"],
+        "images": [
+          "/assets/images/portfolio/project_09/02.png",
+          "/assets/images/portfolio/project_09/03.png"
+        ]
+      },
+      {
+        "id": "mentores-automation",
+        "name": "Automation & knowledge ingestion",
+        "summary": "Chatbots and document processing to speed up support.",
+        "bullets": [
+          "Built chatbot support flows to answer common questions",
+          "Implemented file upload + chunking flow for documents"
+        ],
+        "technologies": ["python", "nodejs", "react"],
+        "images": ["/assets/images/portfolio/project_09/04.png"]
+      }
     ],
     "achievements": [],
     "technologies": ["react", "nextjs", "nodejs", "tailwindcss", "python"],
@@ -204,7 +364,19 @@
     "startDate": "2019-01",
     "endDate": "2019-12",
     "description": "Ticketing/event flows including QR validation and event management features.",
-    "responsibilities": ["Built event management and validation features"],
+    "projects": [
+      {
+        "id": "eventify-platform",
+        "name": "Event management platform",
+        "summary": "Ticketing flows with QR validation and management tools.",
+        "bullets": ["Built event management and validation features"],
+        "technologies": ["laravel", "php", "mysql", "react"],
+        "images": [
+          "/assets/images/portfolio/project_10/02.png",
+          "/assets/images/portfolio/project_10/03.png"
+        ]
+      }
+    ],
     "achievements": [],
     "technologies": ["laravel", "php", "mysql", "react"],
     "images": [
@@ -224,7 +396,19 @@
     "startDate": "2019-01",
     "endDate": "2019-06",
     "description": "Role listed in previous portfolio design.",
-    "responsibilities": [],
+    "projects": [
+      {
+        "id": "accesodirecto-legacy",
+        "name": "Legacy portfolio entry",
+        "summary": "Maintained this listing from the previous portfolio version.",
+        "bullets": ["Details tracked for historical context of earlier work"],
+        "technologies": ["php", "laravel", "mysql"],
+        "images": [
+          "/assets/images/portfolio/portfolio-14.jpg",
+          "/assets/images/portfolio/portfolio-15.jpg"
+        ]
+      }
+    ],
     "achievements": [],
     "technologies": ["php", "laravel", "mysql"],
     "images": [

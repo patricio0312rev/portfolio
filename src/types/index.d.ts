@@ -1,14 +1,24 @@
+export interface JobProject {
+  id: string;
+  name: string;
+  summary?: string;
+  bullets: string[];
+  technologies?: string[];
+  images?: string[];
+  website?: string;
+}
+
 export interface Job {
   id: string;
   title: string;
   company: string;
   companyLogo: string;
   location: string;
-  type: 'full-time' | 'part-time' | 'contract' | 'freelance' | 'founder';
+  type: "full-time" | "part-time" | "contract" | "freelance" | "founder";
   startDate: string;
-  endDate: string | 'present';
+  endDate: string | "present";
   description: string;
-  responsibilities: string[];
+  projects: JobProject[];
   achievements?: string[];
   technologies: string[];
   images: string[];
@@ -28,7 +38,7 @@ export interface Education {
   endDate: string;
   description: string;
   achievements?: string[];
-  type: 'bachelor' | 'master' | 'specialization' | 'diploma';
+  type: "bachelor" | "master" | "specialization" | "diploma";
 }
 
 export interface Award {
@@ -39,7 +49,7 @@ export interface Award {
   description: string;
   images: string[];
   link?: string;
-  category: 'academic' | 'professional' | 'competition';
+  category: "academic" | "professional" | "competition";
 }
 
 export interface Publication {
@@ -54,7 +64,7 @@ export interface Publication {
   image: string;
 }
 
-export type Theme = 'light' | 'dark';
+export type Theme = "light" | "dark";
 
 export interface SEOProps {
   title?: string;
