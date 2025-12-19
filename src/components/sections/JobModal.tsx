@@ -76,10 +76,6 @@ export function JobModal({ job, onClose }: JobModalProps) {
     );
   };
 
-  const openWebsite = (url: string) => {
-    window.open(url, "_blank", "noopener,noreferrer");
-  };
-
   if (!mounted || !job) return null;
 
   const viewTechnologies =
@@ -95,7 +91,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-6xl max-h-[90vh] overflow-y-auto rounded-2xl bg-white dark:bg-zinc-900 shadow-2xl animate-slide-up"
+        className="relative w-full max-w-6xl lg:max-w-7xl max-h-[90vh] overflow-y-auto rounded-2xl bg-white dark:bg-zinc-900 shadow-2xl animate-slide-up"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
@@ -212,7 +208,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
                         key={idx}
                         className="text-zinc-600 dark:text-zinc-400 flex items-start gap-2"
                       >
-                        <span className="text-sky-500 mt-1">•</span>
+                        <span className="text-sky-500">•</span>
                         <span>{bullet}</span>
                       </li>
                     ))}
@@ -257,7 +253,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
                                 {project.name}
                               </p>
                               {project.summary && (
-                                <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                                <p className="text-sm text-zinc-600 dark:text-zinc-400">
                                   {project.summary}
                                 </p>
                               )}
@@ -282,7 +278,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
                                   key={idx}
                                   className="text-zinc-600 dark:text-zinc-400 flex items-start gap-2"
                                 >
-                                  <span className="text-sky-500 mt-1">•</span>
+                                  <span className="text-sky-500">•</span>
                                   <span>{bullet}</span>
                                 </li>
                               ))}
@@ -359,7 +355,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
                           key={idx}
                           className="text-zinc-600 dark:text-zinc-400 flex items-start gap-2"
                         >
-                          <span className="text-purple-500 mt-1">✓</span>
+                          <span className="text-purple-500">✓</span>
                           <span>{achievement}</span>
                         </li>
                       ))}
@@ -386,10 +382,9 @@ export function JobModal({ job, onClose }: JobModalProps) {
                 <div className="flex justify-end">
                   <Button
                     variant="primary"
-                    onClick={(e: React.MouseEvent) => {
-                      e.stopPropagation();
-                      openWebsite(primaryWebsite);
-                    }}
+                    href={primaryWebsite}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <ExternalLink className="h-4 w-4" />
                     Visit Website

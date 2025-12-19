@@ -1,11 +1,24 @@
-import { useEffect, useState } from 'react';
-import { ArrowRight, Mail, Calendar, Download, Github, Linkedin } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
-import { SITE_CONFIG, SOCIAL_LINKS } from '@/constants';
+import { useEffect, useState } from "react";
+import {
+  ArrowRight,
+  Mail,
+  Calendar,
+  Download,
+  Github,
+  Linkedin,
+} from "lucide-react";
+import { Button } from "@/components/ui/Button";
+import { SITE_CONFIG, SOCIAL_LINKS } from "@/constants";
 
 export function Hero() {
-  const [displayedText, setDisplayedText] = useState('');
-  const roles = ['AI Engineer', 'Data Scientist', 'Tech Leader', 'Problem Solver', 'Full-stack Developer'];
+  const [displayedText, setDisplayedText] = useState("");
+  const roles = [
+    "AI Engineer",
+    "Data Scientist",
+    "Tech Leader",
+    "Problem Solver",
+    "Full-Stack Developer",
+  ];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
 
@@ -35,10 +48,13 @@ export function Hero() {
   }, [displayedText, isDeleting, currentRoleIndex]);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16"
+    >
       {/* Animated Background Gradient */}
       <div className="absolute inset-0 gradient-animated opacity-50" />
-      
+
       {/* Grid Pattern Overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]" />
 
@@ -62,12 +78,18 @@ export function Hero() {
           </h1>
 
           {/* Description */}
-          <p className="mx-auto max-w-2xl text-lg text-zinc-600 dark:text-zinc-400 mb-8 animate-slide-up" style={{ animationDelay: '0.1s' }}>
+          <p
+            className="mx-auto max-w-2xl text-lg text-zinc-600 dark:text-zinc-400 mb-8 animate-slide-up"
+            style={{ animationDelay: "0.1s" }}
+          >
             {SITE_CONFIG.description}
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-wrap items-center justify-center gap-4 mb-12 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+          <div
+            className="flex flex-wrap items-center justify-center gap-4 mb-12 animate-slide-up"
+            style={{ animationDelay: "0.2s" }}
+          >
             <Button variant="primary" size="lg" href="#experience">
               View My Work
               <ArrowRight className="h-5 w-5" />
@@ -83,7 +105,10 @@ export function Hero() {
           </div>
 
           {/* Social Links */}
-          <div className="flex items-center justify-center gap-4 animate-slide-up" style={{ animationDelay: '0.3s' }}>
+          <div
+            className="flex items-center justify-center gap-4 animate-slide-up"
+            style={{ animationDelay: "0.3s" }}
+          >
             <a
               href={SOCIAL_LINKS.github}
               target="_blank"

@@ -108,7 +108,7 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
                         key={idx}
                         className="text-sm text-zinc-600 dark:text-zinc-400 flex items-start gap-2"
                       >
-                        <span className="text-sky-500 mt-1">•</span>
+                        <span className="text-sky-500">•</span>
                         <span className="line-clamp-1">{bullet}</span>
                       </li>
                     ))}
@@ -184,10 +184,8 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
                 variant="ghost"
                 size="sm"
                 href={job.website}
-                onClick={(e: React.MouseEvent) => {
-                  e.stopPropagation();
-                  window.open(job.website!, "_blank", "noopener,noreferrer");
-                }}
+                target="_blank"
+                rel="noreferrer"
               >
                 <ExternalLink className="h-4 w-4" />
                 Visit Website
