@@ -13,6 +13,8 @@ import { TechBadge } from "@/components/ui/TechBadge";
 import { Button } from "@/components/ui/Button";
 import { getDateRange, calculateDuration } from "@/utils/date";
 import { useModalLayoutPreference } from "@/hooks/useModalLayoutPreference";
+import { LayoutModeToggle } from "@/components/ui/LayoutModeToggle";
+import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 interface JobModalProps {
   job: Job | null;
@@ -25,6 +27,9 @@ export function JobModal({ job, onClose }: JobModalProps) {
   const [activeProjectId, setActiveProjectId] = useState<string | null>(null);
 
   const { mode, setMode } = useModalLayoutPreference("stacked");
+
+  const isDesktop = useMediaQuery("(min-width: 768px)");
+  const effectiveMode = isDesktop ? mode : "stacked";
 
   useEffect(() => setMounted(true), []);
 
@@ -85,18 +90,6 @@ export function JobModal({ job, onClose }: JobModalProps) {
       : job.technologies;
 
   const primaryWebsite = activeProject?.website || job.website;
-
-  const LayoutToggle = (
-    <div className="hidden md:flex justify-end">
-      <Button
-        variant="ghost"
-        size="sm"
-        onClick={() => setMode(mode === "stacked" ? "split" : "stacked")}
-      >
-        {mode === "stacked" ? "Side-by-side view" : "Stacked view"}
-      </Button>
-    </div>
-  );
 
   const Content = (
     <div className="min-w-0">
@@ -439,11 +432,13 @@ export function JobModal({ job, onClose }: JobModalProps) {
               </div>
             )}
 
-            <div className="mt-4">{LayoutToggle}</div>
+            <div className="mt-4">
+              <LayoutModeToggle mode={effectiveMode} onChange={setMode} />
+            </div>
           </div>
 
           {/* Default: stacked gallery on top (remembered) */}
-          {mode === "split" ? (
+          {effectiveMode === "split" ? (
             <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
               <div className="min-w-0">{Content}</div>
               <div className="min-w-0">{Gallery}</div>

@@ -5,6 +5,8 @@ import type { PersonalProject } from "@/types";
 import { TechBadge } from "@/components/ui/TechBadge";
 import { Button } from "@/components/ui/Button";
 import { useModalLayoutPreference } from "@/hooks/useModalLayoutPreference";
+import { useMediaQuery } from "@/hooks/useMediaQuery";
+import { LayoutModeToggle } from "../ui/LayoutModeToggle";
 
 export function PersonalProjectModal({
   project,
@@ -17,6 +19,9 @@ export function PersonalProjectModal({
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const { mode, setMode } = useModalLayoutPreference("stacked");
+
+  const isDesktop = useMediaQuery("(min-width: 768px)");
+  const effectiveMode = isDesktop ? mode : "stacked";
 
   useEffect(() => setMounted(true), []);
 
@@ -54,18 +59,6 @@ export function PersonalProjectModal({
   };
 
   if (!mounted || !project) return null;
-
-  const LayoutToggle = (
-    <div className="hidden md:flex justify-end">
-      <Button
-        variant="ghost"
-        size="sm"
-        onClick={() => setMode(mode === "stacked" ? "split" : "stacked")}
-      >
-        {mode === "stacked" ? "Side-by-side view" : "Stacked view"}
-      </Button>
-    </div>
-  );
 
   const Gallery = images.length > 0 && (
     <div className="mb-2">
@@ -227,11 +220,12 @@ export function PersonalProjectModal({
               </div>
             </div>
 
-            {LayoutToggle}
+            <div className="mt-4">
+              <LayoutModeToggle mode={effectiveMode} onChange={setMode} />
+            </div>
           </div>
 
-          {/* Layout switch (default: stacked gallery on top) */}
-          {mode === "split" ? (
+          {effectiveMode === "split" ? (
             <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
               <div className="min-w-0">{Content}</div>
               <div className="min-w-0">{Gallery}</div>
