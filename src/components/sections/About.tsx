@@ -22,7 +22,7 @@ export function About() {
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6">
               About <span className="gradient-text">Me</span>
             </h2>
-            <div className="prose prose-zinc dark:prose-invert text-lg text-zinc-600 dark:text-zinc-400 text-justify">
+            <div className="prose prose-zinc dark:prose-invert text-lg text-zinc-600 dark:text-zinc-400 text-left">
               <p className="mb-4">
                 I'm a <strong>Senior Full-Stack Software Developer</strong>{" "}
                 based in Lima, Peru 🇵🇪, specializing in AI-powered applications
@@ -43,24 +43,26 @@ export function About() {
               </p>
 
               <p className="">
-                These days, I'm working as an AI Engineer, buiding projects for
-                companies like{" "}
+                These days, I have been working on AI-powered systems for
+                companies like Neo Sophia (
                 <a
                   href={PROJECT_LINKS.amap}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <strong>Neo Sophia's AMAP</strong>
-                </a>{" "}
-                or{" "}
+                  <strong>AMAP</strong>
+                </a>
+                , a conversational AI agent for neurodivergent child resources)
+                and Venturekit (
                 <a
                   href={PROJECT_LINKS.formation}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <strong>Venturekit's Formation</strong>
+                  <strong>Formation</strong>
                 </a>
-                . Also, I'm building open source tools like my{" "}
+                , a platform for creating an LLC in the US without the hassle of
+                lawyers). I also maintain open-source tools like{" "}
                 <a
                   href={PROJECT_LINKS.toonTools}
                   target="_blank"
@@ -68,16 +70,16 @@ export function About() {
                 >
                   <strong>TOON Tools</strong>
                 </a>{" "}
-                VS Code & Cursor extension or maintaining my{" "}
+                — a VS Code extension for Token-Oriented Object Notation — and
+                write regularly on my{" "}
                 <a
                   href={PROJECT_LINKS.developerBlog}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <strong>Developer Blog</strong>
-                </a>
-                . Always looking for new challenges and opportunities to grow as
-                a developer.
+                </a>{" "}
+                about AI integration and system design.
               </p>
             </div>
           </div>
