@@ -9,6 +9,9 @@ import { Education } from "@/components/sections/Education";
 import { Awards } from "@/components/sections/Awards";
 import { Publications } from "@/components/sections/Publications";
 import { Contact } from "@/components/sections/Contact";
+import { PersonalProjects } from "@/components/sections/PersonalProjects";
+import projectsDataRaw from "@/data/personal-projects.json";
+import type { PersonalProject } from "@/types";
 
 import type {
   Job,
@@ -33,6 +36,7 @@ const jobs: Job[] = jobsData
     (a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
   );
 
+const personalProjects = projectsDataRaw as unknown as PersonalProject[];
 const education: EducationType[] = educationData.slice();
 
 const awards: Award[] = awardsData
@@ -51,6 +55,7 @@ const publications: Publication[] = publicationsData
     <Hero client:load />
     <About client:visible />
     <Experience jobs={jobs} client:visible />
+    <PersonalProjects projects={personalProjects} client:visible />
     <Education education={education} client:visible />
     <Awards awards={awards} client:visible />
     <Publications publications={publications} client:visible />
