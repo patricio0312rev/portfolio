@@ -10,6 +10,10 @@ import { Awards } from "@/components/sections/Awards";
 import { Publications } from "@/components/sections/Publications";
 import { Contact } from "@/components/sections/Contact";
 import { PersonalProjects } from "@/components/sections/PersonalProjects";
+
+import { ScrollProgressBar } from "@/components/ui/ScrollProgressBar";
+import { FloatingContactMe } from "@/components/ui/FloatingContactMe";
+
 import projectsDataRaw from "@/data/personal-projects.json";
 import type { PersonalProject } from "@/types";
 
@@ -51,13 +55,23 @@ const publications: Publication[] = publicationsData
 <BaseLayout>
   <Navbar client:load />
 
+  <ScrollProgressBar client:load />
+  <FloatingContactMe client:load />
+
   <main>
     <Hero client:load />
     <About client:visible />
+
+    <div id="floating-contact-start" class="h-px w-full" aria-hidden="true">
+    </div>
+
     <Experience jobs={jobs} client:visible />
     <PersonalProjects projects={personalProjects} client:visible />
     <Education education={education} client:visible />
     <Awards awards={awards} client:visible />
+
+    <div id="floating-contact-end" class="h-px w-full" aria-hidden="true"></div>
+
     <Publications publications={publications} client:visible />
     <Contact client:visible />
   </main>
