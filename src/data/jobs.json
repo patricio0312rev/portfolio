@@ -1,28 +1,490 @@
 [
   {
-    "id": "turn-technologies",
-    "title": "Senior Software Developer",
-    "company": "Turn Technologies",
-    "companyLogo": "/assets/images/companies/turn.png",
-    "location": "Chicago, IL",
-    "type": "full-time",
-    "startDate": "2022-01",
-    "endDate": "2023-12",
-    "description": "Built features for recruitment, screening, and onboarding workflows at scale.",
+    "id": "neo-sophia",
+    "title": "Full-Stack AI Engineer",
+    "company": "Neo Sophia",
+    "companyLogo": "/assets/images/companies/neo-sophia.png",
+    "location": "Atlanta, GA (Remote)",
+    "type": "contract",
+    "startDate": "2025-09",
+    "endDate": "2025-12",
+    "description": "Building AI-powered conversational systems to help parents of neurodivergent children access resources, screening tools and support.",
     "projects": [
       {
-        "id": "turn-hiring-platform",
-        "name": "Hiring & onboarding platform",
-        "summary": "End-to-end flows for candidate recruitment, screening, and onboarding.",
+        "id": "amap",
+        "name": "AMAP - AI Healthcare Voice Agent",
+        "summary": "Voice-based AI agent helping parents based in the United States find resources for neurodivergent children via phone, SMS and web chat.",
         "bullets": [
-          "Developed web applications and UI features for high-volume hiring workflows",
-          "Implemented data fetching using GraphQL (Apollo) to simplify API integrations",
-          "Worked with AWS services in the product infrastructure to keep features reliable"
+          "Built a phone-accessible AI system using Twilio, AWS, Anthropic Claude, and OpenAI to guide parents through complex resource navigation",
+          "Integrated location-aware search using AWS's RDS/Aurora PostgreSQL with PostGIS extensions, enabling geographic queries for nearby services",
+          "Implemented Redis caching to reduce API costs by 60% while maintaining sub-second response times for common queries",
+          "Architected conversation flow using state machines to handle multi-turn dialogues, clarifications, and fallback scenarios",
+          "Deployed scalable infrastructure on AWS with Lambda functions and API Gateway for serverless voice processing",
+          "Created a HIPAA-compliant architecture for the AI agent using AWS's services and the AWS Well-Architected Framework, ensuring low latency and high availability for the users using websockets",
+          "Designed a landing page for the AI agent using Next.js, React,Tailwind CSS and AWS's S3 and CloudFront services",
+          "Deployed endpoints made with Fastify, Node.js and Typescript for the AI agent using AWS's API Gateway and Lambda functions",
+          "Created a CI/CD pipeline using GitHub Actions and AWS's CodePipeline and CodeBuild services to deploy the AI agent and the landing page"
         ],
         "technologies": [
+          "typescript",
           "react",
           "nextjs",
+          "tailwindcss",
+          "nodejs",
+          "twilio",
+          "anthropic",
+          "openai",
+          "supabase",
+          "postgresql",
+          "postgis",
+          "redis",
+          "aws",
+          "lambda"
+        ],
+        "images": [
+          "/assets/images/portfolio/neosophia/04.png",
+          "/assets/images/portfolio/neosophia/05.png",
+          "/assets/images/portfolio/neosophia/06.png"
+        ],
+        "website": "https://amap-landing-eta.vercel.app/"
+      }
+    ],
+    "achievements": [
+      "Created accessible AI system reaching parents without internet access",
+      "Reduced resource discovery time from hours to minutes through conversational interface"
+    ],
+    "technologies": [
+      "typescript",
+      "nodejs",
+      "twilio",
+      "anthropic",
+      "openai",
+      "supabase",
+      "postgresql",
+      "redis",
+      "aws"
+    ],
+    "images": [
+      "/assets/images/portfolio/neosophia/04.png",
+      "/assets/images/portfolio/neosophia/05.png",
+      "/assets/images/portfolio/neosophia/06.png",
+      "/assets/images/portfolio/neosophia/01.png",
+      "/assets/images/portfolio/neosophia/02.png",
+      "/assets/images/portfolio/neosophia/03.png"
+    ],
+    "website": "https://neosophia.ai/",
+    "featured": true
+  },
+  {
+    "id": "pine-studio",
+    "title": "Full-Stack AI Engineer",
+    "company": "Pine Venture Studio",
+    "companyLogo": "/assets/images/companies/pine-studio.png",
+    "location": "Toronto, ON (Remote)",
+    "type": "contract",
+    "startDate": "2024-10",
+    "endDate": "2025-10",
+    "description": "Developed AI-powered applications for entrepreneurs & startups, focusing on legal compliance automation and creative content generation.",
+    "projects": [
+      {
+        "id": "venturekit-formation",
+        "name": "Formation - AI-Powered LLC Formation Platform",
+        "summary": "AI-powered platform automating LLC formation and compliance for entrepreneurs.",
+        "bullets": [
+          "Built end-to-end LLC formation platform serving Spanish, French, German, Italian, Portuguese, and English-speaking markets, processing 500+ formations in first 6 months",
+          "Integrated AI-powered document generation using OpenAI and Puppeteer to create state-specific operating agreements and articles of organization, reducing the time to form an LLC from 15 minutes to 3 minutes",
+          "Designed multi-step onboarding flow with real-time validation, reducing formation errors by 85% and improving the user experience",
+          "Implemented automated compliance tracking system alerting users to annual report deadlines and state requirements",
+          "Created payment processing integration with Stripe for formation fees and ongoing compliance subscriptions",
+          "Deployed scalable infrastructure on AWS with Lambda functions and API Gateway for serverless document generation",
+          "Designed and implemented an Admin Dashboard using React to manage the users and the formations, taking advantage of the Redux Toolkit for state management and the React Query for data fetching",
+          "Integrated system notifications and alerts for each user action, using Slack and Webhooks, reducing the time to notify the users by 80% and improving the user experience"
+        ],
+        "technologies": [
           "typescript",
+          "nextjs",
+          "react",
+          "openai",
+          "stripe",
+          "postgresql",
+          "tailwindcss",
+          "aws",
+          "redux"
+        ],
+        "images": [
+          "/assets/images/portfolio/pine-studio/05.png",
+          "/assets/images/portfolio/pine-studio/06.png",
+          "/assets/images/portfolio/pine-studio/07.png",
+          "/assets/images/portfolio/pine-studio/01.png",
+          "/assets/images/portfolio/pine-studio/02.png",
+          "/assets/images/portfolio/pine-studio/03.png",
+          "/assets/images/portfolio/pine-studio/04.png"
+        ],
+        "website": "https://www.venturekit.ai/formation"
+      },
+      {
+        "id": "everbook",
+        "name": "Everbook - AI-Powered Illustrative Books Generator",
+        "summary": "Platform for creating personalized illustrated books using AI, allowing users to generate books with AI-written stories and AI-generated illustrations, with the ability to customize the book's style, characters, and settings.",
+        "bullets": [
+          "Developed full-stack application generating custom books with AI-written stories and AI-generated illustrations, with the ability to customize the book's style, characters, and settings",
+          "Integrated OpenAI GPT-4 for story generation and DALL-E for illustration creation, maintaining narrative consistency across pages",
+          "Built interactive book editor allowing users to refine stories, regenerate specific pages, and customize visual styles",
+          "Implemented PDF generation pipeline converting digital books to print-ready formats with proper pagination and bleed",
+          "Optimized image generation workflow reducing average book creation time from 15 minutes to under 3 minutes",
+          "Worked with SQS and Lambda functions to handle the book generation workflow, reducing the time to generate a book by 80% and improving the user experience",
+          "Deployed scalable infrastructure on AWS with Lambda functions and API Gateway for serverless document generation",
+          "Provided support for over 6 languages using the i18next library and the Next.js i18n module, as well as hand-coded scripts to translate the content to the other languages using OpenAI's API"
+        ],
+        "technologies": [
+          "typescript",
+          "nextjs",
+          "react",
+          "openai",
+          "prisma",
+          "postgresql",
+          "aws",
+          "tailwindcss",
+          "redux",
+          "react-query"
+        ],
+        "images": [
+          "/assets/images/portfolio/pine-studio/08.png",
+          "/assets/images/portfolio/pine-studio/09.png",
+          "/assets/images/portfolio/pine-studio/10.png",
+          "/assets/images/portfolio/pine-studio/11.png",
+          "/assets/images/portfolio/pine-studio/12.png",
+          "/assets/images/portfolio/pine-studio/13.png"
+        ],
+        "website": "https://www.everbook.com/"
+      }
+    ],
+    "achievements": [
+      "Delivered two production AI applications serving thousands of users",
+      "Reduced formation completion time by 75% compared to traditional methods"
+    ],
+    "technologies": [
+      "typescript",
+      "nextjs",
+      "react",
+      "openai",
+      "stripe",
+      "prisma",
+      "postgresql",
+      "tailwindcss"
+    ],
+    "images": [
+      "/assets/images/portfolio/pine-studio/01.png",
+      "/assets/images/portfolio/pine-studio/02.png",
+      "/assets/images/portfolio/pine-studio/03.png",
+      "/assets/images/portfolio/pine-studio/04.png",
+      "/assets/images/portfolio/pine-studio/05.png",
+      "/assets/images/portfolio/pine-studio/06.png",
+      "/assets/images/portfolio/pine-studio/07.png",
+      "/assets/images/portfolio/pine-studio/08.png",
+      "/assets/images/portfolio/pine-studio/09.png",
+      "/assets/images/portfolio/pine-studio/10.png",
+      "/assets/images/portfolio/pine-studio/11.png",
+      "/assets/images/portfolio/pine-studio/12.png",
+      "/assets/images/portfolio/pine-studio/13.png"
+    ],
+    "website": "https://www.linkedin.com/company/pine-venture-studio/",
+    "featured": true
+  },
+  {
+    "id": "ardent-hq",
+    "title": "Full-Stack Web3 Developer",
+    "company": "Ardent HQ",
+    "companyLogo": "/assets/images/companies/ardenthq.png",
+    "location": "Manchester, NH (Remote)",
+    "type": "full-time",
+    "startDate": "2023-10",
+    "endDate": "2024-10",
+    "description": "Built and maintained three core products in the ARK ecosystem, focusing on user-friendly Web3 wallet experiences for web and browser extensions, as well as a multi-chain wallet dashboard.",
+    "projects": [
+      {
+        "id": "arkvault",
+        "name": "ARKVault - Web Wallet Manager",
+        "summary": "Custom web-based wallet for ARK Core blockchains with Ledger hardware support.",
+        "bullets": [
+          "Reduced deployment time by 30% through CI/CD pipeline refactoring and automated testing implementation",
+          "Built multi-profile wallet management allowing users to organize addresses by purpose (personal, business, cold storage)",
+          "Implemented real-time transaction status tracking distinguishing between pending, confirmed, and failed states",
+          "Created reusable React hooks centralizing transaction logic, reducing code duplication by 40% across wallet products",
+          "Integrated Ledger hardware wallet support for secure transaction signing without exposing private keys",
+          "Refactored the entire frontend codebase to use the new React 19 features, reducing the bundle size by 30% and improving the performance by 50%",
+          "Worked on over 200 functionalities implemented in the platform, including: transaction management, vote feature, profile configuration, dark mode, and more",
+          "Coded over 400 unit tests using Vitest and React Testing Library, catching regressions before production releases"
+        ],
+        "technologies": [
+          "typescript",
+          "react",
+          "tailwindcss",
+          "web3js",
+          "vercel"
+        ],
+        "images": [
+          "/assets/images/portfolio/ardenthq/01.png",
+          "/assets/images/portfolio/ardenthq/02.png",
+          "/assets/images/portfolio/ardenthq/03.png",
+          "/assets/images/portfolio/ardenthq/04.png",
+          "/assets/images/portfolio/ardenthq/05.png"
+        ],
+        "website": "https://app.arkvault.io/"
+      },
+      {
+        "id": "arkwallet",
+        "name": "ARKWallet - Web3 Wallet Extension",
+        "summary": "Chrome and Firefox crypto wallet extension with HD wallet derivation and multi-network support.",
+        "bullets": [
+          "Designed and shipped a browser extension for Chrome and Firefox supporting secure onboarding and BIP44 HD wallet derivation, allowing users to manage their assets and transactions securely",
+          "Built transaction signing flows using ARK SDKs with clear confirmation screens for non-technical users",
+          "Implemented network selection allowing users to switch between mainnet, devnet, and custom ARK networks",
+          "Created secure storage layer for encrypted private keys using browser extension APIs and best practices",
+          "Collaborated with designers on send/receive flows ensuring safety without requiring blockchain knowledge"
+        ],
+        "technologies": [
+          "typescript",
+          "react",
+          "web3js",
+          "chrome-extension",
+          "tailwindcss"
+        ],
+        "images": [
+          "/assets/images/portfolio/ardenthq/06.png",
+          "/assets/images/portfolio/ardenthq/08.png",
+          "/assets/images/portfolio/ardenthq/07.png"
+        ],
+        "website": "https://arkwallet.org/"
+      },
+      {
+        "id": "dashbrd",
+        "name": "Dashbrd - NFT Portfolio Dashboard",
+        "summary": "Multi-chain wallet supporting Polygon and Ethereum with NFT gallery features.",
+        "bullets": [
+          "Developed portfolio dashboard integrating with Alchemy and Moralis APIs for real-time balance and transaction data",
+          "Built NFT discovery and gallery features allowing users to showcase collections with interactive displays",
+          "Migrated styling from Styled Components to Tailwind CSS, improving consistency and reducing bundle size by 25%",
+          "Implemented PHP/Laravel endpoints connecting ARK infrastructure with third-party blockchain APIs",
+          "Added unit tests around critical wallet flows catching regressions before production releases"
+        ],
+        "technologies": [
+          "typescript",
+          "react",
+          "astro",
+          "tailwindcss",
+          "livewire",
+          "alpinejs",
+          "laravel",
+          "php"
+        ],
+        "images": [
+          "/assets/images/portfolio/ardenthq/09.png",
+          "/assets/images/portfolio/ardenthq/10.png",
+          "/assets/images/portfolio/ardenthq/11.png",
+          "/assets/images/portfolio/ardenthq/12.png",
+          "/assets/images/portfolio/ardenthq/13.png"
+        ],
+        "website": "https://beta.dashbrd.com/"
+      },
+      {
+        "id": "arkconnect",
+        "name": "ARKConnect - Web3 Connection Extension",
+        "summary": "Open-source browser extension connecting ARK addresses to Web3 applications, similar to MetaMask.",
+        "bullets": [
+          "Built browser extension enabling dApp connectivity for ARK ecosystem similar to MetaMask",
+          "Implemented secure message signing and transaction approval flows for Web3 interactions",
+          "Created consistent design language across all ARK products maintaining brand identity"
+        ],
+        "technologies": [
+          "typescript",
+          "react",
+          "web3js",
+          "chrome-extension",
+          "tailwindcss"
+        ],
+        "images": [
+          "/assets/images/portfolio/ardenthq/14.png",
+          "/assets/images/portfolio/ardenthq/15.png",
+          "/assets/images/portfolio/ardenthq/16.png"
+        ],
+        "website": "https://arkconnect.io/"
+      }
+    ],
+    "achievements": [
+      "Shipped 4 production crypto products serving thousands of daily users",
+      "Reduced deployment time by 30% through CI/CD improvements",
+      "Cut frontend bundle size by 25% through architectural improvements",
+      "Developed 2 production browser extensions serving thousands of daily users"
+    ],
+    "technologies": [
+      "typescript",
+      "react",
+      "nextjs",
+      "astro",
+      "web3js",
+      "laravel",
+      "php",
+      "tailwindcss",
+      "livewire",
+      "alpinejs"
+    ],
+    "images": [
+      "/assets/images/portfolio/ardenthq/01.png",
+      "/assets/images/portfolio/ardenthq/02.png",
+      "/assets/images/portfolio/ardenthq/03.png",
+      "/assets/images/portfolio/ardenthq/04.png",
+      "/assets/images/portfolio/ardenthq/05.png",
+      "/assets/images/portfolio/ardenthq/06.png",
+      "/assets/images/portfolio/ardenthq/07.png",
+      "/assets/images/portfolio/ardenthq/08.png",
+      "/assets/images/portfolio/ardenthq/09.png",
+      "/assets/images/portfolio/ardenthq/10.png",
+      "/assets/images/portfolio/ardenthq/11.png",
+      "/assets/images/portfolio/ardenthq/12.png",
+      "/assets/images/portfolio/ardenthq/13.png",
+      "/assets/images/portfolio/ardenthq/14.png",
+      "/assets/images/portfolio/ardenthq/15.png",
+      "/assets/images/portfolio/ardenthq/16.png"
+    ],
+    "website": "https://ardenthq.com/",
+    "featured": true
+  },
+  {
+    "id": "divvy",
+    "title": "Full-Stack Web3 Developer",
+    "company": "Divvy (DeFi Ventures)",
+    "companyLogo": "/assets/images/companies/divvy-bet.png",
+    "location": "New York City, NY (Remote)",
+    "type": "full-time",
+    "startDate": "2022-12",
+    "endDate": "2023-09",
+    "description": "Led complete frontend modernization and built real-time blockchain integration for decentralized betting platform on Solana, as well as a web3 wallet extension for the platform.",
+    "projects": [
+      {
+        "id": "divvy-betting-platform",
+        "name": "Divvy Bet - Web3 Decentralized Betting Platform",
+        "summary": "Web3 sports betting application on Solana blockchain with wallet integration, allowing users to place bets on sports events",
+        "bullets": [
+          "Refactored 100% of frontend repositories reducing file size by 40% and cutting deployment time by 20%",
+          "Worked on the SDK for the platform, allowing users to place bets on sports events",
+          "Updated the smart contracts for the platform, allowing users to place bets on sports events",
+          "Reduced security vulnerabilities by 70% through dependency updates and security best practices",
+          "Modernized tech stack implementing TypeScript, Next.js, Redux, React Query, TailwindCSS, and Styled Components",
+          "Built real-time blockchain endpoints communicating with Solana network for live bet placement and settlement",
+          "Implemented geo-IP services, 2FA, and multi-layer security using AWS protecting user funds and data",
+          "Created the entire frontend for the platform, including the landing page, the betting page, the account page, the profile page, and the settings page",
+          "Implemented parlays, teasers, and other betting options for the platform"
+        ],
+        "technologies": [
+          "typescript",
+          "nextjs",
+          "react",
+          "redux",
+          "react-query",
+          "tailwindcss",
+          "web3js",
+          "solana",
+          "nestjs",
+          "postgresql",
+          "aws"
+        ],
+        "images": [
+          "/assets/images/portfolio/divvy/01.png",
+          "/assets/images/portfolio/divvy/02.png",
+          "/assets/images/portfolio/divvy/03.png",
+          "/assets/images/portfolio/divvy/04.png",
+          "/assets/images/portfolio/divvy/05.png",
+          "/assets/images/portfolio/divvy/06.png",
+          "/assets/images/portfolio/divvy/07.png"
+        ],
+        "website": "https://divvy.bet/"
+      }
+    ],
+    "achievements": [
+      "Reduced deployment time by 20% while cutting repository size by 40%",
+      "Decreased security vulnerabilities by 70% through systematic refactoring"
+    ],
+    "technologies": [
+      "typescript",
+      "nextjs",
+      "react",
+      "redux",
+      "web3js",
+      "solana",
+      "nestjs",
+      "postgresql",
+      "aws",
+      "tailwindcss"
+    ],
+    "images": [
+      "/assets/images/portfolio/divvy/01.png",
+      "/assets/images/portfolio/divvy/02.png",
+      "/assets/images/portfolio/divvy/03.png",
+      "/assets/images/portfolio/divvy/04.png",
+      "/assets/images/portfolio/divvy/05.png",
+      "/assets/images/portfolio/divvy/06.png",
+      "/assets/images/portfolio/divvy/07.png"
+    ],
+    "website": "https://divvy.bet/",
+    "featured": true
+  },
+  {
+    "id": "turn-technologies",
+    "title": "Senior Frontend Developer",
+    "company": "Turn Technologies",
+    "companyLogo": "/assets/images/companies/turn.png",
+    "location": "Chicago, IL (Remote)",
+    "type": "full-time",
+    "startDate": "2021-12",
+    "endDate": "2022-12",
+    "description": "Led 6-person frontend team through complete tech stack modernization while building AI-powered talent acquisition product, as well as a hiring, screening and onboarding platform for the company",
+    "projects": [
+      {
+        "id": "turn-advise",
+        "name": "Advise - AI Talent Acquisition",
+        "summary": "AI-powered platform predicting hiring process performance and outcomes.",
+        "bullets": [
+          "Designed and built company's third product from scratch, increasing talent acquisition prediction accuracy by 30%",
+          "Developed interactive dashboards with real-time statistical analysis for recruitment pipeline optimization",
+          "Led 6-person frontend team implementing modern stack across 4 company platforms with mentoring and training",
+          "Increased test coverage by 80% using Jest and React Testing Library, catching critical bugs before production"
+        ],
+        "technologies": [
+          "typescript",
+          "nextjs",
+          "react",
+          "redux",
+          "graphql",
+          "apollo",
+          "tailwindcss",
+          "jest",
+          "rtl"
+        ],
+        "images": [
+          "/assets/images/portfolio/turn/01.jpg",
+          "/assets/images/portfolio/turn/02.png",
+          "/assets/images/portfolio/turn/03.png",
+          "/assets/images/portfolio/turn/04.png",
+          "/assets/images/portfolio/turn/08.png",
+          "/assets/images/portfolio/turn/09.png",
+          "/assets/images/portfolio/turn/10.png"
+        ]
+      },
+      {
+        "id": "turn-hiring-platform",
+        "name": "Hiring & Onboarding Platform",
+        "summary": "High-volume recruitment workflows serving major enterprise clients.",
+        "bullets": [
+          "Built features processing millions of hourly worker applications for clients like Amazon and Grubhub",
+          "Refactored frontend repositories to TypeScript, Next.js, TailwindCSS, Redux, and Apollo/GraphQL",
+          "Implemented CI/CD flow connecting 10+ repositories with Heroku and cloud services",
+          "Developed GraphQL data fetching simplifying complex API integrations across multiple services"
+        ],
+        "technologies": [
+          "typescript",
+          "nextjs",
+          "react",
           "redux",
           "graphql",
           "apollo",
@@ -30,390 +492,448 @@
           "tailwindcss"
         ],
         "images": [
-          "/assets/images/portfolio/project_01/02.png",
-          "/assets/images/portfolio/project_01/03.png"
-        ]
-      },
-      {
-        "id": "turn-design-system",
-        "name": "Design system & shared UI",
-        "summary": "Reusable UI libraries shared across multiple products.",
-        "bullets": [
-          "Built and maintained reusable UI/component libraries to share across projects",
-          "Applied SOLID principles and helped define maintainability standards"
-        ],
-        "technologies": ["react", "typescript", "tailwindcss"],
-        "images": [
-          "/assets/images/portfolio/project_01/04.png",
-          "/assets/images/portfolio/project_01/05.png"
+          "/assets/images/portfolio/turn/05.png",
+          "/assets/images/portfolio/turn/06.png",
+          "/assets/images/portfolio/turn/07.png",
+          "/assets/images/portfolio/turn/08.png"
         ]
       }
     ],
-    "achievements": [],
+    "achievements": [
+      "Increased prediction accuracy by 30% for talent acquisition processes",
+      "Led team of 6 through successful tech stack migration",
+      "Increased test coverage by 80% across all repositories"
+    ],
     "technologies": [
-      "react",
-      "nextjs",
       "typescript",
+      "nextjs",
+      "react",
       "redux",
       "graphql",
       "apollo",
       "tailwindcss",
-      "aws"
+      "aws",
+      "python",
+      "fastapi"
     ],
     "images": [
-      "/assets/images/portfolio/project_01/02.png",
-      "/assets/images/portfolio/project_01/03.png",
-      "/assets/images/portfolio/project_01/04.png",
-      "/assets/images/portfolio/project_01/05.png"
+      "/assets/images/portfolio/turn/01.jpg",
+      "/assets/images/portfolio/turn/02.png",
+      "/assets/images/portfolio/turn/03.png",
+      "/assets/images/portfolio/turn/04.png",
+      "/assets/images/portfolio/turn/05.png",
+      "/assets/images/portfolio/turn/06.png",
+      "/assets/images/portfolio/turn/07.png",
+      "/assets/images/portfolio/turn/08.png",
+      "/assets/images/portfolio/turn/09.png",
+      "/assets/images/portfolio/turn/10.png"
     ],
     "website": "https://turn.ai",
     "featured": true
-  },
-  {
-    "id": "myevent",
-    "title": "Software Developer",
-    "company": "MyEvent",
-    "companyLogo": "/assets/images/slider/message.jpg",
-    "location": "Remote",
-    "type": "contract",
-    "startDate": "2021-01",
-    "endDate": "2021-12",
-    "description": "Worked on an event platform to create events and enable ticket purchasing and validation.",
-    "projects": [
-      {
-        "id": "myevent-ticketing",
-        "name": "Event creation & ticketing",
-        "summary": "Experience for creating events, configuring inventory, and selling tickets.",
-        "bullets": [
-          "Built user flows for event creation and ticket purchasing",
-          "Integrated payment providers used in the platform"
-        ],
-        "technologies": ["react", "nextjs", "nodejs", "tailwindcss"],
-        "images": ["/assets/images/portfolio/project_05/02.png"]
-      },
-      {
-        "id": "myevent-validation",
-        "name": "Ticket validation tools",
-        "summary": "Operational tools for event staff to verify attendees.",
-        "bullets": ["Implemented ticket verification flows for event staff"],
-        "technologies": ["react", "nodejs", "tailwindcss"],
-        "images": ["/assets/images/portfolio/project_05/03.png"]
-      }
-    ],
-    "achievements": [],
-    "technologies": ["react", "nextjs", "nodejs", "tailwindcss"],
-    "images": [
-      "/assets/images/portfolio/project_05/02.png",
-      "/assets/images/portfolio/project_05/03.png"
-    ],
-    "website": "",
-    "featured": false
   },
   {
     "id": "anqarapp",
     "title": "Founder & CEO",
     "company": "Anqarapp",
     "companyLogo": "/assets/images/companies/anqarapp.png",
-    "location": "Lima, Peru",
+    "location": "Lima, Peru (Hybrid)",
     "type": "founder",
     "startDate": "2020-03",
-    "endDate": "2021-12",
-    "description": "Built an e-learning platform during the pandemic to train teachers across multiple countries in Latin America.",
+    "endDate": "2021-11",
+    "description": "Founded and scaled edtech platform training 10,000+ teachers across 6 Latin American countries during the pandemic.",
     "projects": [
       {
-        "id": "anqarapp-learning-platform",
-        "name": "E-learning platform",
-        "summary": "Learning experience and content delivery used across multiple countries.",
+        "id": "anqarapp-platform",
+        "name": "Teacher Training Platform",
+        "summary": "Scalable e-learning platform with adaptive teaching model and AI chatbot.",
         "bullets": [
-          "Designed, developed, and deployed the platform end-to-end",
-          "Built the learning experience and content delivery features",
-          "Led product execution and iteration during high demand"
+          "Trained 10,000+ teachers across 6 Latin American countries during pandemic school closures",
+          "Built scalable 4-tier cloud architecture supporting 5,000+ simultaneous users using AWS (EC2, S3, RDS)",
+          "Programmed AI chatbot reducing response times by 90% and increasing revenue by 150%",
+          "Implemented adaptive teaching model with AI/ML enabling 24/7 asynchronous learning",
+          "Recorded, edited, and produced 300+ virtual classes for remote teacher training",
+          "Led full product lifecycle from planning and design through development and deployment"
         ],
-        "technologies": ["react", "nextjs", "tailwindcss"],
+        "technologies": [
+          "react",
+          "nextjs",
+          "laravel",
+          "php",
+          "livewire",
+          "tailwindcss",
+          "mysql",
+          "aws",
+          "python"
+        ],
         "images": [
-          "/assets/images/portfolio/project_03/02.png",
-          "/assets/images/portfolio/project_03/03.png"
-        ]
-      },
-      {
-        "id": "anqarapp-cloud-architecture",
-        "name": "Cloud architecture",
-        "summary": "Scalable foundation for content delivery during regional peaks.",
-        "bullets": [
-          "Implemented a cloud architecture with AWS services",
-          "Scaled delivery to support teachers across 6 countries"
+          "/assets/images/portfolio/anqarapp/02.png",
+          "/assets/images/portfolio/anqarapp/03.png",
+          "/assets/images/portfolio/anqarapp/04.png",
+          "/assets/images/portfolio/anqarapp/05.png",
+          "/assets/images/portfolio/anqarapp/06.png",
+          "/assets/images/portfolio/anqarapp/07.png",
+          "/assets/images/portfolio/anqarapp/08.png"
         ],
-        "technologies": ["aws", "php", "laravel", "mysql", "python"],
-        "images": ["/assets/images/portfolio/project_03/04.png"]
+        "website": "https://web.archive.org/web/20211204020641/https://anqarapp.com/"
       }
     ],
     "achievements": [
-      "Expanded to 6 countries in Latin America",
-      "Trained thousands of teachers during the pandemic"
+      "Reached 6 countries across Latin America",
+      "Trained 10,000+ teachers during pandemic",
+      "Reduced support response time by 90% with AI chatbot",
+      "Increased revenue by 150% through automation"
     ],
     "technologies": [
       "react",
       "nextjs",
       "laravel",
       "php",
+      "livewire",
+      "tailwindcss",
       "mysql",
       "aws",
-      "python",
-      "tailwindcss"
+      "python"
     ],
     "images": [
-      "/assets/images/portfolio/project_03/02.png",
-      "/assets/images/portfolio/project_03/03.png",
-      "/assets/images/portfolio/project_03/04.png"
+      "/assets/images/portfolio/anqarapp/02.png",
+      "/assets/images/portfolio/anqarapp/03.png",
+      "/assets/images/portfolio/anqarapp/04.png",
+      "/assets/images/portfolio/anqarapp/05.png",
+      "/assets/images/portfolio/anqarapp/06.png",
+      "/assets/images/portfolio/anqarapp/07.png",
+      "/assets/images/portfolio/anqarapp/08.png",
+      "/assets/images/portfolio/anqarapp/09.png",
+      "/assets/images/portfolio/anqarapp/10.png"
     ],
     "website": "https://web.archive.org/web/20211204020641/https://anqarapp.com/",
     "featured": true
   },
   {
-    "id": "masa",
-    "title": "Software Engineer",
-    "company": "Masa",
-    "companyLogo": "/assets/images/slider/message.jpg",
-    "location": "Remote",
-    "type": "contract",
-    "startDate": "2020-01",
-    "endDate": "2020-12",
-    "description": "Worked on websites and improvements focused on performance and SEO.",
-    "projects": [
-      {
-        "id": "masa-web-experience",
-        "name": "Web experience revamp",
-        "summary": "New and improved pages with better UX for marketing campaigns.",
-        "bullets": ["Developed and improved web pages and user experiences"],
-        "technologies": ["javascript", "typescript", "react", "nextjs"],
-        "images": ["/assets/images/portfolio/project_06/02.png"]
-      },
-      {
-        "id": "masa-performance",
-        "name": "Performance & SEO",
-        "summary": "Site performance and search visibility improvements.",
-        "bullets": ["Implemented performance and SEO improvements"],
-        "technologies": ["nextjs", "seo"],
-        "images": ["/assets/images/portfolio/project_06/03.png"]
-      }
-    ],
-    "achievements": [],
-    "technologies": ["javascript", "typescript", "react", "nextjs", "seo"],
-    "images": [
-      "/assets/images/portfolio/project_06/02.png",
-      "/assets/images/portfolio/project_06/03.png"
-    ],
-    "website": "",
-    "featured": false
-  },
-  {
-    "id": "cepeban",
-    "title": "Web Development",
-    "company": "Cepeban School Website",
-    "companyLogo": "/assets/images/slider/message.jpg",
-    "location": "Peru",
-    "type": "freelance",
-    "startDate": "2020-01",
-    "endDate": "2020-06",
-    "description": "Delivered a website for a school, focusing on clear information structure and usability.",
-    "projects": [
-      {
-        "id": "cepeban-website",
-        "name": "School website",
-        "summary": "Marketing site highlighting programs and admissions.",
-        "bullets": ["Designed and built the website and landing pages"],
-        "technologies": ["react", "nextjs", "tailwindcss"],
-        "images": [
-          "/assets/images/portfolio/project_07/02.png",
-          "/assets/images/portfolio/project_07/03.png"
-        ]
-      }
-    ],
-    "achievements": [],
-    "technologies": ["react", "nextjs", "tailwindcss"],
-    "images": [
-      "/assets/images/portfolio/project_07/02.png",
-      "/assets/images/portfolio/project_07/03.png"
-    ],
-    "website": "",
-    "featured": false
-  },
-  {
-    "id": "ambartravel",
-    "title": "CTO",
-    "company": "AmbarTravel",
-    "companyLogo": "/assets/images/slider/message.jpg",
-    "location": "Peru",
-    "type": "founder",
-    "startDate": "2021-01",
-    "endDate": "2021-12",
-    "description": "Built travel-related systems during tourism reactivation; integrated external travel APIs.",
-    "projects": [
-      {
-        "id": "ambartravel-operations",
-        "name": "Travel operations platform",
-        "summary": "Platform features for booking, inventory, and customer workflows.",
-        "bullets": ["Built core platform features for travel operations"],
-        "technologies": ["laravel", "php", "mysql", "aws", "react"],
-        "images": ["/assets/images/portfolio/project_08/02.png"]
-      },
-      {
-        "id": "ambartravel-integrations",
-        "name": "Travel API integrations",
-        "summary": "Connectivity with third-party travel providers.",
-        "bullets": ["Integrated with travel APIs used by the business"],
-        "technologies": ["laravel", "php", "mysql", "aws"],
-        "images": ["/assets/images/portfolio/project_08/03.png"]
-      }
-    ],
-    "achievements": [],
-    "technologies": ["laravel", "php", "mysql", "aws", "react"],
-    "images": [
-      "/assets/images/portfolio/project_08/02.png",
-      "/assets/images/portfolio/project_08/03.png"
-    ],
-    "website": "",
-    "featured": false
-  },
-  {
     "id": "vacunatravel",
-    "title": "Founder & CTO",
+    "title": "Founder & Principal Software Engineer",
     "company": "VacunaTravel",
     "companyLogo": "/assets/images/companies/vacunatravel.png",
-    "location": "Lima, Peru",
+    "location": "Lima, Peru (Hybrid)",
     "type": "founder",
-    "startDate": "2021-06",
-    "endDate": "2021-12",
-    "description": "Developed a platform for international travelers during COVID-era requirements.",
+    "startDate": "2021-01",
+    "endDate": "2021-07",
+    "description": "Built platform coordinating vaccine tourism during COVID-19, managing travel, appointments, and lodging for 300+ international travelers.",
     "projects": [
       {
         "id": "vacunatravel-platform",
-        "name": "Travel compliance portal",
-        "summary": "Travel workflows for vaccination and document verification.",
+        "name": "Vaccine Travel Coordination Platform",
+        "summary": "End-to-end travel and health compliance system for COVID-era vaccine tourism.",
         "bullets": [
-          "Built full-stack features for traveler workflows and verification",
-          "Implemented secure storage and document handling"
+          "Designed 3-tier cloud architecture on AWS supporting 3,000+ simultaneous users across Peru",
+          "Developed full-stack platform coordinating flights, vaccine appointments, and lodging for international travelers",
+          "Implemented AI monitoring system tracking 300+ patients and platform users",
+          "Built virtual telephone exchange system enabling 10+ person team to coordinate complex travel logistics",
+          "Increased test coverage by 85% across all repositories ensuring reliable health-critical operations"
         ],
-        "technologies": ["php", "laravel", "vue", "mysql", "aws"],
+        "technologies": [
+          "laravel",
+          "php",
+          "livewire",
+          "tailwindcss",
+          "mysql",
+          "aws",
+          "python"
+        ],
         "images": [
-          "/assets/images/portfolio/project_02/02.png",
-          "/assets/images/portfolio/project_02/03.png"
+          "/assets/images/portfolio/vacunatravel/02.png",
+          "/assets/images/portfolio/vacunatravel/03.png",
+          "/assets/images/portfolio/vacunatravel/04.png",
+          "/assets/images/portfolio/vacunatravel/05.png",
+          "/assets/images/portfolio/vacunatravel/06.png",
+          "/assets/images/portfolio/vacunatravel/07.png",
+          "/assets/images/portfolio/vacunatravel/08.png",
+          "/assets/images/portfolio/vacunatravel/09.png",
+          "/assets/images/portfolio/vacunatravel/10.png",
+          "/assets/images/portfolio/vacunatravel/11.png",
+          "/assets/images/portfolio/vacunatravel/12.png"
         ]
       }
     ],
-    "achievements": [],
-    "technologies": ["php", "laravel", "vue", "mysql", "aws"],
+    "achievements": [
+      "Served 300+ international travelers during pandemic",
+      "Built scalable system supporting 3,000+ simultaneous users",
+      "Increased test coverage by 85%",
+      "Interviewed at US and Peruvian news on TV and radio"
+    ],
+    "technologies": [
+      "laravel",
+      "php",
+      "livewire",
+      "tailwindcss",
+      "mysql",
+      "aws",
+      "python",
+      "vue"
+    ],
     "images": [
-      "/assets/images/portfolio/project_02/02.png",
-      "/assets/images/portfolio/project_02/03.png"
+      "/assets/images/portfolio/vacunatravel/02.png",
+      "/assets/images/portfolio/vacunatravel/03.png",
+      "/assets/images/portfolio/vacunatravel/04.png",
+      "/assets/images/portfolio/vacunatravel/05.png",
+      "/assets/images/portfolio/vacunatravel/06.png",
+      "/assets/images/portfolio/vacunatravel/07.png",
+      "/assets/images/portfolio/vacunatravel/08.png",
+      "/assets/images/portfolio/vacunatravel/09.png",
+      "/assets/images/portfolio/vacunatravel/10.png",
+      "/assets/images/portfolio/vacunatravel/11.png",
+      "/assets/images/portfolio/vacunatravel/12.png"
     ],
     "website": "",
     "featured": false
   },
   {
-    "id": "mentores",
-    "title": "Founder & CTO",
-    "company": "Mentores",
-    "companyLogo": "/assets/images/slider/message.jpg",
-    "location": "Peru",
-    "type": "founder",
-    "startDate": "2021-01",
-    "endDate": "2021-12",
-    "description": "Built a call-center system plus chatbot flows and document ingestion features.",
+    "id": "aaldebaran",
+    "title": "Software Engineer",
+    "company": "Aaldebaran SAC",
+    "companyLogo": "/assets/images/companies/aaldebaran.png",
+    "location": "Lima, Peru",
+    "type": "contract",
+    "startDate": "2019-06",
+    "endDate": "2020-03",
+    "description": "Increased company revenue by 200% implementing software services and building multiple production systems for diverse clients.",
     "projects": [
       {
-        "id": "mentores-call-center",
-        "name": "Call-center system",
-        "summary": "Voice and agent workflows to support customers.",
-        "bullets": ["Developed a call-center system for customer assistance"],
-        "technologies": ["react", "nextjs", "nodejs", "tailwindcss"],
+        "id": "ambartravel",
+        "name": "AmbarTravel - Travel Operations Platform",
+        "summary": "Travel booking and inventory management system with third-party API integrations.",
+        "bullets": [
+          "Built travel operations platform handling bookings, inventory, and customer workflows during tourism reactivation",
+          "Integrated multiple travel APIs connecting with third-party providers for flights, hotels, and packages",
+          "Developed on Laravel/PHP backend with React frontend and MySQL database on AWS infrastructure"
+        ],
+        "technologies": ["laravel", "php", "mysql", "aws", "react", "livewire"],
         "images": [
-          "/assets/images/portfolio/project_09/02.png",
-          "/assets/images/portfolio/project_09/03.png"
+          "/assets/images/portfolio/ambartravel/02.png",
+          "/assets/images/portfolio/ambartravel/03.png",
+          "/assets/images/portfolio/ambartravel/04.png",
+          "/assets/images/portfolio/ambartravel/05.png",
+          "/assets/images/portfolio/ambartravel/06.png",
+          "/assets/images/portfolio/ambartravel/07.png",
+          "/assets/images/portfolio/ambartravel/08.png",
+          "/assets/images/portfolio/ambartravel/09.png",
+          "/assets/images/portfolio/ambartravel/10.png",
+          "/assets/images/portfolio/ambartravel/11.png"
         ]
       },
       {
-        "id": "mentores-automation",
-        "name": "Automation & knowledge ingestion",
-        "summary": "Chatbots and document processing to speed up support.",
+        "id": "mentores",
+        "name": "Mentores - MOOC Marketplace",
+        "summary": "MOOC marketplace and automated customer support system for a teaching platform with chatbot automation and document processing.",
         "bullets": [
-          "Built chatbot support flows to answer common questions",
-          "Implemented file upload + chunking flow for documents"
+          "Developed automated customer support system with chatbot automation and document processing",
+          "Built chatbot support flows answering common questions and reducing support ticket volume",
+          "Implemented document upload and chunking flow enabling knowledge base creation from files",
+          "Created a MOOC marketplace for teachers to sell their courses, as well as a platform for students to learn from the courses"
         ],
-        "technologies": ["python", "nodejs", "react"],
-        "images": ["/assets/images/portfolio/project_09/04.png"]
+        "technologies": [
+          "react",
+          "nodejs",
+          "python",
+          "tailwindcss",
+          "laravel",
+          "php",
+          "mysql",
+          "aws"
+        ],
+        "images": [
+          "/assets/images/portfolio/mentores/02.png",
+          "/assets/images/portfolio/mentores/03.png",
+          "/assets/images/portfolio/mentores/04.png",
+          "/assets/images/portfolio/mentores/05.png",
+          "/assets/images/portfolio/mentores/06.png",
+          "/assets/images/portfolio/mentores/07.png",
+          "/assets/images/portfolio/mentores/08.png",
+          "/assets/images/portfolio/mentores/09.png",
+          "/assets/images/portfolio/mentores/10.png",
+          "/assets/images/portfolio/mentores/11.png",
+          "/assets/images/portfolio/mentores/12.png",
+          "/assets/images/portfolio/mentores/13.png"
+        ]
+      },
+      {
+        "id": "masa",
+        "name": "Masa - Media Center & Marketing",
+        "summary": "Home page for a media center & marketing company, allowing users to upload and manage their media files",
+        "bullets": [
+          "Developed and improved web pages optimizing user experience for marketing campaigns",
+          "Implemented performance and SEO improvements increasing organic traffic and conversion rates",
+          "Built with modern JavaScript, TypeScript, React, and TailwindCSS stack"
+        ],
+        "technologies": [
+          "javascript",
+          "typescript",
+          "react",
+          "tailwindcss",
+          "seo"
+        ],
+        "images": [
+          "/assets/images/portfolio/masa/02.png",
+          "/assets/images/portfolio/masa/03.png",
+          "/assets/images/portfolio/masa/04.png",
+          "/assets/images/portfolio/masa/05.png",
+          "/assets/images/portfolio/masa/06.png",
+          "/assets/images/portfolio/masa/07.png"
+        ],
+        "website": "https://masa.pe/"
+      },
+      {
+        "id": "myevent-aaldebaran",
+        "name": "MyEvent - Event Ticketing Platform",
+        "summary": "Multi-platform ticketing system for Latin American market.",
+        "bullets": [
+          "Built event creation and ticket purchasing flows serving Latin American event market",
+          "Integrated payment providers enabling secure ticket transactions",
+          "Developed ticket validation tools for event staff to verify attendees on-site",
+          "Designed 3-tier AWS architecture (EC2, S3, RDS) supporting planned iOS and Android apps"
+        ],
+        "technologies": [
+          "laravel",
+          "php",
+          "mysql",
+          "aws",
+          "react",
+          "tailwindcss"
+        ],
+        "images": [
+          "/assets/images/portfolio/myevent/02.png",
+          "/assets/images/portfolio/myevent/03.png",
+          "/assets/images/portfolio/myevent/04.png",
+          "/assets/images/portfolio/myevent/05.png",
+          "/assets/images/portfolio/myevent/06.png",
+          "/assets/images/portfolio/myevent/07.png",
+          "/assets/images/portfolio/myevent/08.png",
+          "/assets/images/portfolio/myevent/09.png",
+          "/assets/images/portfolio/myevent/10.png",
+          "/assets/images/portfolio/myevent/11.png",
+          "/assets/images/portfolio/myevent/12.png"
+        ]
       }
     ],
-    "achievements": [],
-    "technologies": ["react", "nextjs", "nodejs", "tailwindcss", "python"],
+    "achievements": [
+      "Increased company revenue by 200% through software services",
+      "Delivered 5+ production systems for diverse clients",
+      "Improved internal communication speed by 40% with cloud infrastructure"
+    ],
+    "technologies": [
+      "laravel",
+      "php",
+      "vue",
+      "react",
+      "nextjs",
+      "mongodb",
+      "mysql",
+      "aws",
+      "python",
+      "tailwindcss",
+      "livewire",
+      "alpinejs"
+    ],
     "images": [
-      "/assets/images/portfolio/project_09/02.png",
-      "/assets/images/portfolio/project_09/03.png",
-      "/assets/images/portfolio/project_09/04.png"
+      "/assets/images/portfolio/ambartravel/02.png",
+      "/assets/images/portfolio/mentores/02.png",
+      "/assets/images/portfolio/masa/02.png",
+      "/assets/images/portfolio/myevent/02.png"
     ],
     "website": "",
     "featured": false
   },
   {
-    "id": "eventify",
-    "title": "Software Developer",
-    "company": "Eventify",
-    "companyLogo": "/assets/images/slider/message.jpg",
-    "location": "Peru",
+    "id": "freelancer",
+    "title": "Freelance Web Developer",
+    "company": "Independent",
+    "companyLogo": "/assets/images/companies/freelancer.png",
+    "location": "Lima, Peru (Remote)",
     "type": "freelance",
-    "startDate": "2019-01",
-    "endDate": "2019-12",
-    "description": "Ticketing/event flows including QR validation and event management features.",
+    "startDate": "2015-03",
+    "endDate": "2018-12",
+    "description": "Built 20+ web systems for 15+ clients, progressing from basic stacks to advanced frameworks while establishing foundation in software engineering principles.",
     "projects": [
       {
-        "id": "eventify-platform",
-        "name": "Event management platform",
-        "summary": "Ticketing flows with QR validation and management tools.",
-        "bullets": ["Built event management and validation features"],
+        "id": "eventify",
+        "name": "Eventify - Event Management Platform",
+        "summary": "Ticketing platform with QR validation and event management tools.",
+        "bullets": [
+          "Developed event management platform with ticketing flows and QR code validation",
+          "Built with Laravel/PHP backend and React frontend with MySQL database",
+          "Enabled organizers to create events, manage inventory, and validate tickets on-site"
+        ],
         "technologies": ["laravel", "php", "mysql", "react"],
         "images": [
-          "/assets/images/portfolio/project_10/02.png",
-          "/assets/images/portfolio/project_10/03.png"
+          "/assets/images/portfolio/eventify/02.png",
+          "/assets/images/portfolio/eventify/03.png",
+          "/assets/images/portfolio/eventify/04.png"
         ]
-      }
-    ],
-    "achievements": [],
-    "technologies": ["laravel", "php", "mysql", "react"],
-    "images": [
-      "/assets/images/portfolio/project_10/02.png",
-      "/assets/images/portfolio/project_10/03.png"
-    ],
-    "website": "",
-    "featured": false
-  },
-  {
-    "id": "accesodirecto",
-    "title": "Software Developer",
-    "company": "AccesoDirecto",
-    "companyLogo": "/assets/images/slider/message.jpg",
-    "location": "Peru",
-    "type": "part-time",
-    "startDate": "2019-01",
-    "endDate": "2019-06",
-    "description": "Role listed in previous portfolio design.",
-    "projects": [
+      },
       {
-        "id": "accesodirecto-legacy",
-        "name": "Legacy portfolio entry",
-        "summary": "Maintained this listing from the previous portfolio version.",
-        "bullets": ["Details tracked for historical context of earlier work"],
-        "technologies": ["php", "laravel", "mysql"],
+        "id": "accesodirecto",
+        "name": "AccesoDirecto - Event Ticketing System",
+        "summary": "Multi-platform ticketing solution for Lima events with Azure deployment.",
+        "bullets": [
+          "Designed 2-tier cloud architecture on Azure for event ticket sales in Lima, Peru",
+          "Built with PHP/Laravel backend and Vue.js frontend with SASS preprocessing",
+          "Applied SOLID principles and design patterns establishing scalable architecture foundations"
+        ],
+        "technologies": ["laravel", "php", "vue", "mysql", "azure"],
         "images": [
-          "/assets/images/portfolio/portfolio-14.jpg",
-          "/assets/images/portfolio/portfolio-15.jpg"
+          "/assets/images/portfolio/acceso-directo/02.png",
+          "/assets/images/portfolio/acceso-directo/03.png",
+          "/assets/images/portfolio/acceso-directo/04.png",
+          "/assets/images/portfolio/acceso-directo/05.png",
+          "/assets/images/portfolio/acceso-directo/06.png"
+        ]
+      },
+      {
+        "id": "cepeban",
+        "name": "Cepeban School Website",
+        "summary": "Marketing website for educational institution highlighting programs and admissions.",
+        "bullets": [
+          "Designed and built complete school website with clear information architecture",
+          "Developed landing pages showcasing academic programs and admission processes",
+          "Built with React for modern, responsive design"
+        ],
+        "technologies": ["react", "javascript", "tailwindcss", "wordpress"],
+        "images": [
+          "/assets/images/portfolio/cepeban/01.jpg",
+          "/assets/images/portfolio/cepeban/02.png",
+          "/assets/images/portfolio/cepeban/03.png",
+          "/assets/images/portfolio/cepeban/04.png",
+          "/assets/images/portfolio/cepeban/05.png",
+          "/assets/images/portfolio/cepeban/06.png",
+          "/assets/images/portfolio/cepeban/07.png"
         ]
       }
     ],
-    "achievements": [],
-    "technologies": ["php", "laravel", "mysql"],
+    "achievements": [
+      "Delivered 20+ production systems for 15+ clients",
+      "Progressed from jQuery/HTML/CSS to Laravel/React/MongoDB",
+      "Built game emulators using C++, C#, and Java",
+      "Learned UI/UX design with Photoshop and Adobe XD"
+    ],
+    "technologies": [
+      "javascript",
+      "typescript",
+      "react",
+      "nextjs",
+      "vue",
+      "laravel",
+      "php",
+      "mysql",
+      "mongodb",
+      "tailwindcss",
+      "wordpress",
+      "jquery",
+      "sass",
+      "wordpress"
+    ],
     "images": [
-      "/assets/images/portfolio/portfolio-14.jpg",
-      "/assets/images/portfolio/portfolio-15.jpg"
+      "/assets/images/portfolio/eventify/01.jpg",
+      "/assets/images/portfolio/acceso-directo/02.png",
+      "/assets/images/portfolio/cepeban/01.jpg"
     ],
     "website": "",
     "featured": false
