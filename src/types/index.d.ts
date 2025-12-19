@@ -77,3 +77,16 @@ export interface SEOProps {
   description?: string;
   image?: string;
 }
+
+export interface PersonalProject {
+  id: string;
+  name: string;
+  year: number;
+  logo: string;
+  description: string;
+  bullets: string[];
+  technologies: string[];
+  images: string[];
+  website?: string;
+  readMore?: string;
+}
