@@ -4,7 +4,7 @@ export const SITE_CONFIG = {
   shortName: 'Patricio Marroquin',
   title: 'Patricio Marroquin | Senior Software Developer & AI Engineer',
   description:
-    '22 years old. Bachelor in Software Engineering with over 7 years of experience. Based in Lima, Peru 🇵🇪. Senior Software Developer at Turn Technologies.',
+    '26 years old. Master\'s in Artificial Intelligence and Bachelor\'s in Software Engineering with over 10 years of experience. Based in Lima, Peru 🇵🇪.',
   author: 'Juan Patricio Marroquin',
   email: 'juan@patriciomarroquin.dev',
   location: 'Lima, Peru',
