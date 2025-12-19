@@ -3,7 +3,7 @@
     "id": "neo-sophia",
     "title": "Full-Stack AI Engineer",
     "company": "Neo Sophia",
-    "companyLogo": "/assets/images/companies/neo-sophia.png",
+    "companyLogo": "/assets/images/companies/neo-sophia.webp",
     "location": "Atlanta, GA (Remote)",
     "type": "contract",
     "startDate": "2025-09",
@@ -42,9 +42,9 @@
           "lambda"
         ],
         "images": [
-          "/assets/images/portfolio/neosophia/04.png",
-          "/assets/images/portfolio/neosophia/05.png",
-          "/assets/images/portfolio/neosophia/06.png"
+          "/assets/images/portfolio/neosophia/04.webp",
+          "/assets/images/portfolio/neosophia/05.webp",
+          "/assets/images/portfolio/neosophia/06.webp"
         ],
         "website": "https://amap-landing-eta.vercel.app/"
       }
@@ -65,12 +65,12 @@
       "aws"
     ],
     "images": [
-      "/assets/images/portfolio/neosophia/04.png",
-      "/assets/images/portfolio/neosophia/05.png",
-      "/assets/images/portfolio/neosophia/06.png",
-      "/assets/images/portfolio/neosophia/01.png",
-      "/assets/images/portfolio/neosophia/02.png",
-      "/assets/images/portfolio/neosophia/03.png"
+      "/assets/images/portfolio/neosophia/04.webp",
+      "/assets/images/portfolio/neosophia/05.webp",
+      "/assets/images/portfolio/neosophia/06.webp",
+      "/assets/images/portfolio/neosophia/01.webp",
+      "/assets/images/portfolio/neosophia/02.webp",
+      "/assets/images/portfolio/neosophia/03.webp"
     ],
     "website": "https://neosophia.ai/",
     "featured": true
@@ -79,7 +79,7 @@
     "id": "pine-studio",
     "title": "Full-Stack AI Engineer",
     "company": "Pine Venture Studio",
-    "companyLogo": "/assets/images/companies/pine-studio.png",
+    "companyLogo": "/assets/images/companies/pine-studio.webp",
     "location": "Toronto, ON (Remote)",
     "type": "contract",
     "startDate": "2024-10",
@@ -112,13 +112,13 @@
           "redux"
         ],
         "images": [
-          "/assets/images/portfolio/pine-studio/05.png",
-          "/assets/images/portfolio/pine-studio/06.png",
-          "/assets/images/portfolio/pine-studio/07.png",
-          "/assets/images/portfolio/pine-studio/01.png",
-          "/assets/images/portfolio/pine-studio/02.png",
-          "/assets/images/portfolio/pine-studio/03.png",
-          "/assets/images/portfolio/pine-studio/04.png"
+          "/assets/images/portfolio/pine-studio/05.webp",
+          "/assets/images/portfolio/pine-studio/06.webp",
+          "/assets/images/portfolio/pine-studio/07.webp",
+          "/assets/images/portfolio/pine-studio/01.webp",
+          "/assets/images/portfolio/pine-studio/02.webp",
+          "/assets/images/portfolio/pine-studio/03.webp",
+          "/assets/images/portfolio/pine-studio/04.webp"
         ],
         "website": "https://www.venturekit.ai/formation"
       },
@@ -149,12 +149,12 @@
           "react-query"
         ],
         "images": [
-          "/assets/images/portfolio/pine-studio/08.png",
-          "/assets/images/portfolio/pine-studio/09.png",
-          "/assets/images/portfolio/pine-studio/10.png",
-          "/assets/images/portfolio/pine-studio/11.png",
-          "/assets/images/portfolio/pine-studio/12.png",
-          "/assets/images/portfolio/pine-studio/13.png"
+          "/assets/images/portfolio/pine-studio/08.webp",
+          "/assets/images/portfolio/pine-studio/09.webp",
+          "/assets/images/portfolio/pine-studio/10.webp",
+          "/assets/images/portfolio/pine-studio/11.webp",
+          "/assets/images/portfolio/pine-studio/12.webp",
+          "/assets/images/portfolio/pine-studio/13.webp"
         ],
         "website": "https://www.everbook.com/"
       }
@@ -174,19 +174,19 @@
       "tailwindcss"
     ],
     "images": [
-      "/assets/images/portfolio/pine-studio/01.png",
-      "/assets/images/portfolio/pine-studio/02.png",
-      "/assets/images/portfolio/pine-studio/03.png",
-      "/assets/images/portfolio/pine-studio/04.png",
-      "/assets/images/portfolio/pine-studio/05.png",
-      "/assets/images/portfolio/pine-studio/06.png",
-      "/assets/images/portfolio/pine-studio/07.png",
-      "/assets/images/portfolio/pine-studio/08.png",
-      "/assets/images/portfolio/pine-studio/09.png",
-      "/assets/images/portfolio/pine-studio/10.png",
-      "/assets/images/portfolio/pine-studio/11.png",
-      "/assets/images/portfolio/pine-studio/12.png",
-      "/assets/images/portfolio/pine-studio/13.png"
+      "/assets/images/portfolio/pine-studio/01.webp",
+      "/assets/images/portfolio/pine-studio/02.webp",
+      "/assets/images/portfolio/pine-studio/03.webp",
+      "/assets/images/portfolio/pine-studio/04.webp",
+      "/assets/images/portfolio/pine-studio/05.webp",
+      "/assets/images/portfolio/pine-studio/06.webp",
+      "/assets/images/portfolio/pine-studio/07.webp",
+      "/assets/images/portfolio/pine-studio/08.webp",
+      "/assets/images/portfolio/pine-studio/09.webp",
+      "/assets/images/portfolio/pine-studio/10.webp",
+      "/assets/images/portfolio/pine-studio/11.webp",
+      "/assets/images/portfolio/pine-studio/12.webp",
+      "/assets/images/portfolio/pine-studio/13.webp"
     ],
     "website": "https://www.linkedin.com/company/pine-venture-studio/",
     "featured": true
@@ -195,7 +195,7 @@
     "id": "ardent-hq",
     "title": "Full-Stack Web3 Developer",
     "company": "Ardent HQ",
-    "companyLogo": "/assets/images/companies/ardenthq.png",
+    "companyLogo": "/assets/images/companies/ardenthq.webp",
     "location": "Manchester, NH (Remote)",
     "type": "full-time",
     "startDate": "2023-10",
@@ -224,11 +224,11 @@
           "vercel"
         ],
         "images": [
-          "/assets/images/portfolio/ardenthq/01.png",
-          "/assets/images/portfolio/ardenthq/02.png",
-          "/assets/images/portfolio/ardenthq/03.png",
-          "/assets/images/portfolio/ardenthq/04.png",
-          "/assets/images/portfolio/ardenthq/05.png"
+          "/assets/images/portfolio/ardenthq/01.webp",
+          "/assets/images/portfolio/ardenthq/02.webp",
+          "/assets/images/portfolio/ardenthq/03.webp",
+          "/assets/images/portfolio/ardenthq/04.webp",
+          "/assets/images/portfolio/ardenthq/05.webp"
         ],
         "website": "https://app.arkvault.io/"
       },
@@ -251,9 +251,9 @@
           "tailwindcss"
         ],
         "images": [
-          "/assets/images/portfolio/ardenthq/06.png",
-          "/assets/images/portfolio/ardenthq/08.png",
-          "/assets/images/portfolio/ardenthq/07.png"
+          "/assets/images/portfolio/ardenthq/06.webp",
+          "/assets/images/portfolio/ardenthq/08.webp",
+          "/assets/images/portfolio/ardenthq/07.webp"
         ],
         "website": "https://arkwallet.org/"
       },
@@ -279,11 +279,11 @@
           "php"
         ],
         "images": [
-          "/assets/images/portfolio/ardenthq/09.png",
-          "/assets/images/portfolio/ardenthq/10.png",
-          "/assets/images/portfolio/ardenthq/11.png",
-          "/assets/images/portfolio/ardenthq/12.png",
-          "/assets/images/portfolio/ardenthq/13.png"
+          "/assets/images/portfolio/ardenthq/09.webp",
+          "/assets/images/portfolio/ardenthq/10.webp",
+          "/assets/images/portfolio/ardenthq/11.webp",
+          "/assets/images/portfolio/ardenthq/12.webp",
+          "/assets/images/portfolio/ardenthq/13.webp"
         ],
         "website": "https://beta.dashbrd.com/"
       },
@@ -304,9 +304,9 @@
           "tailwindcss"
         ],
         "images": [
-          "/assets/images/portfolio/ardenthq/14.png",
-          "/assets/images/portfolio/ardenthq/15.png",
-          "/assets/images/portfolio/ardenthq/16.png"
+          "/assets/images/portfolio/ardenthq/14.webp",
+          "/assets/images/portfolio/ardenthq/15.webp",
+          "/assets/images/portfolio/ardenthq/16.webp"
         ],
         "website": "https://arkconnect.io/"
       }
@@ -330,22 +330,22 @@
       "alpinejs"
     ],
     "images": [
-      "/assets/images/portfolio/ardenthq/01.png",
-      "/assets/images/portfolio/ardenthq/02.png",
-      "/assets/images/portfolio/ardenthq/03.png",
-      "/assets/images/portfolio/ardenthq/04.png",
-      "/assets/images/portfolio/ardenthq/05.png",
-      "/assets/images/portfolio/ardenthq/06.png",
-      "/assets/images/portfolio/ardenthq/07.png",
-      "/assets/images/portfolio/ardenthq/08.png",
-      "/assets/images/portfolio/ardenthq/09.png",
-      "/assets/images/portfolio/ardenthq/10.png",
-      "/assets/images/portfolio/ardenthq/11.png",
-      "/assets/images/portfolio/ardenthq/12.png",
-      "/assets/images/portfolio/ardenthq/13.png",
-      "/assets/images/portfolio/ardenthq/14.png",
-      "/assets/images/portfolio/ardenthq/15.png",
-      "/assets/images/portfolio/ardenthq/16.png"
+      "/assets/images/portfolio/ardenthq/01.webp",
+      "/assets/images/portfolio/ardenthq/02.webp",
+      "/assets/images/portfolio/ardenthq/03.webp",
+      "/assets/images/portfolio/ardenthq/04.webp",
+      "/assets/images/portfolio/ardenthq/05.webp",
+      "/assets/images/portfolio/ardenthq/06.webp",
+      "/assets/images/portfolio/ardenthq/07.webp",
+      "/assets/images/portfolio/ardenthq/08.webp",
+      "/assets/images/portfolio/ardenthq/09.webp",
+      "/assets/images/portfolio/ardenthq/10.webp",
+      "/assets/images/portfolio/ardenthq/11.webp",
+      "/assets/images/portfolio/ardenthq/12.webp",
+      "/assets/images/portfolio/ardenthq/13.webp",
+      "/assets/images/portfolio/ardenthq/14.webp",
+      "/assets/images/portfolio/ardenthq/15.webp",
+      "/assets/images/portfolio/ardenthq/16.webp"
     ],
     "website": "https://ardenthq.com/",
     "featured": true
@@ -354,7 +354,7 @@
     "id": "divvy",
     "title": "Full-Stack Web3 Developer",
     "company": "Divvy (DeFi Ventures)",
-    "companyLogo": "/assets/images/companies/divvy-bet.png",
+    "companyLogo": "/assets/images/companies/divvy-bet.webp",
     "location": "New York City, NY (Remote)",
     "type": "full-time",
     "startDate": "2022-12",
@@ -390,13 +390,13 @@
           "aws"
         ],
         "images": [
-          "/assets/images/portfolio/divvy/01.png",
-          "/assets/images/portfolio/divvy/02.png",
-          "/assets/images/portfolio/divvy/03.png",
-          "/assets/images/portfolio/divvy/04.png",
-          "/assets/images/portfolio/divvy/05.png",
-          "/assets/images/portfolio/divvy/06.png",
-          "/assets/images/portfolio/divvy/07.png"
+          "/assets/images/portfolio/divvy/01.webp",
+          "/assets/images/portfolio/divvy/02.webp",
+          "/assets/images/portfolio/divvy/03.webp",
+          "/assets/images/portfolio/divvy/04.webp",
+          "/assets/images/portfolio/divvy/05.webp",
+          "/assets/images/portfolio/divvy/06.webp",
+          "/assets/images/portfolio/divvy/07.webp"
         ],
         "website": "https://divvy.bet/"
       }
@@ -418,13 +418,13 @@
       "tailwindcss"
     ],
     "images": [
-      "/assets/images/portfolio/divvy/01.png",
-      "/assets/images/portfolio/divvy/02.png",
-      "/assets/images/portfolio/divvy/03.png",
-      "/assets/images/portfolio/divvy/04.png",
-      "/assets/images/portfolio/divvy/05.png",
-      "/assets/images/portfolio/divvy/06.png",
-      "/assets/images/portfolio/divvy/07.png"
+      "/assets/images/portfolio/divvy/01.webp",
+      "/assets/images/portfolio/divvy/02.webp",
+      "/assets/images/portfolio/divvy/03.webp",
+      "/assets/images/portfolio/divvy/04.webp",
+      "/assets/images/portfolio/divvy/05.webp",
+      "/assets/images/portfolio/divvy/06.webp",
+      "/assets/images/portfolio/divvy/07.webp"
     ],
     "website": "https://divvy.bet/",
     "featured": true
@@ -433,7 +433,7 @@
     "id": "turn-technologies",
     "title": "Senior Frontend Developer",
     "company": "Turn Technologies",
-    "companyLogo": "/assets/images/companies/turn.png",
+    "companyLogo": "/assets/images/companies/turn.webp",
     "location": "Chicago, IL (Remote)",
     "type": "full-time",
     "startDate": "2021-12",
@@ -462,13 +462,13 @@
           "rtl"
         ],
         "images": [
-          "/assets/images/portfolio/turn/01.jpg",
-          "/assets/images/portfolio/turn/02.png",
-          "/assets/images/portfolio/turn/03.png",
-          "/assets/images/portfolio/turn/04.png",
-          "/assets/images/portfolio/turn/08.png",
-          "/assets/images/portfolio/turn/09.png",
-          "/assets/images/portfolio/turn/10.png"
+          "/assets/images/portfolio/turn/01.webp",
+          "/assets/images/portfolio/turn/02.webp",
+          "/assets/images/portfolio/turn/03.webp",
+          "/assets/images/portfolio/turn/04.webp",
+          "/assets/images/portfolio/turn/08.webp",
+          "/assets/images/portfolio/turn/09.webp",
+          "/assets/images/portfolio/turn/10.webp"
         ]
       },
       {
@@ -492,10 +492,10 @@
           "tailwindcss"
         ],
         "images": [
-          "/assets/images/portfolio/turn/05.png",
-          "/assets/images/portfolio/turn/06.png",
-          "/assets/images/portfolio/turn/07.png",
-          "/assets/images/portfolio/turn/08.png"
+          "/assets/images/portfolio/turn/05.webp",
+          "/assets/images/portfolio/turn/06.webp",
+          "/assets/images/portfolio/turn/07.webp",
+          "/assets/images/portfolio/turn/08.webp"
         ]
       }
     ],
@@ -517,16 +517,16 @@
       "fastapi"
     ],
     "images": [
-      "/assets/images/portfolio/turn/01.jpg",
-      "/assets/images/portfolio/turn/02.png",
-      "/assets/images/portfolio/turn/03.png",
-      "/assets/images/portfolio/turn/04.png",
-      "/assets/images/portfolio/turn/05.png",
-      "/assets/images/portfolio/turn/06.png",
-      "/assets/images/portfolio/turn/07.png",
-      "/assets/images/portfolio/turn/08.png",
-      "/assets/images/portfolio/turn/09.png",
-      "/assets/images/portfolio/turn/10.png"
+      "/assets/images/portfolio/turn/01.webp",
+      "/assets/images/portfolio/turn/02.webp",
+      "/assets/images/portfolio/turn/03.webp",
+      "/assets/images/portfolio/turn/04.webp",
+      "/assets/images/portfolio/turn/05.webp",
+      "/assets/images/portfolio/turn/06.webp",
+      "/assets/images/portfolio/turn/07.webp",
+      "/assets/images/portfolio/turn/08.webp",
+      "/assets/images/portfolio/turn/09.webp",
+      "/assets/images/portfolio/turn/10.webp"
     ],
     "website": "https://turn.ai",
     "featured": true
@@ -535,7 +535,7 @@
     "id": "anqarapp",
     "title": "Founder & CEO",
     "company": "Anqarapp",
-    "companyLogo": "/assets/images/companies/anqarapp.png",
+    "companyLogo": "/assets/images/companies/anqarapp.webp",
     "location": "Lima, Peru (Hybrid)",
     "type": "founder",
     "startDate": "2020-03",
@@ -566,13 +566,13 @@
           "python"
         ],
         "images": [
-          "/assets/images/portfolio/anqarapp/02.png",
-          "/assets/images/portfolio/anqarapp/03.png",
-          "/assets/images/portfolio/anqarapp/04.png",
-          "/assets/images/portfolio/anqarapp/05.png",
-          "/assets/images/portfolio/anqarapp/06.png",
-          "/assets/images/portfolio/anqarapp/07.png",
-          "/assets/images/portfolio/anqarapp/08.png"
+          "/assets/images/portfolio/anqarapp/02.webp",
+          "/assets/images/portfolio/anqarapp/03.webp",
+          "/assets/images/portfolio/anqarapp/04.webp",
+          "/assets/images/portfolio/anqarapp/05.webp",
+          "/assets/images/portfolio/anqarapp/06.webp",
+          "/assets/images/portfolio/anqarapp/07.webp",
+          "/assets/images/portfolio/anqarapp/08.webp"
         ],
         "website": "https://web.archive.org/web/20211204020641/https://anqarapp.com/"
       }
@@ -595,15 +595,15 @@
       "python"
     ],
     "images": [
-      "/assets/images/portfolio/anqarapp/02.png",
-      "/assets/images/portfolio/anqarapp/03.png",
-      "/assets/images/portfolio/anqarapp/04.png",
-      "/assets/images/portfolio/anqarapp/05.png",
-      "/assets/images/portfolio/anqarapp/06.png",
-      "/assets/images/portfolio/anqarapp/07.png",
-      "/assets/images/portfolio/anqarapp/08.png",
-      "/assets/images/portfolio/anqarapp/09.png",
-      "/assets/images/portfolio/anqarapp/10.png"
+      "/assets/images/portfolio/anqarapp/02.webp",
+      "/assets/images/portfolio/anqarapp/03.webp",
+      "/assets/images/portfolio/anqarapp/04.webp",
+      "/assets/images/portfolio/anqarapp/05.webp",
+      "/assets/images/portfolio/anqarapp/06.webp",
+      "/assets/images/portfolio/anqarapp/07.webp",
+      "/assets/images/portfolio/anqarapp/08.webp",
+      "/assets/images/portfolio/anqarapp/09.webp",
+      "/assets/images/portfolio/anqarapp/10.webp"
     ],
     "website": "https://web.archive.org/web/20211204020641/https://anqarapp.com/",
     "featured": true
@@ -612,7 +612,7 @@
     "id": "vacunatravel",
     "title": "Founder & Principal Software Engineer",
     "company": "VacunaTravel",
-    "companyLogo": "/assets/images/companies/vacunatravel.png",
+    "companyLogo": "/assets/images/companies/vacunatravel.webp",
     "location": "Lima, Peru (Hybrid)",
     "type": "founder",
     "startDate": "2021-01",
@@ -640,17 +640,17 @@
           "python"
         ],
         "images": [
-          "/assets/images/portfolio/vacunatravel/02.png",
-          "/assets/images/portfolio/vacunatravel/03.png",
-          "/assets/images/portfolio/vacunatravel/04.png",
-          "/assets/images/portfolio/vacunatravel/05.png",
-          "/assets/images/portfolio/vacunatravel/06.png",
-          "/assets/images/portfolio/vacunatravel/07.png",
-          "/assets/images/portfolio/vacunatravel/08.png",
-          "/assets/images/portfolio/vacunatravel/09.png",
-          "/assets/images/portfolio/vacunatravel/10.png",
-          "/assets/images/portfolio/vacunatravel/11.png",
-          "/assets/images/portfolio/vacunatravel/12.png"
+          "/assets/images/portfolio/vacunatravel/02.webp",
+          "/assets/images/portfolio/vacunatravel/03.webp",
+          "/assets/images/portfolio/vacunatravel/04.webp",
+          "/assets/images/portfolio/vacunatravel/05.webp",
+          "/assets/images/portfolio/vacunatravel/06.webp",
+          "/assets/images/portfolio/vacunatravel/07.webp",
+          "/assets/images/portfolio/vacunatravel/08.webp",
+          "/assets/images/portfolio/vacunatravel/09.webp",
+          "/assets/images/portfolio/vacunatravel/10.webp",
+          "/assets/images/portfolio/vacunatravel/11.webp",
+          "/assets/images/portfolio/vacunatravel/12.webp"
         ]
       }
     ],
@@ -671,17 +671,17 @@
       "vue"
     ],
     "images": [
-      "/assets/images/portfolio/vacunatravel/02.png",
-      "/assets/images/portfolio/vacunatravel/03.png",
-      "/assets/images/portfolio/vacunatravel/04.png",
-      "/assets/images/portfolio/vacunatravel/05.png",
-      "/assets/images/portfolio/vacunatravel/06.png",
-      "/assets/images/portfolio/vacunatravel/07.png",
-      "/assets/images/portfolio/vacunatravel/08.png",
-      "/assets/images/portfolio/vacunatravel/09.png",
-      "/assets/images/portfolio/vacunatravel/10.png",
-      "/assets/images/portfolio/vacunatravel/11.png",
-      "/assets/images/portfolio/vacunatravel/12.png"
+      "/assets/images/portfolio/vacunatravel/02.webp",
+      "/assets/images/portfolio/vacunatravel/03.webp",
+      "/assets/images/portfolio/vacunatravel/04.webp",
+      "/assets/images/portfolio/vacunatravel/05.webp",
+      "/assets/images/portfolio/vacunatravel/06.webp",
+      "/assets/images/portfolio/vacunatravel/07.webp",
+      "/assets/images/portfolio/vacunatravel/08.webp",
+      "/assets/images/portfolio/vacunatravel/09.webp",
+      "/assets/images/portfolio/vacunatravel/10.webp",
+      "/assets/images/portfolio/vacunatravel/11.webp",
+      "/assets/images/portfolio/vacunatravel/12.webp"
     ],
     "website": "",
     "featured": false
@@ -690,7 +690,7 @@
     "id": "aaldebaran",
     "title": "Software Engineer",
     "company": "Aaldebaran SAC",
-    "companyLogo": "/assets/images/companies/aaldebaran.png",
+    "companyLogo": "/assets/images/companies/aaldebaran.webp",
     "location": "Lima, Peru",
     "type": "contract",
     "startDate": "2019-06",
@@ -708,16 +708,16 @@
         ],
         "technologies": ["laravel", "php", "mysql", "aws", "react", "livewire"],
         "images": [
-          "/assets/images/portfolio/ambartravel/02.png",
-          "/assets/images/portfolio/ambartravel/03.png",
-          "/assets/images/portfolio/ambartravel/04.png",
-          "/assets/images/portfolio/ambartravel/05.png",
-          "/assets/images/portfolio/ambartravel/06.png",
-          "/assets/images/portfolio/ambartravel/07.png",
-          "/assets/images/portfolio/ambartravel/08.png",
-          "/assets/images/portfolio/ambartravel/09.png",
-          "/assets/images/portfolio/ambartravel/10.png",
-          "/assets/images/portfolio/ambartravel/11.png"
+          "/assets/images/portfolio/ambartravel/02.webp",
+          "/assets/images/portfolio/ambartravel/03.webp",
+          "/assets/images/portfolio/ambartravel/04.webp",
+          "/assets/images/portfolio/ambartravel/05.webp",
+          "/assets/images/portfolio/ambartravel/06.webp",
+          "/assets/images/portfolio/ambartravel/07.webp",
+          "/assets/images/portfolio/ambartravel/08.webp",
+          "/assets/images/portfolio/ambartravel/09.webp",
+          "/assets/images/portfolio/ambartravel/10.webp",
+          "/assets/images/portfolio/ambartravel/11.webp"
         ]
       },
       {
@@ -741,18 +741,18 @@
           "aws"
         ],
         "images": [
-          "/assets/images/portfolio/mentores/02.png",
-          "/assets/images/portfolio/mentores/03.png",
-          "/assets/images/portfolio/mentores/04.png",
-          "/assets/images/portfolio/mentores/05.png",
-          "/assets/images/portfolio/mentores/06.png",
-          "/assets/images/portfolio/mentores/07.png",
-          "/assets/images/portfolio/mentores/08.png",
-          "/assets/images/portfolio/mentores/09.png",
-          "/assets/images/portfolio/mentores/10.png",
-          "/assets/images/portfolio/mentores/11.png",
-          "/assets/images/portfolio/mentores/12.png",
-          "/assets/images/portfolio/mentores/13.png"
+          "/assets/images/portfolio/mentores/02.webp",
+          "/assets/images/portfolio/mentores/03.webp",
+          "/assets/images/portfolio/mentores/04.webp",
+          "/assets/images/portfolio/mentores/05.webp",
+          "/assets/images/portfolio/mentores/06.webp",
+          "/assets/images/portfolio/mentores/07.webp",
+          "/assets/images/portfolio/mentores/08.webp",
+          "/assets/images/portfolio/mentores/09.webp",
+          "/assets/images/portfolio/mentores/10.webp",
+          "/assets/images/portfolio/mentores/11.webp",
+          "/assets/images/portfolio/mentores/12.webp",
+          "/assets/images/portfolio/mentores/13.webp"
         ]
       },
       {
@@ -772,12 +772,12 @@
           "seo"
         ],
         "images": [
-          "/assets/images/portfolio/masa/02.png",
-          "/assets/images/portfolio/masa/03.png",
-          "/assets/images/portfolio/masa/04.png",
-          "/assets/images/portfolio/masa/05.png",
-          "/assets/images/portfolio/masa/06.png",
-          "/assets/images/portfolio/masa/07.png"
+          "/assets/images/portfolio/masa/02.webp",
+          "/assets/images/portfolio/masa/03.webp",
+          "/assets/images/portfolio/masa/04.webp",
+          "/assets/images/portfolio/masa/05.webp",
+          "/assets/images/portfolio/masa/06.webp",
+          "/assets/images/portfolio/masa/07.webp"
         ],
         "website": "https://masa.pe/"
       },
@@ -800,17 +800,17 @@
           "tailwindcss"
         ],
         "images": [
-          "/assets/images/portfolio/myevent/02.png",
-          "/assets/images/portfolio/myevent/03.png",
-          "/assets/images/portfolio/myevent/04.png",
-          "/assets/images/portfolio/myevent/05.png",
-          "/assets/images/portfolio/myevent/06.png",
-          "/assets/images/portfolio/myevent/07.png",
-          "/assets/images/portfolio/myevent/08.png",
-          "/assets/images/portfolio/myevent/09.png",
-          "/assets/images/portfolio/myevent/10.png",
-          "/assets/images/portfolio/myevent/11.png",
-          "/assets/images/portfolio/myevent/12.png"
+          "/assets/images/portfolio/myevent/02.webp",
+          "/assets/images/portfolio/myevent/03.webp",
+          "/assets/images/portfolio/myevent/04.webp",
+          "/assets/images/portfolio/myevent/05.webp",
+          "/assets/images/portfolio/myevent/06.webp",
+          "/assets/images/portfolio/myevent/07.webp",
+          "/assets/images/portfolio/myevent/08.webp",
+          "/assets/images/portfolio/myevent/09.webp",
+          "/assets/images/portfolio/myevent/10.webp",
+          "/assets/images/portfolio/myevent/11.webp",
+          "/assets/images/portfolio/myevent/12.webp"
         ]
       }
     ],
@@ -834,10 +834,10 @@
       "alpinejs"
     ],
     "images": [
-      "/assets/images/portfolio/ambartravel/02.png",
-      "/assets/images/portfolio/mentores/02.png",
-      "/assets/images/portfolio/masa/02.png",
-      "/assets/images/portfolio/myevent/02.png"
+      "/assets/images/portfolio/ambartravel/02.webp",
+      "/assets/images/portfolio/mentores/02.webp",
+      "/assets/images/portfolio/masa/02.webp",
+      "/assets/images/portfolio/myevent/02.webp"
     ],
     "website": "",
     "featured": false
@@ -846,7 +846,7 @@
     "id": "freelancer",
     "title": "Freelance Web Developer",
     "company": "Independent",
-    "companyLogo": "/assets/images/companies/freelancer.png",
+    "companyLogo": "/assets/images/companies/freelancer.webp",
     "location": "Lima, Peru (Remote)",
     "type": "freelance",
     "startDate": "2015-03",
@@ -864,9 +864,9 @@
         ],
         "technologies": ["laravel", "php", "mysql", "react"],
         "images": [
-          "/assets/images/portfolio/eventify/02.png",
-          "/assets/images/portfolio/eventify/03.png",
-          "/assets/images/portfolio/eventify/04.png"
+          "/assets/images/portfolio/eventify/02.webp",
+          "/assets/images/portfolio/eventify/03.webp",
+          "/assets/images/portfolio/eventify/04.webp"
         ]
       },
       {
@@ -880,11 +880,11 @@
         ],
         "technologies": ["laravel", "php", "vue", "mysql", "azure"],
         "images": [
-          "/assets/images/portfolio/acceso-directo/02.png",
-          "/assets/images/portfolio/acceso-directo/03.png",
-          "/assets/images/portfolio/acceso-directo/04.png",
-          "/assets/images/portfolio/acceso-directo/05.png",
-          "/assets/images/portfolio/acceso-directo/06.png"
+          "/assets/images/portfolio/acceso-directo/02.webp",
+          "/assets/images/portfolio/acceso-directo/03.webp",
+          "/assets/images/portfolio/acceso-directo/04.webp",
+          "/assets/images/portfolio/acceso-directo/05.webp",
+          "/assets/images/portfolio/acceso-directo/06.webp"
         ]
       },
       {
@@ -898,13 +898,13 @@
         ],
         "technologies": ["react", "javascript", "tailwindcss", "wordpress"],
         "images": [
-          "/assets/images/portfolio/cepeban/01.jpg",
-          "/assets/images/portfolio/cepeban/02.png",
-          "/assets/images/portfolio/cepeban/03.png",
-          "/assets/images/portfolio/cepeban/04.png",
-          "/assets/images/portfolio/cepeban/05.png",
-          "/assets/images/portfolio/cepeban/06.png",
-          "/assets/images/portfolio/cepeban/07.png"
+          "/assets/images/portfolio/cepeban/01.webp",
+          "/assets/images/portfolio/cepeban/02.webp",
+          "/assets/images/portfolio/cepeban/03.webp",
+          "/assets/images/portfolio/cepeban/04.webp",
+          "/assets/images/portfolio/cepeban/05.webp",
+          "/assets/images/portfolio/cepeban/06.webp",
+          "/assets/images/portfolio/cepeban/07.webp"
         ]
       }
     ],
@@ -931,9 +931,9 @@
       "wordpress"
     ],
     "images": [
-      "/assets/images/portfolio/eventify/01.jpg",
-      "/assets/images/portfolio/acceso-directo/02.png",
-      "/assets/images/portfolio/cepeban/01.jpg"
+      "/assets/images/portfolio/eventify/01.webp",
+      "/assets/images/portfolio/acceso-directo/02.webp",
+      "/assets/images/portfolio/cepeban/01.webp"
     ],
     "website": "",
     "featured": false

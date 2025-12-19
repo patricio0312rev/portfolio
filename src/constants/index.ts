@@ -10,7 +10,7 @@ export const SITE_CONFIG = {
   location: 'Lima, Peru',
   role: 'Senior Software Developer & AI Engineer',
   siteUrl: 'https://patriciomarroquin.dev',
-  image: '/og-image.jpg',
+  image: '/assets/images/slider/patricio.jpg',
   twitterHandle: '@patricio0312rev',
   profileImage: '/assets/images/slider/patricio.jpg',
 } as const;
