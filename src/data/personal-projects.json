@@ -1,0 +1,118 @@
+[
+  {
+    "id": "toon-toolkit",
+    "name": "TOON Toolkit",
+    "year": 2025,
+    "logo": "/assets/images/projects/toon-toolkit/toon-toolkit.webp",
+    "description": "VS Code extension for Token-Oriented Object Notation with tooling for multi-format conversion (JSON, YAML, XML to TOON), validation, and formatting. Perfect for LLM workflows and structured data management.",
+    "bullets": [
+      "Built fast editor workflow with format conversion, linting, and live preview for TOON files",
+      "Designed reusable parsers supporting JSON, YAML, and XML conversion to TOON format",
+      "Published to both VS Code Marketplace and Open VSX Registry",
+      "Optimized developer UX with quick actions, commands, and real-time status feedback"
+    ],
+    "technologies": ["typescript", "vscode", "nodejs"],
+    "images": [
+      "/assets/images/projects/toon-toolkit/01.webp",
+      "/assets/images/projects/toon-toolkit/02.webp",
+      "/assets/images/projects/toon-toolkit/03.webp",
+      "/assets/images/projects/toon-toolkit/04.webp"
+    ],
+    "website": "https://open-vsx.org/extension/patricio0312rev/vscode-toon-tools-patricio0312rev",
+    "readMore": "https://x.com/patricio0312rev/status/1990170016663187880"
+  },
+  {
+    "id": "dev-blog",
+    "name": "Dev Blog",
+    "year": 2025,
+    "logo": "/assets/images/projects/dev-blog/dev-blog.webp",
+    "description": "Personal developer blog with AI-powered content generation. Built with Astro for optimal SEO, featuring automated article creation using OpenAI for trending tech topics and tutorials.",
+    "bullets": [
+      "Automated content pipeline generating articles on trending topics and technical tutorials",
+      "GitHub Actions workflow using OpenAI API for article generation with code snippets and diagrams",
+      "Migrated from React/Vite to Astro for superior SEO performance and faster page loads",
+      "Friendly, approachable tone while maintaining technical accuracy",
+      "Zero-cost hosting on Vercel with automatic deployments"
+    ],
+    "technologies": [
+      "astro",
+      "react",
+      "tailwindcss",
+      "openai",
+      "github-actions",
+      "vercel"
+    ],
+    "images": [
+      "/assets/images/projects/dev-blog/01.webp",
+      "/assets/images/projects/dev-blog/02.webp",
+      "/assets/images/projects/dev-blog/03.webp",
+      "/assets/images/projects/dev-blog/04.webp"
+    ],
+    "website": "https://blog.patriciomarroquin.dev/",
+    "readMore": "https://github.com/patricio0312rev/dev-blog"
+  },
+  {
+    "id": "diabeticontrol",
+    "name": "Diabeticontrol",
+    "year": 2024,
+    "logo": "/assets/images/projects/diabeticontrol/diabeticontrol.webp",
+    "description": "Healthcare application using artificial intelligence to help diabetic patients track glucose levels, medication schedules, diet, and other health metrics with predictive analytics.",
+    "bullets": [
+      "Developed AI-powered health tracking system for comprehensive diabetes management",
+      "Built real-time glucose monitoring with trend analysis and alerts",
+      "Implemented medication reminders and dietary tracking with nutritional insights",
+      "Created personalized health recommendations based on patient data patterns",
+      "Designed mobile-first interface for easy daily use by patients"
+    ],
+    "technologies": ["react", "nodejs", "typescript", "ai"],
+    "images": [
+      "/assets/images/projects/diabeticontrol/01.webp",
+      "/assets/images/projects/diabeticontrol/02.webp"
+    ],
+    "website": "https://www.diabeticontrol.com/",
+    "readMore": "https://trome.com/actualidad/san-marcos-estudiantes-peruanos-con-pasantias-en-harvard-y-el-mit-crean-app-con-ia-para-ayudar-al-control-de-pacientes-diabeticos-juan-patricio-marroquin-e-israel-benavidez-talentos-de-universidad-nacional-mayor-de-san-marcos-unmsm-conocimientos-medicina-programacion-y-vocacion-de-servicio-para-aplicativo-de-salud-con-inteligencia-artificial-imp-noticia/"
+  },
+  {
+    "id": "personal-portfolio",
+    "name": "Personal Portfolio",
+    "year": 2022,
+    "logo": "/assets/images/projects/dev-portfolio/dev-portfolio.webp",
+    "description": "Modern, responsive portfolio website showcasing projects, experience, and technical skills. Built with Next.js and deployed on Vercel with custom animations and dark mode support.",
+    "bullets": [
+      "Designed and developed complete portfolio from scratch using Next.js and React",
+      "Implemented smooth animations and transitions for enhanced user experience",
+      "Built responsive layouts supporting mobile, tablet, and desktop views",
+      "Added dark mode with system preference detection",
+      "Optimized for performance and SEO with server-side rendering"
+    ],
+    "technologies": ["nextjs", "react", "typescript", "tailwindcss", "vercel"],
+    "images": [
+      "/assets/images/projects/dev-portfolio/01.webp",
+      "/assets/images/projects/dev-portfolio/02.webp",
+      "/assets/images/projects/dev-portfolio/03.webp",
+      "/assets/images/projects/dev-portfolio/04.webp",
+      "/assets/images/projects/dev-portfolio/05.webp",
+      "/assets/images/projects/dev-portfolio/06.webp",
+      "/assets/images/projects/dev-portfolio/07.webp"
+    ],
+    "website": "https://www.patriciomarroquin.dev/"
+  },
+  {
+    "id": "olguita",
+    "name": "O.L.G.U.I.T.A.",
+    "year": 2019,
+    "logo": "/assets/images/projects/olguita/olguita.webp",
+    "description": "AI-powered chatbot developed at Harvard University to identify mental health disorders like anxiety and depression in university students to reduce dropout rates and improve student well-being. Awarded by LASPAU (Harvard affiliate).",
+    "bullets": [
+      "Created conversational AI system detecting mental health issues in students",
+      "Built natural language processing pipeline for Spanish and English conversations",
+      "Designed early warning system alerting counselors to at-risk students",
+      "Implemented privacy-preserving data collection complying with health regulations",
+      "Awarded recognition from LASPAU for innovation in student mental health",
+      "Part of 'Leaders for the 21st Century' program at Harvard University"
+    ],
+    "technologies": ["python", "ai", "nlp", "tensorflow"],
+    "images": ["/assets/images/projects/olguita/01.webp"],
+    "readMore": "https://www.linkedin.com/in/patricio0312rev/details/education/1635522661960/single-media-viewer"
+  }
+]
