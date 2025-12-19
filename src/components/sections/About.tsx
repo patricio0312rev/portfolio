@@ -24,10 +24,11 @@ export function About() {
             </h2>
             <div className="prose prose-zinc dark:prose-invert text-lg text-zinc-600 dark:text-zinc-400 text-left">
               <p className="mb-4">
-                I'm a <strong>Senior Full-Stack Software Developer</strong>{" "}
-                based in Lima, Peru 🇵🇪, specializing in AI-powered applications
-                and scalable web systems. Over the past 10 years, I've worked
-                across the full stack — React, Node.js, Python, blockchain, AI —
+                I'm a {currentAge}-year-old{" "}
+                <strong>Senior Full-Stack Software Developer</strong> based in
+                Lima, Peru 🇵🇪, specializing in AI-powered applications and
+                scalable web systems. Over the past 10 years, I've worked across
+                the full stack — React, Node.js, Python, blockchain, AI —
                 building production systems for both startups and big companies.
               </p>
 
