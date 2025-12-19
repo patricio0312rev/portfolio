@@ -142,7 +142,7 @@ export function JobCard({ job, onViewDetails }: JobCardProps) {
             )}
           </div>
 
-          {/* Image Previews (job images OR project images) */}
+          {/* Image Previews */}
           {previewImages.length > 0 && (
             <div className="flex gap-2 mb-4 overflow-hidden">
               {previewImages.slice(0, 3).map((image, idx) => (

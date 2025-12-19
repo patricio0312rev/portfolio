@@ -53,7 +53,6 @@ export function JobModal({ job, onClose }: JobModalProps) {
     return job.projects.find((p) => p.id === activeProjectId) ?? null;
   }, [activeProjectId, job]);
 
-  // Right-side gallery: job images if All projects, else project images (fallback to job images)
   const galleryImages = useMemo(() => {
     if (!job) return [];
     if (activeProject) {
@@ -238,7 +237,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
                 )}
               </div>
 
-              {/* ✅ All projects: show FULL info for every project */}
+              {/* All projects: show FULL info for every project */}
               {!activeProject && job.projects.length > 0 && (
                 <div className="mb-6">
                   <h3 className="text-lg font-semibold mb-3">Projects</h3>
@@ -399,7 +398,7 @@ export function JobModal({ job, onClose }: JobModalProps) {
               )}
             </div>
 
-            {/* RIGHT: gallery */}
+            {/* Gallery */}
             <div className="min-w-0">
               {galleryImages.length > 0 && (
                 <div className="mb-2">
@@ -461,7 +460,6 @@ export function JobModal({ job, onClose }: JobModalProps) {
               )}
             </div>
           </div>
-          {/* end grid */}
         </div>
       </div>
     </div>

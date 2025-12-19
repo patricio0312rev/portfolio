@@ -1,24 +1,11 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import type { Job } from "@/types";
-import jobsData from "@/data/jobs.json";
 
 import { JobCard } from "@/components/sections/JobCard";
 import { JobModal } from "@/components/sections/JobModal";
 
-export function Experience() {
+export function Experience({ jobs }: { jobs: Job[] }) {
   const [selectedJob, setSelectedJob] = useState<Job | null>(null);
-
-  const jobs = useMemo(() => {
-    // Sort most recent first
-    const parsed = (jobsData as Job[]).slice();
-    parsed.sort((a, b) => {
-      // startDate format: "YYYY-MM"
-      const aTime = new Date(`${a.startDate}-01`).getTime();
-      const bTime = new Date(`${b.startDate}-01`).getTime();
-      return bTime - aTime;
-    });
-    return parsed;
-  }, []);
 
   return (
     <section id="experience" className="py-16">
@@ -42,7 +29,6 @@ export function Experience() {
           ))}
         </div>
 
-        {/* ✅ IMPORTANT: modal is rendered alongside the section (not instead of it) */}
         <JobModal job={selectedJob} onClose={() => setSelectedJob(null)} />
       </div>
     </section>
