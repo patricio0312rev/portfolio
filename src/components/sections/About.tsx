@@ -1,12 +1,16 @@
-import { Code, Rocket, Users, Award } from 'lucide-react';
-import { CountUp } from '@/components/ui/CountUp';
+import { Code, Rocket, Users, Award } from "lucide-react";
+import { CountUp } from "@/components/ui/CountUp";
+import { calculateAge } from "@/utils/date";
+import { PROJECT_LINKS } from "@/constants";
 
 export function About() {
+  const currentAge = calculateAge(new Date(1999, 11, 3));
+
   const stats = [
-    { icon: Code, label: 'Years of Experience', value: 7, suffix: '+' },
-    { icon: Rocket, label: 'Projects Completed', value: 50, suffix: '+' },
-    { icon: Users, label: 'Teachers Trained', value: 10000, suffix: '+' },
-    { icon: Award, label: 'Countries Reached', value: 6, suffix: '' },
+    { icon: Code, label: "Years of Experience", value: 10, suffix: "+" },
+    { icon: Rocket, label: "Projects Completed", value: 30, suffix: "+" },
+    { icon: Users, label: "Open Source Projects", value: 5, suffix: "" },
+    { icon: Award, label: "Scientific Publications", value: 4, suffix: "" },
   ];
 
   return (
@@ -18,21 +22,62 @@ export function About() {
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6">
               About <span className="gradient-text">Me</span>
             </h2>
-            <div className="prose prose-zinc dark:prose-invert">
-              <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-4">
-                I'm a 22-year-old <strong>Senior Software Developer</strong> and <strong>Data Scientist</strong> based in Lima, Peru 🇵🇪. 
-                With over 7 years of experience in software development, I specialize in building scalable web applications, 
-                implementing AI solutions, and leading technical teams.
+            <div className="prose prose-zinc dark:prose-invert text-lg text-zinc-600 dark:text-zinc-400 text-justify">
+              <p className="mb-4">
+                I'm a <strong>Senior Full-Stack Software Developer</strong>{" "}
+                based in Lima, Peru 🇵🇪, specializing in AI-powered applications
+                and scalable web systems. Over the past 10 years, I've worked
+                across the full stack — React, Node.js, Python, blockchain, AI —
+                building production systems for both startups and big companies.
               </p>
-              <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-4">
-                I graduated from San Marcos Major National University as a <strong>Top 3 student</strong> in Software Engineering. 
-                My journey has taken me across the globe, from Harvard University to Huawei University in China, 
-                where I was recognized as a Student Leader for the 21st Century.
+
+              <p className="mb-4">
+                I earned my <strong>Bachelor's in Software Engineering</strong>{" "}
+                from San Marcos Major National University (top 3 in my class)
+                and I'm completing my{" "}
+                <strong>Master's in Artificial Intelligence</strong> at Georgia
+                Tech, where I've focused on AI, machine learning and
+                conversational agents. I have also been recognized as a{" "}
+                <strong>Student Leader for the 21st Century</strong> and have
+                graduated with honors from University.
               </p>
-              <p className="text-lg text-zinc-600 dark:text-zinc-400">
-                I founded <strong>Anqarapp</strong>, an edtech startup that reached 6 Latin American countries and trained 
-                over 10,000 teachers during the pandemic. Currently, I work as a Senior Software Developer at Turn Technologies, 
-                developing solutions for top companies like Amazon.
+
+              <p className="">
+                These days, I'm working as an AI Engineer, buiding projects for
+                companies like{" "}
+                <a
+                  href={PROJECT_LINKS.amap}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong>Neo Sophia's AMAP</strong>
+                </a>{" "}
+                or{" "}
+                <a
+                  href={PROJECT_LINKS.formation}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong>Venturekit's Formation</strong>
+                </a>
+                . Also, I'm building open source tools like my{" "}
+                <a
+                  href={PROJECT_LINKS.toonTools}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong>TOON Tools</strong>
+                </a>{" "}
+                VS Code & Cursor extension or maintaining my{" "}
+                <a
+                  href={PROJECT_LINKS.developerBlog}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong>Developer Blog</strong>
+                </a>
+                . Always looking for new challenges and opportunities to grow as
+                a developer.
               </p>
             </div>
           </div>
@@ -51,7 +96,9 @@ export function About() {
                 <div className="text-3xl font-bold gradient-text mb-2">
                   <CountUp end={value} suffix={suffix} />
                 </div>
-                <div className="text-sm text-zinc-600 dark:text-zinc-400">{label}</div>
+                <div className="text-sm text-zinc-600 dark:text-zinc-400">
+                  {label}
+                </div>
               </div>
             ))}
           </div>

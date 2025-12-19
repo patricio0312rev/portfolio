@@ -28,6 +28,14 @@ export const SOCIAL_LINKS = {
   resume: '/assets/pdf/cv.pdf',
 } as const;
 
+// Project links
+export const PROJECT_LINKS = {
+  toonTools: 'https://open-vsx.org/extension/patricio0312rev/vscode-toon-tools-patricio0312rev',
+  developerBlog: 'https://blog.patriciomarroquin.dev',
+  amap: 'https://amap-landing-eta.vercel.app/',
+  formation: 'https://www.venturekit.ai/formation',
+} as const;
+
 // Navigation links
 export const NAV_LINKS = [
   { label: 'Home', href: '#home' },
