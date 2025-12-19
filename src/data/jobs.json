@@ -12,7 +12,7 @@
     "projects": [
       {
         "id": "amap",
-        "name": "AMAP - AI Healthcare Voice Agent",
+        "name": "AMAP: AI Healthcare Voice Agent",
         "summary": "Voice-based AI agent helping parents based in the United States find resources for neurodivergent children via phone, SMS and web chat.",
         "bullets": [
           "Built a phone-accessible AI system using Twilio, AWS, Anthropic Claude, and OpenAI to guide parents through complex resource navigation",
@@ -88,7 +88,7 @@
     "projects": [
       {
         "id": "venturekit-formation",
-        "name": "Formation - AI-Powered LLC Formation Platform",
+        "name": "Formation: AI-Powered LLC Formation Platform",
         "summary": "AI-powered platform automating LLC formation and compliance for entrepreneurs.",
         "bullets": [
           "Built end-to-end LLC formation platform serving Spanish, French, German, Italian, Portuguese, and English-speaking markets, processing 500+ formations in first 6 months",
@@ -124,7 +124,7 @@
       },
       {
         "id": "everbook",
-        "name": "Everbook - AI-Powered Illustrative Books Generator",
+        "name": "Everbook: AI-Powered Illustrative Books Generator",
         "summary": "Platform for creating personalized illustrated books using AI, allowing users to generate books with AI-written stories and AI-generated illustrations, with the ability to customize the book's style, characters, and settings.",
         "bullets": [
           "Developed full-stack application generating custom books with AI-written stories and AI-generated illustrations, with the ability to customize the book's style, characters, and settings",
@@ -204,7 +204,7 @@
     "projects": [
       {
         "id": "arkvault",
-        "name": "ARKVault - Web Wallet Manager",
+        "name": "ARKVault: Web Wallet Manager",
         "summary": "Custom web-based wallet for ARK Core blockchains with Ledger hardware support.",
         "bullets": [
           "Reduced deployment time by 30% through CI/CD pipeline refactoring and automated testing implementation",
@@ -234,7 +234,7 @@
       },
       {
         "id": "arkwallet",
-        "name": "ARKWallet - Web3 Wallet Extension",
+        "name": "ARKWallet: Web3 Wallet Extension",
         "summary": "Chrome and Firefox crypto wallet extension with HD wallet derivation and multi-network support.",
         "bullets": [
           "Designed and shipped a browser extension for Chrome and Firefox supporting secure onboarding and BIP44 HD wallet derivation, allowing users to manage their assets and transactions securely",
@@ -259,7 +259,7 @@
       },
       {
         "id": "dashbrd",
-        "name": "Dashbrd - NFT Portfolio Dashboard",
+        "name": "Dashbrd: NFT Portfolio Dashboard",
         "summary": "Multi-chain wallet supporting Polygon and Ethereum with NFT gallery features.",
         "bullets": [
           "Developed portfolio dashboard integrating with Alchemy and Moralis APIs for real-time balance and transaction data",
@@ -289,7 +289,7 @@
       },
       {
         "id": "arkconnect",
-        "name": "ARKConnect - Web3 Connection Extension",
+        "name": "ARKConnect: Web3 Connection Extension",
         "summary": "Open-source browser extension connecting ARK addresses to Web3 applications, similar to MetaMask.",
         "bullets": [
           "Built browser extension enabling dApp connectivity for ARK ecosystem similar to MetaMask",
@@ -363,7 +363,7 @@
     "projects": [
       {
         "id": "divvy-betting-platform",
-        "name": "Divvy Bet - Web3 Decentralized Betting Platform",
+        "name": "Divvy Bet: Web3 Decentralized Betting Platform",
         "summary": "Web3 sports betting application on Solana blockchain with wallet integration, allowing users to place bets on sports events",
         "bullets": [
           "Refactored 100% of frontend repositories reducing file size by 40% and cutting deployment time by 20%",
@@ -442,7 +442,7 @@
     "projects": [
       {
         "id": "turn-advise",
-        "name": "Advise - AI Talent Acquisition",
+        "name": "Advise: AI Talent Acquisition",
         "summary": "AI-powered platform predicting hiring process performance and outcomes.",
         "bullets": [
           "Designed and built company's third product from scratch, increasing talent acquisition prediction accuracy by 30%",
@@ -699,7 +699,7 @@
     "projects": [
       {
         "id": "ambartravel",
-        "name": "AmbarTravel - Travel Operations Platform",
+        "name": "AmbarTravel: Travel Operations Platform",
         "summary": "Travel booking and inventory management system with third-party API integrations.",
         "bullets": [
           "Built travel operations platform handling bookings, inventory, and customer workflows during tourism reactivation",
@@ -722,7 +722,7 @@
       },
       {
         "id": "mentores",
-        "name": "Mentores - MOOC Marketplace",
+        "name": "Mentores: MOOC Marketplace",
         "summary": "MOOC marketplace and automated customer support system for a teaching platform with chatbot automation and document processing.",
         "bullets": [
           "Developed automated customer support system with chatbot automation and document processing",
@@ -757,7 +757,7 @@
       },
       {
         "id": "masa",
-        "name": "Masa - Media Center & Marketing",
+        "name": "Masa: Media Center & Marketing",
         "summary": "Home page for a media center & marketing company, allowing users to upload and manage their media files",
         "bullets": [
           "Developed and improved web pages optimizing user experience for marketing campaigns",
@@ -783,7 +783,7 @@
       },
       {
         "id": "myevent-aaldebaran",
-        "name": "MyEvent - Event Ticketing Platform",
+        "name": "MyEvent: Event Ticketing Platform",
         "summary": "Multi-platform ticketing system for Latin American market.",
         "bullets": [
           "Built event creation and ticket purchasing flows serving Latin American event market",
@@ -855,7 +855,7 @@
     "projects": [
       {
         "id": "eventify",
-        "name": "Eventify - Event Management Platform",
+        "name": "Eventify: Event Management Platform",
         "summary": "Ticketing platform with QR validation and event management tools.",
         "bullets": [
           "Developed event management platform with ticketing flows and QR code validation",
@@ -871,7 +871,7 @@
       },
       {
         "id": "accesodirecto",
-        "name": "AccesoDirecto - Event Ticketing System",
+        "name": "AccesoDirecto: Event Ticketing System",
         "summary": "Multi-platform ticketing solution for Lima events with Azure deployment.",
         "bullets": [
           "Designed 2-tier cloud architecture on Azure for event ticket sales in Lima, Peru",
