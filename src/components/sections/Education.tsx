@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
-import { GraduationCap } from 'lucide-react';
-import type { Education } from '@/types';
-import { getDateRange } from '@/utils/date';
-import { Badge } from '@/components/ui/Badge';
+import { useEffect, useRef, useState } from "react";
+import { GraduationCap } from "lucide-react";
+import type { Education } from "@/types";
+import { getDateRange } from "@/utils/date";
+import { Badge } from "@/components/ui/Badge";
 
 interface EducationProps {
   education: Education[];
@@ -17,7 +17,7 @@ export function Education({ education }: EducationProps) {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            const id = entry.target.getAttribute('data-id');
+            const id = entry.target.getAttribute("data-id");
             if (id) {
               setVisibleItems((prev) => new Set(prev).add(id));
             }
@@ -61,7 +61,7 @@ export function Education({ education }: EducationProps) {
             {education.map((edu, index) => {
               const isLeft = index % 2 === 0;
               const isVisible = visibleItems.has(edu.id);
-              
+
               return (
                 <div
                   key={edu.id}
@@ -70,7 +70,9 @@ export function Education({ education }: EducationProps) {
                   }}
                   data-id={edu.id}
                   className={`relative transition-all duration-700 ${
-                    isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                    isVisible
+                      ? "opacity-100 translate-y-0"
+                      : "opacity-0 translate-y-8"
                   }`}
                 >
                   {/* Desktop Layout */}
@@ -82,8 +84,15 @@ export function Education({ education }: EducationProps) {
                       </div>
 
                       {/* Card positioned left or right */}
-                      <div className={`w-[calc(50%-2rem)] ${isLeft ? 'ml-0 pr-8' : 'ml-auto pl-8'}`}>
-                        <EducationCard edu={edu} align={isLeft ? 'right' : 'left'} />
+                      <div
+                        className={`w-[calc(50%-2rem)] ${
+                          isLeft ? "ml-0 pr-8" : "ml-auto pl-8"
+                        }`}
+                      >
+                        <EducationCard
+                          edu={edu}
+                          align={isLeft ? "right" : "left"}
+                        />
                       </div>
                     </div>
                   </div>
@@ -106,7 +115,7 @@ export function Education({ education }: EducationProps) {
 
 interface EducationCardProps {
   edu: Education;
-  align: 'left' | 'right';
+  align: "left" | "right";
 }
 
 function EducationCard({ edu, align }: EducationCardProps) {
@@ -115,7 +124,11 @@ function EducationCard({ edu, align }: EducationCardProps) {
       className={`rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-6 shadow-lg hover:shadow-xl transition-shadow`}
     >
       {/* Header with Logo and Flag */}
-      <div className={`flex items-start gap-4 mb-4 ${align === 'right' ? 'flex-row-reverse' : ''}`}>
+      <div
+        className={`flex items-start gap-4 mb-4 ${
+          align === "right" ? "flex-row-reverse" : ""
+        }`}
+      >
         <div className="h-20 w-20 flex-shrink-0 rounded-xl bg-zinc-100 dark:bg-zinc-800 p-3 overflow-hidden">
           <img
             src={edu.institutionLogo}
@@ -124,8 +137,12 @@ function EducationCard({ edu, align }: EducationCardProps) {
             loading="lazy"
           />
         </div>
-        <div className={`flex-1 ${align === 'right' ? 'text-right' : ''}`}>
-          <div className={`flex items-center gap-2 mb-2 ${align === 'right' ? 'justify-end' : ''}`}>
+        <div className={`flex-1 ${align === "right" ? "text-right" : ""}`}>
+          <div
+            className={`flex items-center gap-2 mb-2 ${
+              align === "right" ? "justify-end" : ""
+            }`}
+          >
             <Badge variant="accent">{edu.type}</Badge>
             <span className="text-2xl">{edu.countryFlag}</span>
           </div>
@@ -140,26 +157,34 @@ function EducationCard({ edu, align }: EducationCardProps) {
       </div>
 
       {/* Date Range */}
-      <div className={`mb-3 text-sm text-zinc-500 dark:text-zinc-500 ${align === 'right' ? 'text-right' : ''}`}>
+      <div
+        className={`mb-3 text-sm text-zinc-500 dark:text-zinc-500 ${
+          align === "right" ? "text-right" : ""
+        }`}
+      >
         {getDateRange(edu.startDate, edu.endDate)}
       </div>
 
       {/* Description */}
-      <p className={`text-zinc-600 dark:text-zinc-400 mb-4 ${align === 'right' ? 'text-right' : ''}`}>
+      <p
+        className={`text-zinc-600 dark:text-zinc-400 mb-4 ${
+          align === "right" ? "text-right" : ""
+        }`}
+      >
         {edu.description}
       </p>
 
       {/* Achievements */}
       {edu.achievements && edu.achievements.length > 0 && (
-        <ul className={`space-y-2 ${align === 'right' ? 'text-right' : ''}`}>
+        <ul className={`space-y-2 ${align === "right" ? "text-right" : ""}`}>
           {edu.achievements.map((achievement, idx) => (
             <li
               key={idx}
               className={`text-sm text-zinc-600 dark:text-zinc-400 flex items-start gap-2 ${
-                align === 'right' ? 'flex-row-reverse' : ''
+                align === "right" ? "flex-row-reverse" : ""
               }`}
             >
-              <span className="text-purple-500 mt-0.5 flex-shrink-0">✓</span>
+              <span className="text-purple-500 flex-shrink-0">✓</span>
               <span>{achievement}</span>
             </li>
           ))}
