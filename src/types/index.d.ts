@@ -62,6 +62,12 @@ export interface Publication {
   keywords: string[];
   link: string;
   image: string;
+  featured: boolean;
+  pdfLink?: string;
+  doi?: string;
+  conference?: string;
+  location?: string;
+  publishDate?: string;
 }
 
 export type Theme = "light" | "dark";

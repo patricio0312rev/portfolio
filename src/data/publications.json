@@ -1,35 +1,75 @@
 [
   {
-    "id": "neko",
-    "title": "NEKO: A Proposal for Monitoring and Tracking Academic and Psychological Performance for Students and Identifying Dropout Risks",
-    "authors": ["Juan Patricio Marroquin"],
-    "journal": "IEEE (IEEExplore)",
-    "date": "2021-01",
-    "abstract": "Proposal focused on monitoring academic and psychological performance to identify dropout risks.",
-    "keywords": ["Education", "Monitoring", "Dropout Risk", "Analytics"],
-    "link": "https://ieeexplore.ieee.org/",
-    "image": "/assets/images/publications/neko.jpg"
+    "id": "iso-25010-quality-model",
+    "title": "Quality Assessment Model Based on ISO/IEC 25010 for E-Learning Platforms in the Cloud and Based on Laravel",
+    "authors": ["Juan Patricio Marroquin", "Ciro Rodriguez Rodriguez"],
+    "journal": "2023 IEEE 15th International Conference on Computational Intelligence and Communication Networks (CICN)",
+    "conference": "2023 IEEE CICN",
+    "date": "2023-12",
+    "publishDate": "2024-01-30",
+    "location": "Bangkok, Thailand",
+    "abstract": "Software development has become one of the most important industries in the world today, valued at $968.25 billion in the year 2021. However, as this industry grows, the risks of making mistakes that could lead to failure also increase. There are international standards that are dedicated to evaluating the quality of software, but they are difficult to apply, and most of the time, they are not consistent with their evaluation. This article aims to introduce a quality assessment model founded on ISO 25010, which facilitates the evaluation of the quality attributes inherent in an e-learning system deployed in a cloud environment and constructed utilizing the Laravel framework. After an in-depth analysis of 16 pertinent articles as the foundational background, we have advanced to present an evaluation model delineated into two distinct segments. The first segment entails a user-based evaluation of the platform, while the second segment is conducted by third-party software. Each of these segments includes predefined criteria and metrics for comprehensive assessment. Subsequently, this model underwent testing in a case study involving an e-learning platform, which achieved a quality index score of 88.5. This score was deemed satisfactory within the scale outlined in the model. In summary, it has been established that achieving objectivity in software quality assessment is feasible through the application of this model. Furthermore, this model has the potential for broader application in software domains across various industrial sectors.",
+    "keywords": [
+      "ISO/IEC 25010",
+      "Quality Model",
+      "E-learning",
+      "Cloud Computing",
+      "Laravel",
+      "Software Quality",
+      "Performance"
+    ],
+    "doi": "10.1109/CICN59264.2023.10402281",
+    "link": "https://ieeexplore.ieee.org/document/10402281",
+    "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10402281",
+    "image": "/assets/images/publications/paper_03.jpg",
+    "featured": true
+  },
+  {
+    "id": "neko-super-agile",
+    "title": "NEKO: Proposal of the First Super-Agile Methodology to Improve Work Efficiency",
+    "authors": [
+      "Juan Patricio Marroquin Gavelan",
+      "Perla Patricia Peralta Mezones",
+      "Ciro Rodriguez"
+    ],
+    "journal": "IEEE 5th International Conference on Computing and Informatics (ICCI)",
+    "conference": "2022 IEEE ICCI",
+    "date": "2022-03",
+    "publishDate": "2022-04-18",
+    "location": "New Cairo, Cairo, Egypt",
+    "abstract": "Agile methodologies are the preferred strategy for work teams around the world thanks to their rapid response to changes and adaptability. However, this prioritization of efficiency and speed has neglected the well-being of the most important element of any project: the teams. This article presents NEKO as a super-agile methodology focused on people and that aims to prioritize the mental health of workers without neglecting effectiveness, relying on new technologies such as Artificial Intelligence to enhance its processes. During the research stage, using the methodology proposed by Kitchenham, fifteen articles were analyzed and allowed us to rescue the strengths and identify the problems presented by the agile methodologies most used today. Then, the proposal was developed dividing it into three phases; each including events, artifacts, and tools to achieve your goal. Later, during the discussion, the proposal was contrasted with the methodologies initially analyzed and it was concluded that taking the points in favor of these and adding state-of-the-art technology focused on the well-being of the teams is synonymous with efficiency, meaning a possible change in the paradigm of the current world of work.",
+    "keywords": [
+      "Agile Methodologies",
+      "Super-Agile",
+      "Mental Health",
+      "Team Well-being",
+      "Artificial Intelligence",
+      "Work Efficiency",
+      "Project Management"
+    ],
+    "doi": "10.1109/ICCI54321.2022.9756085",
+    "link": "https://ieeexplore.ieee.org/document/9756085",
+    "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9756085",
+    "image": "/assets/images/publications/paper_01.jpg",
+    "featured": true
   },
   {
     "id": "five-layer-aws-elearning",
     "title": "Five-Layer Architecture Proposal using AWS Services and Applied for Cloud E-learning Platforms based on Laravel",
     "authors": ["Juan Patricio Marroquin"],
-    "journal": "UNMSM (Document Link)",
+    "journal": "Universidad Nacional Mayor de San Marcos (UNMSM)",
     "date": "2021-01",
-    "abstract": "Architecture proposal for cloud e-learning platforms using AWS services and Laravel.",
-    "keywords": ["AWS", "Cloud Architecture", "E-learning", "Laravel"],
+    "abstract": "Architecture proposal for cloud e-learning platforms using AWS services and Laravel framework. This research presents a comprehensive five-layer cloud architecture designed to optimize e-learning platform deployment, scalability, and performance using Amazon Web Services infrastructure.",
+    "keywords": [
+      "AWS",
+      "Cloud Architecture",
+      "E-learning",
+      "Laravel",
+      "Scalability",
+      "Five-Layer Architecture"
+    ],
     "link": "https://unmsm0.sharepoint.com/",
-    "image": "/assets/images/publications/five-layer-aws.jpg"
-  },
-  {
-    "id": "iso-iec-25010-quality-model",
-    "title": "Quality Evaluation Model of the ISO/IEC 25010 Standard in Web Applications based on Laravel to Optimize the Performance of an E-learning Platform",
-    "authors": ["Juan Patricio Marroquin"],
-    "journal": "UNMSM (Document Link)",
-    "date": "2021-01",
-    "abstract": "Quality evaluation model based on ISO/IEC 25010 for Laravel web apps to improve e-learning platform performance.",
-    "keywords": ["ISO/IEC 25010", "Quality Model", "Laravel", "Performance"],
-    "link": "https://unmsm0.sharepoint.com/",
-    "image": "/assets/images/publications/iso25010.jpg"
+    "image": "/assets/images/publications/paper_02.jpg",
+    "featured": false
   }
 ]
