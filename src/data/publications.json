@@ -21,7 +21,7 @@
     "doi": "10.1109/CICN59264.2023.10402281",
     "link": "https://ieeexplore.ieee.org/document/10402281",
     "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10402281",
-    "image": "/assets/images/publications/paper_03.jpg",
+    "image": "/assets/images/publications/paper_03.webp",
     "featured": true
   },
   {
@@ -50,7 +50,7 @@
     "doi": "10.1109/ICCI54321.2022.9756085",
     "link": "https://ieeexplore.ieee.org/document/9756085",
     "pdfLink": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9756085",
-    "image": "/assets/images/publications/paper_01.jpg",
+    "image": "/assets/images/publications/paper_01.webp",
     "featured": true
   },
   {
@@ -69,7 +69,7 @@
       "Five-Layer Architecture"
     ],
     "link": "https://unmsm0.sharepoint.com/",
-    "image": "/assets/images/publications/paper_02.jpg",
+    "image": "/assets/images/publications/paper_02.webp",
     "featured": false
   }
 ]
