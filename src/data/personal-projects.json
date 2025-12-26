@@ -1,5 +1,30 @@
 [
   {
+    "id": "secretshield",
+    "name": "SecretShield",
+    "year": 2025,
+    "logo": "/assets/images/projects/secretshield/secretshield.webp",
+    "description": "VS Code extension that automatically detects and redacts secrets (API keys, tokens, credentials) before copying code to AI chats. Privacy-focused security tool using regex patterns - no AI, no data collection, all processing happens locally.",
+    "bullets": [
+      "Automatically detects 10+ secret types (OpenAI, GitHub, Stripe, AWS, JWT, private keys, database URLs)",
+      "4 redaction styles: partial masking, full replacement, placeholders, or type-labeled",
+      "3 sensitivity levels with configurable allowlist/denylist using wildcard patterns",
+      "Overrides Cmd+C with silent operation by default - optional diff preview and confirmation",
+      "Built with SOLID principles and clean architecture - all files under 150 lines",
+      "Published to both VS Code Marketplace and Open VSX Registry with MIT license"
+    ],
+    "technologies": ["typescript", "cursor", "nodejs"],
+    "images": [
+      "/assets/images/projects/secretshield/01.webp",
+      "/assets/images/projects/secretshield/02.webp",
+      "/assets/images/projects/secretshield/03.webp",
+      "/assets/images/projects/secretshield/04.webp",
+      "/assets/images/projects/secretshield/05.webp"
+    ],
+    "website": "https://open-vsx.org/extension/patricio0312rev/secretshield-patricio0312rev",
+    "readMore": "https://github.com/patricio0312rev/secretshield"
+  },
+  {
     "id": "promptcopy",
     "name": "PromptCopy",
     "year": 2025,
