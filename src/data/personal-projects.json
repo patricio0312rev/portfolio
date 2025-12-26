@@ -1,5 +1,30 @@
 [
   {
+    "id": "promptcopy",
+    "name": "PromptCopy",
+    "year": 2025,
+    "logo": "/assets/images/projects/promptcopy/promptcopy.webp",
+    "description": "VS Code extension that automatically adds file paths as comments when copying code. Built specifically for AI engineering workflows with Claude, ChatGPT, and other LLMs to maintain context during development.",
+    "bullets": [
+      "Overrides default Cmd+C to seamlessly add file context without learning new shortcuts",
+      "Smart comment detection for 40+ programming languages (TypeScript, Python, Rust, etc.)",
+      "Fully configurable with path formats (relative/absolute/filename), line numbers, and custom prefixes",
+      "Built with SOLID principles and clean architecture - all files under 100 lines",
+      "Published to both VS Code Marketplace and Open VSX Registry",
+      "Open source with MIT license for community contributions and customization"
+    ],
+    "technologies": ["typescript", "cursor", "nodejs"],
+    "images": [
+      "/assets/images/projects/promptcopy/01.webp",
+      "/assets/images/projects/promptcopy/02.webp",
+      "/assets/images/projects/promptcopy/03.webp",
+      "/assets/images/projects/promptcopy/04.webp",
+      "/assets/images/projects/promptcopy/05.webp"
+    ],
+    "website": "https://open-vsx.org/extension/patricio0312rev/promptcopy-patricio0312rev",
+    "readMore": "https://x.com/patricio0312rev/status/2004362714211406040"
+  },
+  {
     "id": "toon-toolkit",
     "name": "TOON Toolkit",
     "year": 2025,
@@ -11,7 +36,7 @@
       "Published to both VS Code Marketplace and Open VSX Registry",
       "Optimized developer UX with quick actions, commands, and real-time status feedback"
     ],
-    "technologies": ["typescript", "vscode", "nodejs"],
+    "technologies": ["typescript", "cursor", "nodejs"],
     "images": [
       "/assets/images/projects/toon-toolkit/01.webp",
       "/assets/images/projects/toon-toolkit/02.webp",
