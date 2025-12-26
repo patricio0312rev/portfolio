@@ -30,6 +30,7 @@ export const SOCIAL_LINKS = {
 
 // Project links
 export const PROJECT_LINKS = {
+  promptcopy: 'https://open-vsx.org/extension/patricio0312rev/promptcopy-patricio0312rev',
   toonTools: 'https://open-vsx.org/extension/patricio0312rev/vscode-toon-tools-patricio0312rev',
   developerBlog: 'https://blog.patriciomarroquin.dev',
   amap: 'https://amap-landing-eta.vercel.app/',
@@ -106,6 +107,7 @@ export const SKILLS = {
   figma: { name: "Figma", category: "Tools", icon: "figma" },
   photoshop: { name: "Photoshop", category: "Tools", icon: "adobephotoshop" },
   xd: { name: "Adobe XD", category: "Tools", icon: "adobexd" },
+  cursor: { name: "Cursor", category: "Tools", icon: "cursor" },
 
   // Platforms
   twilio: { name: "Twilio", category: "Tools", icon: "twilio" },
