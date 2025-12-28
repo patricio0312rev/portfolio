@@ -1,5 +1,31 @@
 [
   {
+    "id": "agentkit",
+    "name": "AgentKit",
+    "year": 2025,
+    "logo": "/assets/images/projects/agentkit/agentkit.webp",
+    "description": "VS Code extension providing a visual interface to install and manage 42+ pre-built AI agents for Cursor, Claude Code, GitHub Copilot, and Aider. Streamlines AI-assisted development workflows with point-and-click agent selection across 7 specialized departments.",
+    "bullets": [
+      "Built visual GUI with 3-step workflow for selecting AI tools, departments, and specific agents",
+      "Integrated 42 pre-built agents across 7 departments (Engineering, Design, Marketing, Product, PM, Operations, Testing)",
+      "Implemented 6 quick setup presets (Full Stack, Rapid Prototyper, Design-First, Growth-Focused, Enterprise Team)",
+      "Created dual-panel sidebar showing installed agents and available agents with real-time updates",
+      "Designed with SOLID principles and modular architecture - clean separation of services, providers, and commands",
+      "Published to both VS Code Marketplace and Open VSX Registry with MIT license"
+    ],
+    "technologies": ["typescript", "vscode", "nodejs"],
+    "images": [
+      "/assets/images/projects/agentkit/01.webp",
+      "/assets/images/projects/agentkit/02.webp",
+      "/assets/images/projects/agentkit/03.webp",
+      "/assets/images/projects/agentkit/04.webp",
+      "/assets/images/projects/agentkit/05.webp",
+      "/assets/images/projects/agentkit/06.webp"
+    ],
+    "website": "https://open-vsx.org/extension/patricio0312rev/agentkit-vscode",
+    "readMore": "https://github.com/patricio0312rev/agentkit-vscode"
+  },
+  {
     "id": "secretshield",
     "name": "SecretShield",
     "year": 2025,
