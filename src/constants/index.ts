@@ -108,6 +108,7 @@ export const SKILLS = {
   photoshop: { name: "Photoshop", category: "Tools", icon: "adobephotoshop" },
   xd: { name: "Adobe XD", category: "Tools", icon: "adobexd" },
   cursor: { name: "Cursor", category: "Tools", icon: "cursor" },
+  npm: { name: "NPM", category: "Tools", icon: "npm" },
 
   // Platforms
   twilio: { name: "Twilio", category: "Tools", icon: "twilio" },

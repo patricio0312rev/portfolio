@@ -13,11 +13,10 @@
       "Designed with SOLID principles and modular architecture - clean separation of services, providers, and commands",
       "Published to both VS Code Marketplace and Open VSX Registry with MIT license"
     ],
-    "technologies": ["typescript", "vscode", "nodejs"],
+    "technologies": ["typescript", "cursor", "nodejs", "npm"],
     "images": [
       "/assets/images/projects/agentkit/01.webp",
       "/assets/images/projects/agentkit/02.webp",
-      "/assets/images/projects/agentkit/03.webp",
       "/assets/images/projects/agentkit/04.webp",
       "/assets/images/projects/agentkit/05.webp",
       "/assets/images/projects/agentkit/06.webp"
