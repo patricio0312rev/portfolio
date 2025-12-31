@@ -1,5 +1,30 @@
 [
   {
+    "id": "skillset",
+    "name": "SkillSet",
+    "year": 2026,
+    "logo": "/assets/images/projects/skillset/skillset.webp",
+    "description": "VS Code extension providing a visual interface to install and manage 100+ production-ready development skills for Claude Code, Cursor, GitHub Copilot, and other AI coding assistants. Features quick setup presets and tree view browsing across 10 specialized domains.",
+    "bullets": [
+      "Built visual skill manager with 3-step workflow for selecting AI tools, domains, and specific skills",
+      "Integrated 100+ production-ready skills across 10 domains (Foundation, Frontend, Backend, AI Engineering, Architecture, CI/CD, Database, Testing, Security, Performance)",
+      "Implemented 6 quick setup presets (Full Stack Developer, AI Engineer, Frontend Specialist, Backend Specialist, DevOps Engineer, Enterprise Complete)",
+      "Created dual-panel sidebar showing installed skills and available skills with auto-refresh functionality",
+      "Designed with SOLID principles and modular architecture - clean separation of services, providers, and commands",
+      "Published to both VS Code Marketplace and Open VSX Registry with MIT license"
+    ],
+    "technologies": ["typescript", "cursor", "nodejs", "npm"],
+    "images": [
+      "/assets/images/projects/skillset/01.webp",
+      "/assets/images/projects/skillset/02.webp",
+      "/assets/images/projects/skillset/03.webp",
+      "/assets/images/projects/skillset/04.webp",
+      "/assets/images/projects/skillset/05.webp"
+    ],
+    "website": "https://open-vsx.org/extension/patricio0312rev/skillset-vscode",
+    "readMore": "https://x.com/patricio0312rev/status/2005083898452357345"
+  },
+  {
     "id": "agentkit",
     "name": "AgentKit",
     "year": 2025,
